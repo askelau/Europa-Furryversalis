@@ -10362,3 +10362,25 @@ mesopotamian {
 		}
 	}
 }
+
+Wakandan_group = {
+	Wakandanculture = {
+		primary = WAK
+		country = {
+			discipline = 0.05
+			morale_damage_received = -0.25
+		}
+	}
+
+	male_names = {
+		Stan
+	}
+
+	female_names = {
+		Shuri
+	}
+
+	dynasty_names = {
+		"Von Lee"
+	}
+}

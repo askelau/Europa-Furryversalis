@@ -3,8 +3,8 @@
 owner = WAK
 controller = WAK
 add_core = WAK
-culture = swedish
-religion = catholic #Fetishism
+culture = Wakandanculture
+religion = Wakandareligion #Fetishism
 capital = "Nduga"
 trade_goods = iron
 hre = no
