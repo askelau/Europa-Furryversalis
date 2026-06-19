@@ -1,0 +1,15 @@
+#Rwanda
+
+owner = WAK
+controller = WAK
+add_core = WAK
+culture = swedish
+religion = catholic #Fetishism
+capital = "Nduga"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 7
+is_city = yes
+discovered_by = central_african
