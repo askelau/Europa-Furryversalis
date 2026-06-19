@@ -10167,20 +10167,7 @@ lost_cultures_group = {
 			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
-	phoenician = { #EU Rome
-		dynasty_names = {
-			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
-		Milkiramid Philosirid
-		}
-		male_names = {
-			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
-			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
-		}
-		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
-		}
-	}
+	
 	scanian = {
 		male_names = {
 			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
@@ -10248,17 +10235,7 @@ lost_cultures_group = {
 			Æthelburh Seaxburh Wihtburh
 		}
 	}
-	babylonian = {
-		dynasty_names = {
-			Amorite Sealand Larsa Kassite 
-		}
-		male_names = {
-			Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel "Nur-Adad" "Sin-Iddinam" "Sin-Eribam" "Sin-Iqisham" "Silli-Adad" "Warad-Sin" "Rim-Sin" Hammurabi "Samsu-iluna" "Su-abu" "Sumu-la-El" "Sabum" "Apil-Sin" "Sin-muballit" Abieshu "Ammi-ditana" "Samsu-Ditana" Ammisaduqa Gandas Agum Kastiliasu "Abi-Rattas" Hurbazum Ulamburiash Karaindash "Enlil-nadin-ahi" Gulkishar
-		}
-		female_names = {
-			Nana Allatu Belit Zirrabanit Tiamat
-		}
-	}
+	
 	etrurian = { #EU Rome
 		dynasty_names = {
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
@@ -10299,20 +10276,7 @@ lost_cultures_group = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
-	aramaic = { #EU Rome
-		dynasty_names = {
-			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
-			Milkiramid Philosirid
-		}
-		male_names = {
-			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
-			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
-		}
-		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
-		}
-	}
+	
 	hebrew = { #EU Rome
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 
@@ -10351,6 +10315,50 @@ lost_cultures_group = {
 		dynasty_names = {
 			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
 			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+		}
+	}
+}
+
+mesopotamian {
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+
+	babylonian = {
+		dynasty_names = {
+			Amorite Sealand Larsa Kassite 
+		}
+		male_names = {
+			Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel "Nur-Adad" "Sin-Iddinam" "Sin-Eribam" "Sin-Iqisham" "Silli-Adad" "Warad-Sin" "Rim-Sin" Hammurabi "Samsu-iluna" "Su-abu" "Sumu-la-El" "Sabum" "Apil-Sin" "Sin-muballit" Abieshu "Ammi-ditana" "Samsu-Ditana" Ammisaduqa Gandas Agum Kastiliasu "Abi-Rattas" Hurbazum Ulamburiash Karaindash "Enlil-nadin-ahi" Gulkishar
+		}
+		female_names = {
+			Nana Allatu Belit Zirrabanit Tiamat
+		}
+	}
+
+	phoenician = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+		Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
 }
