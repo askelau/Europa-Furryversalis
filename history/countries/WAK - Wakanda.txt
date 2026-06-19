@@ -7,8 +7,8 @@ capital = 4067 #Rwanda
 
 1444.1.1 = [
     monarch = {
-        name = "Stan #0"
-        dynasty = "Wakanda"
+        name = "Stan"
+        dynasty = "Lee"
         adm = 2
         dip = 3
         mil = 5
