@@ -4,6 +4,7 @@ owner = BYZ
 controller = BYZ
 culture = greek
 religion = orthodox
+add_core = BYZ
 capital = "Constantinople"
 trade_goods = glass
 hre = no
@@ -12,7 +13,7 @@ base_production = 10
 base_manpower = 14
 is_city = yes
 fort_15th = yes 
-add_core = BYZ
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
