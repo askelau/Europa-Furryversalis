@@ -9682,7 +9682,7 @@ cushitic = {
 }
 
 sudanese = {
-	graphical_culture = africangfx
+	graphical_culture = muslimgfx
 	
 	acholi = {
 		
@@ -9732,6 +9732,18 @@ sudanese = {
 		Patricia Pelagia Gulzar Maram
 		Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
 		Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+	}
+
+	old_egyptian = {
+		dynasty_names = {
+			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
+		}
+		male_names = {
+			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
+		}
+		female_names = {
+			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
+		}
 	}
 }
 
@@ -10092,17 +10104,7 @@ lost_cultures_group = {
 			Ptolema Sofia Sostrate Stratonice Thais Theophila Thetima Thessaloniki Thorakis Timo Xanthe Xene Xenia Zoe Zona
 		}
 	}
-	old_egyptian = {
-		dynasty_names = {
-			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
-		}
-		male_names = {
-			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
-		}
-		female_names = {
-			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
-		}
-	}
+	
 	roman = { #EU Rome
 		dynasty_names = {
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia

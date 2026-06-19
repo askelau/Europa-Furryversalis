@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = old_egyptian
+religion = coptic
+technology_group = muslim
+capital = 151 # Alexandria
