@@ -23,9 +23,3 @@ discovered_by = east_african
 extra_cost = 8
 center_of_trade = 1
 
-
-1516.8.24 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Part of the Ottoman Empire
