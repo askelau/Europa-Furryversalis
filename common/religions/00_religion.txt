@@ -2601,12 +2601,12 @@ zoroastrian_group = {
 	
 }
 
-Wakandareligions_group = {
+wakandareligions_group = {
     flags_with_emblem_percentage = 10
     flag_emblem_index_range = { 83 96 }
     defender_of_faith = yes
     can_form_personal_union = yes
-    Wakandareligion = {
+    wakandareligion = {
         color = { 255 137 228 }
         icon = 9
         country = {
@@ -2627,10 +2627,10 @@ Wakandareligions_group = {
                 duration = 3650
             }
         }
+		heretic = { TAOIST }
 
     }
 	uses_harmony = yes
     declare_war_in_regency = yes
-    heretic = { TAOIST }
     crusade_name = Wakanda For Ever
 }

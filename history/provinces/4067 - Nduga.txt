@@ -3,7 +3,7 @@
 owner = WAK
 controller = WAK
 add_core = WAK
-culture = Wakandanculture
+culture = wakandanculture
 religion = coptic
 capital = "Nduga"
 trade_goods = iron
