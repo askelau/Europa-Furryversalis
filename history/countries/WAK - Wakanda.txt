@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
-primary_culture = sweidsh
-religion = protestant
+primary_culture = swedish
+religion = catholic
 capital = 4067 #Rwanda
 
 1444.1.1 = [
