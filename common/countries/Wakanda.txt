@@ -1,10 +1,10 @@
-#Sweden
+#Wakanda
 
 graphical_culture = westerngfx	 
 
-color = { 8  82  165 }
+color = { 255  206  0 }
 
-revolutionary_colors = { 13  8  13 } #Fictional
+revolutionary_colors = { 0  49  255 } #Fictional
 
 historical_score = 2100
 preferred_religion = protestant
@@ -38,64 +38,12 @@ historical_units = {
 }
 
 monarch_names = {
-	"Karl #7" = 100
-	"Gustav #0" = 60
-	"Erik #13" = 40
-	"Johan #2" = 40
-	"Gustav #0 Adolf" = 40
-	"Karl #7 Gustav" = 20
-	"Karl #7 Johan" = 20
-	"Christian #0" = 20
-	"Christoph #0" = 20
-	"Adolf Fredrik #0" = 10
-	"Karl #7 Filip" = 10
-	"Magnus #3" = 10
-	"Adolf Johan #0" = 10
-	
-	"Oskar #0" = 10
-	"Fredrik #0" = 5
-	"Fredrik Adolf #0" = 5
-	"Fredrik August #0" = 5
-	"Göran Love #0" = 5
-	
-	"Sigismund #0" = 5
-	"Björn #3" = 1
-	"Knut #2" = 1
-	"Inge #2" = 1
-	"Sven #1" = 1
-	"Alfred #0" = 0
-	"Axel #0" = 0
-	"Bengt #0" = 0
-	"Edvard #0" = 0
-	"Einar #0" = 0
-	"Folke #0" = 0
-	"Gottfrid #0" = 0
-	"Henrik #0" = 0
-	"Jakob #0" = 0
-	"Lars #0" = 0
-	"Ludvig #0" = 0
-	"Mikael #0" = 0
-	"Nils #0" = 0
-	"Olof #0" = 0
-	"Patrik #0" = 0
-	"Rangvald #0" = 0
-	"Rettil #0" = 0
-	"Sigvard #0" = 0
-	"Simon #0" = 0
-	"Sten #0" = 0
-	"Svante #0" = 0
-	"Tomas #0" = 0
-	"Ulrik #0" = 0
+	"Stan #0" = 1
+	"Jack #0" = 1
 	
 	"Christina #0" = -10
 	"Hedwig #0" = -5
-	"Katarina #0" = -1
-	"Margareta #0" = -1
-	"Anna #0" = -1
-	"Cecilia #0" = -1
-	"Elisabet #0" = -1
-	"Birgitta #0" = -1
-	"Ulrika Eleonora #0" = -10
+
 }
 
 leader_names = {
