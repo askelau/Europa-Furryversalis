@@ -21,9 +21,3 @@ discovered_by = indian
 discovered_by = east_african
 
 
-1517.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-	remove_core = MAM
-} # Invaded by the Ottomans
