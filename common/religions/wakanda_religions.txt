@@ -1,16 +1,42 @@
 wakandareligions_group = {
-        flags_with_emblem_percentage = 33
-        flag_emblem_index_range = { 28 28 }
+        flags_with_emblem_percentage = 10
+        flag_emblem_index_range = { 83 96 }
+    
         wakandareligion = {
-                icon = 20
-                color = { 0.6 0.1 0.4 }
-                country = {
-                        tolerance_own = 2
-                        advisor_pool = 1
+            color = { 255 137 228 }
+            icon = 9
+            country = {
+                improve_relation_modifier = 0.5
+                diplomatic_reputation = 1
+            }
+            province = {
+                local_missionary_strength = -0.02
+            }
+        
+            country_as_secondart = {
+                improve_relation_modifier = 0.25
+            }
+            allowed_conversion = {
+                religion = coptic
+                religion = orthodox
+                religion = sunni
+                religion = shia
+                religion = buddhist
+                religion = taoist
+                religion = catholic
+            }
+            on_convert = {
+                change_religion = Wakandareligion
+                add_prestige = 10
+                add_country_modifier = {
+                    name = conversion_zeal
+                    duration = 3650
                 }
-                province = {
-                        local_missionary_strength = -0.02
-                }
-                heretic = { SAMARITAN KARAITE }
+            }
+		    heretic = { TAOIST }
+            uses_harmony = yes
+            declare_war_in_regency = yes
+        
         }
+    crusade_name = crusade
 }
