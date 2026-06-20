@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = byzantine_autocracy_reform
+add_government_reform = greekunate
 government_rank = 3
 primary_culture = greek
 religion = catholic
-technology_group = eastern
+technology_group = ottoman
 historical_rival = TUR
 capital = 151 # Constantinople
 fixed_capital = 151 # Cannot move capital away from this province & no power cost to move to it
