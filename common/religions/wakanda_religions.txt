@@ -4,7 +4,7 @@ wakandareligions_group = {
     
         wakandareligion = {
             color = { 255 137 228 }
-            icon = 9
+            icon = 10
             country = {
                 improve_relation_modifier = 0.5
                 diplomatic_reputation = 1
