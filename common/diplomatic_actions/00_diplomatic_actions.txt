@@ -557,25 +557,7 @@ annexationaction = {
 			}
 		}
 	}
-	condition = {
-        tooltip = ANNEXINVALID
-        potential = {
-            FROM = {
-                OR = {
-                    is_subject_of_type = hereditary_pronoia_subject_type
-                    is_subject_of_type = pronoia_subject_type
-                }
-            }
-        }
-        allow = {
-            FROM = {
-                years_in_vassalage_under = {
-                    who = ROOT
-                    years = 25
-                }
-            }
-        }
-    }
+	
 	## condition før effect
 	effect = {
 		if = {
