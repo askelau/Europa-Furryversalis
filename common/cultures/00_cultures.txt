@@ -10319,7 +10319,7 @@ lost_cultures_group = {
 	}
 }
 
-mesopotamian {
+mesopotamian_group {
 	aramaic = { #EU Rome
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
