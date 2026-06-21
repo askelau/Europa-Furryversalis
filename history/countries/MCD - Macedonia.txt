@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = pronoiar_monarchy_reform
+government_rank = 1
+primary_culture = greek
+add_accepted_culture = bulgarian
+religion = orthodox
+technology_group = ottoman
+capital = 148
+
+1399.1.1 = {
+	monarch = {
+		name = "Adrianos"
+		dynasty = "Philanthropeno"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
