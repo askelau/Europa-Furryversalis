@@ -13,3 +13,10 @@ dependency = {
 	second = ATH
 	start_date = 1444.1.1
 }
+
+dependency = {
+	subject_type = pronoia_subject_type
+	first = BYZ
+	second = PHY
+	start_date = 1444.1.1
+}

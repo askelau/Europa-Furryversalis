@@ -1,10 +1,10 @@
 #326 - Ankara
 
-owner = KAR
-controller = KAR
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = KAR
+add_core = PHY
 capital = "Ankara"
 trade_goods = cloth
 hre = no

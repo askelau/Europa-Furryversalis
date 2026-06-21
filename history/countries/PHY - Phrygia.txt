@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = pronoiar_monarchy_reform
+government_rank = 1
+primary_culture = greek
+religion = orthodox
+technology_group = ottoman
+capital = 326
+
+1399.1.1 = {
+	monarch = {
+		name = "Nikolaos I"
+		dynasty = "Akropolites"
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}
