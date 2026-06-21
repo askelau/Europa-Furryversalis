@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+technology_group = ottoman
+primary_culture = greek
+religion = orthodox
+capital = 163	# Heraklion
+fixed_capital = 163 # Cannot move capital away from this province & no power cost to move to it
