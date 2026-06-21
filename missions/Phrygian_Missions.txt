@@ -1,0 +1,293 @@
+phy_center_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = PHY
+	}
+	has_country_shield = yes
+
+	phy_gain_independence = {
+		icon = mission_independence
+		required_missions = { }
+		position = 1
+
+		trigger = {
+			is_subject = no
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				region = anatolia_region
+				area = thrace_area
+			}
+			NOT = { is_permanent_claim = ROOT }
+			NOT = { is_core = ROOT }
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						region = anatolia_region
+						area = thrace_area
+					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_prestige = 10
+		}
+	}
+
+	phy_restore_empire = {
+		icon = mission_empire
+		required_missions = {
+			phy_conquer_greece
+			phy_conquer_caucasus
+		}
+		position = 4
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+				culture_group = byzantine
+				OR = {
+					region = balkan_region
+					region = anatolia_region
+					region = caucasia_region
+				}
+			}
+		}
+
+		provinces_to_highlight = {
+			culture_group = byzantine
+			OR = {
+				region = balkan_region
+				region = anatolia_region
+				region = caucasia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			country_event = { id = phy.1 }
+		}
+	}
+}
+
+phy_western_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = PHY
+	}
+	has_country_shield = yes
+
+	phy_conquer_thrace = {
+		icon = mission_conquer_50_development
+		required_missions = { phy_gain_independence }
+		position = 2
+
+		trigger = {
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			macedonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			morea_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = phy_thracian_reconquest
+				duration = 5475
+			}
+		}
+	}
+
+	phy_conquer_greece = {
+		icon = mission_conquer_province
+		required_missions = { phy_conquer_thrace }
+		position = 3
+
+		trigger = {
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = macedonia_area
+				area = northern_greece_area
+				area = morea_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			albania_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = ROOT
+			}
+			calabria_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = ROOT
+			}
+			sicily_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = ROOT
+			}
+			western_sicily_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = ROOT
+			}
+			1933 = {
+				if = {
+					limit = {
+						NOT = { is_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+			122 = {
+				if = {
+					limit = {
+						NOT = { is_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+}
+
+phy_eastern_missions = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = PHY
+	}
+	has_country_shield = yes
+
+	phy_conquer_anatolia = {
+		icon = mission_unite_home_region
+		required_missions = { phy_gain_independence }
+		position = 2
+
+		trigger = {
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		provinces_to_highlight = {
+			region = anatolia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			samtskhe_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			armenia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	phy_conquer_caucasus = {
+		icon = mission_persian_soldiers
+		required_missions = { phy_conquer_anatolia }
+		position = 3
+
+		trigger = {
+			samtskhe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			armenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = samtskhe_area
+				area = armenia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = phy_hellenization
+				duration = -1
+			}
+		}
+	}
+}
