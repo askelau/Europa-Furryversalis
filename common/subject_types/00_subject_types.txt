@@ -1315,7 +1315,12 @@ hereditary_pronoia_subject_type = {
 	extend_trading_range = yes
 
 	takes_diplo_slot = no
-	can_be_integrated = no #can be inherited
+	can_be_annexed = yes
+	can_be_integrated = no
+	disable_inheritance = yes
+
+	# Pronoias do not count combined subject strength against overlord
+	relative_power_class = 0
 	
 	place_relative_on_throne = no #exploitable
 	
@@ -1789,4 +1794,3 @@ dummy =
 {
 	copy_from = default
 }
-

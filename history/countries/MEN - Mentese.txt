@@ -1,11 +1,10 @@
 government = monarchy
-add_government_reform = greekyo
+add_government_reform = pronoiar_monarchy_reform
 government_rank = 1
 primary_culture = greek
-religion = coptic
+religion = orthodox
 technology_group = ottoman
 capital = 319	# Antalya
-religious_school = hanafi_school
 
 1399.1.1 = {
 	monarch = {

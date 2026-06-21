@@ -1,8 +1,15 @@
 
 dependency = {
-	subject_type = daimyo_vassal
+	subject_type = pronoia_subject_type
 	first = BYZ
 	second = MEN
 	start_date = 1444.1.1
-	end_date = 1532.8.3
+}
+
+
+dependency = {
+	subject_type = pronoia_subject_type
+	first = BYZ
+	second = ATH
+	start_date = 1444.1.1
 }
