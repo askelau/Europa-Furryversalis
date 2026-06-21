@@ -1,10 +1,10 @@
 #324 - Karaman
 
-owner = KAR
-controller = KAR
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = KAR
+add_core = PHY
 capital = "Karaman"
 trade_goods = livestock
 hre = no

@@ -1,10 +1,10 @@
 #323 - Konya
 
-owner = KAR
-controller = KAR
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = KAR
+add_core = PHY
 trade_goods = salt
 hre = no
 base_tax = 3

@@ -1,10 +1,10 @@
 #318 - Sugla
 
-owner = MEN
-controller = MEN
+owner = PHY
+controller = PHY
+add_core = PHY
 culture = greek
 religion = orthodox
-add_core = MEN
 capital = "Izmirni"
 trade_goods = cotton #Major producer and exporter of Cotton
 hre = no

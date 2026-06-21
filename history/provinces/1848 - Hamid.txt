@@ -1,10 +1,10 @@
 #1848 - Hamid
 
-owner = MEN
-controller = MEN
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = MEN
+add_core = PHY
 capital = "Burdur"
 trade_goods = grain
 hre = no

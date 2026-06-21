@@ -1,10 +1,10 @@
 #2296 - Biga
 
-owner = BYZ
-controller = BYZ
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = BYZ
+add_core = PHY
 capital = "Biga"
 trade_goods = naval_supplies
 hre = no

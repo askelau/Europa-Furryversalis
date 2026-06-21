@@ -1,10 +1,10 @@
 #2297 - Saruhan
 
-owner = MEN
-controller = MEN
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = MEN
+add_core = PHY
 capital = "Manisa"
 trade_goods = cotton
 hre = no

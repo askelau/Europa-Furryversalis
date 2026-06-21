@@ -1,10 +1,10 @@
 #2302 - Içel
 
-owner = KAR
-controller = KAR
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = KAR
+add_core = PHY
 capital = "Ermenek"
 trade_goods = naval_supplies
 hre = no

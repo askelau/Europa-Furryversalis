@@ -1,7 +1,8 @@
 #2300 - Bozok
 
-owner = ARM
-controller = ARM
+owner = PHY
+controller = PHY
+add_core = PHY
 culture = armenian
 religion = coptic
 add_core = ARM

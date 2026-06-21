@@ -1,10 +1,10 @@
 #2301 - Kayseri
 
-owner = KAR
-controller = KAR
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = KAR
+add_core = PHY
 capital = "Kayseri"
 trade_goods = iron
 hre = no

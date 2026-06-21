@@ -1,10 +1,10 @@
 #317 - Bursa
 
-owner = BYZ
-controller = BYZ
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = BYZ
+add_core = PHY
 capital = "Bursa"
 trade_goods = silk
 hre = no

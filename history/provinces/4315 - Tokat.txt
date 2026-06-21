@@ -1,7 +1,8 @@
 #1846 - Amasya
 
-owner = ARM
-controller = ARM
+owner = PHY
+controller = PHY
+add_core = PHY
 culture = armenian
 religion = coptic
 add_core = ARM

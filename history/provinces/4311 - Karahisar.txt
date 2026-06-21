@@ -1,10 +1,10 @@
 #4311 - Karahisar
 
-owner = MEN
-controller = MEN
+owner = PHY
+controller = PHY
 culture = greek
 religion = orthodox
-add_core = MEN
+add_core = PHY
 capital = "Karahisar"
 trade_goods = livestock
 hre = no
