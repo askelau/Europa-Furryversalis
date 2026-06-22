@@ -1,80 +1,80 @@
 ﻿l_english:
   # Phrygia
   PHY_ideas:0 "Phrygian Ideas"
-  PHY_ideas_start:0 "Pedir Traditions"
-  PHY_ideas_bonus:0 "Pedir Ambition"
+  PHY_ideas_start:0 "Phrygian Traditions"
+  PHY_ideas_bonus:0 "Phrygian Ambition"
 
-  phy_export_economy:0 "Export Economy"
-  phy_export_economy_desc:0 "Our prosperity rests on controlling the export of valuable goods across the seas."
+  phy_thracian_reconquest:0 "Thracian Reconquest"
+  phy_thracian_reconquest_desc:0 "The recovery of Thrace secures the European shore of the Bosporus and strengthens our position in the region."
 
-  phy_islamise_sumatra:0 "Islamise Sumatra"
-  phy_islamise_sumatra_desc:0 "We shall support the spread of Islam throughout Sumatra and strengthen the faith at home."
+  phy_hellenic_revival:0 "Hellenic Revival"
+  phy_hellenic_revival_desc:0 "The Greek cities of Anatolia have endured centuries of foreign rule. Through patronage and settlement we shall ensure the revival of Hellenic culture throughout the region."
 
-  phy_rise_of_aceh:0 "Rise of Pedir"
-  phy_rise_of_aceh_desc:0 "Pedir rises as a power in Sumatra, ready to expand its influence over the region."
+  phy_anatolian_estates:0 "Anatolian Estates"
+  phy_anatolian_estates_desc:0 "The cooperation of local elites is vital for maintaining order throughout Anatolia."
 
-  phy_military_adventures:0 "Military Adventures"
-  phy_military_adventures_desc:0 "Our ambitions require bold campaigns and a navy prepared for war."
+  phy_phrygian_cavalry:0 "Phrygian Cavalry"
+  phy_phrygian_cavalry_desc:0 "The horsemen of western Anatolia have long served in the armies of kings and emperors alike."
 
-  phy_porch_of_mecca:0 "Porch of Mecca"
-  phy_porch_of_mecca_desc:0 "As a gateway to the holy lands, we welcome scholars, pilgrims, and religious learning."
+  phy_rebirth_of_sardis:0 "Rebirth of Sardis"
+  phy_rebirth_of_sardis_desc:0 "Once among the richest cities of the ancient world, Sardis shall flourish again under our rule."
 
-  phy_acehnese_moneylending:0 "Pedir Moneylending"
-  phy_acehnese_moneylending_desc:0 "A strong financial network allows us to fund our state and borrow on favourable terms."
+  phy_aegean_trade:0 "Aegean Trade"
+  phy_aegean_trade_desc:0 "The ports of the Aegean connect Europe and Asia, bringing wealth and prosperity to our realm."
 
-  phy_settle_the_islands:0 "Settle the Islands"
-  phy_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."
+  phy_heirs_of_the_diadochi:0 "Heirs of the Diadochi"
+  phy_heirs_of_the_diadochi_desc:0 "The successor kings of Alexander carved great realms from his empire. Their legacy lives on in us."
 
 l_english:
   # Macedonia
-  MCD_ideas:0 "Macedon Ideas"
-  MCD_ideas_start:0 "Pedir Traditions"
-  MCD_ideas_bonus:0 "Pedir Ambition"
+  MCD_ideas:0 "Macedonian Ideas"
+  MCD_ideas_start:0 "Macedonian Traditions"
+  MCD_ideas_bonus:0 "Macedonian Ambition"
 
-  MCD_export_economy:0 "Export Economy"
-  MCD_export_economy_desc:0 "Our prosperity rests on controlling the export of valuable goods across the seas."
+  mcd_companion_cavalry:0 "Companion Cavalry"
+  mcd_companion_cavalry_desc:0 "The Companion Cavalry formed the elite striking force of Alexander's armies. Their discipline and mobility remain a model for our mounted warriors."
 
-  MCD_islamise_sumatra:0 "Islamise Sumatra"
-  MCD_islamise_sumatra_desc:0 "We shall support the spread of Islam throughout Sumatra and strengthen the faith at home."
+  mcd_phalanx_legacy:0 "Legacy of the Phalanx"
+  mcd_phalanx_legacy_desc:0 "The Macedonian phalanx transformed warfare across the ancient world. Its traditions still inspire our soldiers."
 
-  MCD_rise_of_aceh:0 "Rise of Pedir"
-  MCD_rise_of_aceh_desc:0 "Pedir rises as a power in Sumatra, ready to expand its influence over the region."
+  mcd_alexanders_memory:0 "Alexander's Memory"
+  mcd_alexanders_memory_desc:0 "The memory of Alexander's conquests commands respect throughout the world and lends legitimacy to our ambitions."
 
-  MCD_military_adventures:0 "Military Adventures"
-  MCD_military_adventures_desc:0 "Our ambitions require bold campaigns and a navy prepared for war."
+  mcd_royal_settlements:0 "Royal Settlements"
+  mcd_royal_settlements_desc:0 "The kings of Macedon founded cities and colonies throughout their realm. Encouraging settlement will strengthen our kingdom."
 
-  MCD_porch_of_mecca:0 "Porch of Mecca"
-  MCD_porch_of_mecca_desc:0 "As a gateway to the holy lands, we welcome scholars, pilgrims, and religious learning."
+  mcd_hegemon_of_hellas:0 "Hegemon of Hellas"
+  mcd_hegemon_of_hellas_desc:0 "By leading the Greek peoples we can once again establish Macedon as the foremost power of the Hellenic world."
 
-  MCD_acehnese_moneylending:0 "Pedir Moneylending"
-  MCD_acehnese_moneylending_desc:0 "A strong financial network allows us to fund our state and borrow on favourable terms."
+  mcd_military_engineers:0 "Military Engineers"
+  mcd_military_engineers_desc:0 "The armies of Alexander excelled in siegecraft and engineering. We shall continue this tradition."
 
-  MCD_settle_the_islands:0 "Settle the Islands"
-  MCD_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."
+  mcd_successors_of_pella:0 "Successors of Pella"
+  mcd_successors_of_pella_desc:0 "Pella was once the center of a world-spanning empire. Its legacy inspires new generations to serve the realm."
 
 l_english:
   # Macedonian Empire
-  MCE_ideas:0 "Macedonian Ideas"
-  MCE_ideas_start:0 "Pedir Traditions"
-  MCE_ideas_bonus:0 "Pedir Ambition"
+  MCE_ideas:0 "Macedonian Imperial Ideas"
+  MCE_ideas_start:0 "Imperial Traditions"
+  MCE_ideas_bonus:0 "Imperial Ambition"
 
-  MCE_export_economy:0 "Export Economy"
-  MCE_export_economy_desc:0 "Our prosperity rests on controlling the export of valuable goods across the seas."
+  mce_alexanders_dream:0 "Alexander's Dream"
+  mce_alexanders_dream_desc:0 "Alexander dreamed of an empire stretching across Europe, Asia, and Africa. We shall make that dream eternal."
 
-  MCE_islamise_sumatra:0 "Islamise Sumatra"
-  MCE_islamise_sumatra_desc:0 "We shall support the spread of Islam throughout Sumatra and strengthen the faith at home."
+  mce_imperial_bureaucracy:0 "Imperial Bureaucracy"
+  mce_imperial_bureaucracy_desc:0 "A vast empire cannot be ruled by conquest alone. Governors, scribes, and officials must bind our lands together."
 
-  MCE_rise_of_aceh:0 "Rise of Pedir"
-  MCE_rise_of_aceh_desc:0 "Pedir rises as a power in Sumatra, ready to expand its influence over the region."
+  mce_royal_companions:0 "Royal Companions"
+  mce_royal_companions_desc:0 "The Companions were the hammer of Macedon. Their legacy lives on in our elite cavalry."
 
-  MCE_military_adventures:0 "Military Adventures"
-  MCE_military_adventures_desc:0 "Our ambitions require bold campaigns and a navy prepared for war."
+  mce_phalanx_reforms:0 "Phalanx Reforms"
+  mce_phalanx_reforms_desc:0 "The phalanx once broke the armies of kings. With reform and discipline, it shall dominate the battlefield again."
 
-  MCE_porch_of_mecca:0 "Porch of Mecca"
-  MCE_porch_of_mecca_desc:0 "As a gateway to the holy lands, we welcome scholars, pilgrims, and religious learning."
+  mce_new_alexandrias:0 "New Alexandrias"
+  mce_new_alexandrias_desc:0 "Wherever our banners advance, cities shall rise as centers of Greek culture, trade, and administration."
 
-  MCE_acehnese_moneylending:0 "Pedir Moneylending"
-  MCE_acehnese_moneylending_desc:0 "A strong financial network allows us to fund our state and borrow on favourable terms."
+  mce_crossroads_of_the_world:0 "Crossroads of the World"
+  mce_crossroads_of_the_world_desc:0 "Our empire sits between the Aegean, Anatolia, Egypt, Persia, and India. The wealth of the world flows through our markets."
 
-  MCE_settle_the_islands:0 "Settle the Islands"
-  MCE_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."
+  mce_universal_empire:0 "Universal Empire"
+  mce_universal_empire_desc:0 "Greeks, Anatolians, Persians, Egyptians, and countless others may all serve beneath one imperial crown."
