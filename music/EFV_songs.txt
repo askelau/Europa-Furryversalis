@@ -1,0 +1,17 @@
+song = {
+    name = "Rihanna - Work"
+    chance = {
+        modifier = { 
+            factor = 3
+        }
+    }
+}
+
+song = {
+    name = "Glorious Morning"
+    chance = {
+        modifier = { 
+            factor = 2
+        }
+    }
+}

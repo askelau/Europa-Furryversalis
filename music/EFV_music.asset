@@ -1,0 +1,9 @@
+music = {
+    name = "Rihanna - Work"
+    file = "Rihanna Work.ogg"
+}
+
+music = {
+    name = "Glorious Morning"
+    file = "Glorious Morning.ogg"
+}
