@@ -1,0 +1,509 @@
+﻿mce_successor_kingdoms = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { NOT = { map_setup = map_setup_random } tag = MCE }
+	has_country_shield = yes
+
+	mce_the_antigonids = {
+		icon = mission_conquer_province
+		required_missions = { }
+		position = 1
+		trigger = {
+			thrace_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			macedonia_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			northern_greece_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			morea_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			hudavendigar_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			aydin_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			germiyan_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+				area = macedonia_area
+				area = northern_greece_area
+				area = morea_area
+				area = hudavendigar_area
+				area = aydin_area
+				area = germiyan_area
+			}
+			NOT = { province_id = 142 }
+			NOT = { province_id = 163 }
+			NOT = { province_id = 321 }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_prestige = 25
+			add_country_modifier = { name = mce_antigonid_legacy duration = 7300 }
+
+			aleppo_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			syria_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			palestine_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			trans_jordan_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+
+			egypt_region = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	mce_the_ptolemies = {
+		icon = mission_conquer_province
+		required_missions = { mce_the_antigonids }
+		position = 2
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = egypt_region value = 20 }
+			358 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_prestige = 25
+			add_country_modifier = { name = mce_ptolemaic_legacy duration = 7300 }
+			cyrenaica_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	mce_the_seleucids = {
+		icon = mission_conquer_province
+		required_missions = { 
+			mce_the_ptolemies
+			mce_fall_of_babylon }
+		position = 3
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				OR = {
+					area = iraq_arabi_area
+					area = basra_area
+					area = al_jazira_area
+					area = shahrizor_area
+				}
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = persia_region value = 25 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = basra_area
+				area = al_jazira_area
+				area = shahrizor_area
+				region = persia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_seleucid_legacy duration = 7300 }
+			add_adm_power = 100
+		}
+	}
+
+	mce_unite_successors = {
+		icon = mission_empire
+		required_missions = { mce_the_ptolemies mce_the_seleucids mce_the_antigonids }
+		position = 8
+		trigger = {
+			mission_completed = mce_the_ptolemies
+			mission_completed = mce_the_seleucids
+			mission_completed = mce_the_antigonids
+		}
+		effect = {
+			add_country_modifier = { name = mce_united_diadochi duration = -1 }
+			add_prestige = 50
+		}
+	}
+}
+
+mce_persian_campaign = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { NOT = { map_setup = map_setup_random } tag = MCE }
+	has_country_shield = yes
+
+	mce_cross_euphrates = {
+		icon = mission_conquer_province
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 12
+				OR = {
+					area = aleppo_area
+					area = syria_area
+					area = palestine_area
+					area = trans_jordan_area
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = palestine_area
+				area = trans_jordan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			iraq_arabi_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			basra_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			al_jazira_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			shahrizor_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			add_country_modifier = { name = mce_euphrates_crossing duration = 5475 }
+		}
+	}
+
+	mce_fall_of_babylon = {
+		icon = mission_conquer_province
+		required_missions = { mce_cross_euphrates }
+		position = 2
+		trigger = {
+			410 = { country_or_non_sovereign_subject_holds = ROOT }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				OR = {
+					area = iraq_arabi_area
+					area = basra_area
+					area = al_jazira_area
+					area = shahrizor_area
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = basra_area
+				area = al_jazira_area
+				area = shahrizor_area
+				province_id = 410
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_babylon_restored duration = -1 }
+			persia_region = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	mce_burn_persepolis = {
+		icon = mission_persian_soldiers
+		required_missions = { mce_fall_of_babylon }
+		position = 3
+		trigger = {
+			farsistan_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			isfahan_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = farsistan_area
+				area = isfahan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_army_tradition = 15
+			add_country_modifier = { name = mce_persepolis_avenged duration = 7300 }
+		}
+	}
+
+	mce_king_of_kings = {
+		icon = mission_empire
+		required_missions = { mce_burn_persepolis }
+		position = 4
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = persia_region value = 35 }
+		}
+		provinces_to_highlight = {
+			region = persia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_king_of_kings duration = -1 }
+			khorasan_region = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+}
+
+mce_eastern_expedition = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { NOT = { map_setup = map_setup_random } tag = MCE }
+	has_country_shield = yes
+
+	mce_prepare_eastern_expedition = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		effect = {
+			add_army_tradition = 5
+		}
+	}
+
+	mce_into_bactria = {
+		icon = mission_persian_soldiers
+		required_missions = { mce_king_of_kings mce_prepare_eastern_expedition }
+		position = 5
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = khorasan_region value = 20 }
+		}
+		provinces_to_highlight = {
+			region = khorasan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			transoxiana_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			termez_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			ferghana_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			lahore_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			kashmir_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			add_country_modifier = { name = mce_eastern_marches duration = 7300 }
+		}
+	}
+
+	mce_sogdiana_secured = {
+		icon = mission_conquer_province
+		required_missions = { mce_into_bactria }
+		position = 6
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 12
+				OR = {
+					area = transoxiana_area
+					area = termez_area
+					area = ferghana_area
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = transoxiana_area
+				area = termez_area
+				area = ferghana_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_sogdian_campaigns duration = 7300 }
+			lahore_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			kashmir_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	mce_reach_the_indus = {
+		icon = mission_indian_trade
+		required_missions = { mce_sogdiana_secured }
+		position = 7
+		trigger = {
+			lahore_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			kabulistan_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = lahore_area
+				area = kabulistan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			hindusthan_region = { limit = { NOT = { is_claim = ROOT } NOT = { is_core = ROOT } } add_claim = ROOT }
+			add_country_modifier = { name = mce_indus_reached duration = 7300 }
+		}
+	}
+
+	mce_beyond_alexander = {
+		icon = mission_indian_trade
+		required_missions = { mce_reach_the_indus }
+		position = 8
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = hindusthan_region value = 20 }
+		}
+		provinces_to_highlight = {
+			region = hindusthan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_beyond_alexander duration = -1 }
+		}
+	}
+
+
+	mce_the_empire_of_alexander = {
+		icon = mission_empire
+		required_missions = { mce_unite_successors mce_beyond_alexander mce_hellenistic_world mce_wealth_of_the_east }
+		position = 9
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { value = 100 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = balkan_region value = 30 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = anatolia_region value = 30 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = egypt_region value = 20 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = mashriq_region value = 25 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = persia_region value = 35 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = khorasan_region value = 20 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = balkan_region
+				region = anatolia_region
+				region = egypt_region
+				region = mashriq_region
+				region = persia_region
+				region = khorasan_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = mce_alexander_reborn duration = -1 }
+			add_prestige = 100
+			add_permanent_power_projection = { type = 25_permanent_power_projection amount = 25 }
+		}
+	}
+}
+
+mce_hellenization = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { NOT = { map_setup = map_setup_random } tag = MCE }
+	has_country_shield = yes
+
+	mce_found_new_alexandrias = {
+		icon = mission_build_buildings
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				development = 20
+				NOT = { culture_group = byzantine }
+			}
+		}
+		provinces_to_highlight = {
+			owned_by = ROOT
+			development = 20
+			NOT = { culture_group = byzantine }
+		}
+		effect = {
+			add_country_modifier = { name = mce_new_alexandrias_modifier duration = 7300 }
+		}
+	}
+
+	mce_spread_the_koine = {
+		icon = mission_build_buildings
+		required_missions = { mce_found_new_alexandrias }
+		position = 2
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				culture = greek
+			}
+		}
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { culture = greek }
+			OR = {
+				region = anatolia_region
+				region = mashriq_region
+				region = persia_region
+				region = egypt_region
+			}
+		}
+		effect = {
+			add_country_modifier = { name = mce_spread_the_koine duration = 7300 }
+		}
+	}
+
+	mce_fusion_of_cultures = {
+		icon = mission_build_buildings
+		required_missions = { mce_spread_the_koine }
+		position = 3
+		trigger = {
+			religious_unity = 0.8
+			num_accepted_cultures = 5
+		}
+		effect = {
+			add_country_modifier = { name = mce_fusion_of_cultures duration = -1 }
+		}
+	}
+
+	mce_hellenistic_world = {
+		icon = mission_build_buildings
+		required_missions = { mce_fusion_of_cultures }
+		position = 8
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 50
+				culture = greek
+			}
+		}
+		effect = {
+			add_country_modifier = { name = mce_hellenistic_world duration = -1 }
+		}
+	}
+}
+
+mce_commerce = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { NOT = { map_setup = map_setup_random } tag = MCE }
+	has_country_shield = yes
+
+	mce_royal_roads = {
+		icon = mission_build_buildings
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				OR = {
+					region = anatolia_region
+					region = persia_region
+					region = mashriq_region
+				}
+				has_building = workshop
+			}
+		}
+		effect = {
+			add_country_modifier = { name = mce_royal_roads_modifier duration = 7300 }
+		}
+	}
+
+	mce_alexandrias_legacy = {
+		icon = mission_trade
+		required_missions = { mce_royal_roads }
+		position = 2
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		effect = {
+			add_country_modifier = { name = mce_alexandrias_legacy duration = 7300 }
+		}
+	}
+
+	mce_wealth_of_the_east = {
+		icon = mission_trade
+		required_missions = { mce_alexandrias_legacy }
+		position = 8
+		trigger = {
+			OR = {
+				358 = { trade_share = { country = ROOT share = 60 } }
+				410 = { trade_share = { country = ROOT share = 60 } }
+				428 = { trade_share = { country = ROOT share = 60 } }
+			}
+		}
+		effect = {
+			add_country_modifier = { name = mce_wealth_of_the_east duration = -1 }
+		}
+	}
+}
