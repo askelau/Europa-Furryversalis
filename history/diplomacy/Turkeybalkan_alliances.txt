@@ -6,3 +6,10 @@ guarantee = {
 	end_date = 1468.1.1
 }
 
+#Trebizond guaranteed by Georgia
+alliance = {
+	first = GEO
+	second = TRE
+	start_date = 1398.1.1
+	end_date = 1461.1.1
+}

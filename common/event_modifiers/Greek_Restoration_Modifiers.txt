@@ -1,0 +1,22 @@
+﻿greek_thracian_reconquest = {
+	ae_impact = -0.10
+	core_creation = -0.20
+}
+
+greek_hellenization = {
+	culture_conversion_cost = -0.15
+}
+
+greek_reorganized_pronoias = {
+	liberty_desire = -10
+	diplomatic_reputation = 1
+}
+
+phy_thracian_reconquest = {
+	ae_impact = -0.10
+	core_creation = -0.20
+}
+
+phy_hellenization = {
+	culture_conversion_cost = -0.15
+}

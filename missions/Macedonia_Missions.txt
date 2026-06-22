@@ -1,0 +1,375 @@
+﻿macedonia_center_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = MCD
+	}
+	has_country_shield = yes
+
+	mcd_gain_independence = {
+		icon = mission_independence
+		required_missions = { }
+		position = 1
+		trigger = { is_subject = no }
+		effect = {
+			thrace_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_prestige = 10
+		}
+	}
+
+	mcd_conquer_thrace = {
+		icon = mission_conquer_50_development
+		required_missions = { mcd_gain_independence }
+		position = 2
+		trigger = {
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			macedonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = northern_greece_area
+						area = morea_area
+					}
+					NOT = { province_id = 142 } # Corfu
+					NOT = { province_id = 163 } # Crete
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hudavendigar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			aydin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			germiyan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = greek_thracian_reconquest
+				duration = 5475
+			}
+		}
+	}
+
+	mcd_restore_empire = {
+		icon = mission_empire
+		required_missions = {
+			mcd_secure_balkans
+			mcd_conquer_anatolia
+		}
+		position = 5
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+				culture_group = byzantine
+				OR = {
+					region = balkan_region
+					region = anatolia_region
+					region = caucasia_region
+				}
+			}
+		}
+		effect = {
+			country_event = { id = greek_restoration.1 }
+		}
+	}
+}
+
+macedonia_western_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = MCD
+	}
+	has_country_shield = yes
+
+	mcd_conquer_greece = {
+		icon = mission_conquer_province
+		required_missions = { mcd_conquer_thrace }
+		position = 3
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					area = macedonia_area
+					area = northern_greece_area
+					area = morea_area
+				}
+				NOT = { province_id = 142 } # Corfu
+				NOT = { province_id = 163 } # Crete
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = macedonia_area
+				area = northern_greece_area
+				area = morea_area
+			}
+			NOT = { province_id = 142 } # Corfu
+			NOT = { province_id = 163 } # Crete
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			albania_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bulgaria_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	mcd_secure_balkans = {
+		icon = mission_conquer_province
+		required_missions = { mcd_conquer_greece }
+		position = 4
+		trigger = {
+			albania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = albania_area
+				area = bulgaria_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_prestige = 25
+		}
+	}
+}
+
+macedonia_eastern_missions = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = MCD
+	}
+	has_country_shield = yes
+
+	mcd_secure_west_anatolia = {
+		icon = mission_unite_home_region
+		required_missions = { mcd_conquer_thrace }
+		position = 3
+		trigger = {
+			hudavendigar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			germiyan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = hudavendigar_area
+				area = aydin_area
+				area = germiyan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			ankara_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			karaman_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kastamonu_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			rum_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			dulkadir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_kurdistan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			2302 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			2305 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			331 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+
+	mcd_conquer_anatolia = {
+		icon = mission_unite_home_region
+		required_missions = { mcd_secure_west_anatolia }
+		position = 4
+		trigger = {
+			hudavendigar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ankara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			karaman_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			germiyan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			rum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kastamonu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			dulkadir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_kurdistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2302 = { country_or_non_sovereign_subject_holds = ROOT }
+			2305 = { country_or_non_sovereign_subject_holds = ROOT }
+			331 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = hudavendigar_area
+				area = aydin_area
+				area = germiyan_area
+				area = ankara_area
+				area = karaman_area
+				area = kastamonu_area
+				area = rum_area
+				area = dulkadir_area
+				area = north_kurdistan_area
+				province_id = 2302
+				province_id = 2305
+				province_id = 331
+			}
+			NOT = { province_id = 321 } # Cyprus
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = greek_hellenization
+				duration = -1
+			}
+		}
+	}
+}
