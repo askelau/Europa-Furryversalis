@@ -9,8 +9,12 @@ PHY_ADJ: "Phrygian"
 PHY_ADJ2: "Phrygian"
 
 MCD: "Macedonia"
-MCD_ADJ: "Macedonian"
-MCD_ADJ2: "Macedonian"
+MCD_ADJ: "Macedon"
+MCD_ADJ2: "Macedon"
+
+MCE: "Macedonian Empire"
+MCE_ADJ: "Macedonian"
+MCE_ADJ2: "Macedonian"
 
 Wakandan_group: "Wakanda Culture Group"
 Wakandanculture: "Wakandan Culture" 

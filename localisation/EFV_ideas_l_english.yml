@@ -1,5 +1,6 @@
 ﻿l_english:
-  PHY_ideas:0 "Pedir Ideas"
+  # Phrygia
+  PHY_ideas:0 "Phrygian Ideas"
   PHY_ideas_start:0 "Pedir Traditions"
   PHY_ideas_bonus:0 "Pedir Ambition"
 
@@ -23,8 +24,10 @@
 
   phy_settle_the_islands:0 "Settle the Islands"
   phy_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."
-  
-  MCD_ideas:0 "Macedonian Ideas"
+
+l_english:
+  # Macedonia
+  MCD_ideas:0 "Macedon Ideas"
   MCD_ideas_start:0 "Pedir Traditions"
   MCD_ideas_bonus:0 "Pedir Ambition"
 
@@ -48,3 +51,30 @@
 
   MCD_settle_the_islands:0 "Settle the Islands"
   MCD_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."
+
+l_english:
+  # Macedonian Empire
+  MCE_ideas:0 "Macedonian Ideas"
+  MCE_ideas_start:0 "Pedir Traditions"
+  MCE_ideas_bonus:0 "Pedir Ambition"
+
+  MCE_export_economy:0 "Export Economy"
+  MCE_export_economy_desc:0 "Our prosperity rests on controlling the export of valuable goods across the seas."
+
+  MCE_islamise_sumatra:0 "Islamise Sumatra"
+  MCE_islamise_sumatra_desc:0 "We shall support the spread of Islam throughout Sumatra and strengthen the faith at home."
+
+  MCE_rise_of_aceh:0 "Rise of Pedir"
+  MCE_rise_of_aceh_desc:0 "Pedir rises as a power in Sumatra, ready to expand its influence over the region."
+
+  MCE_military_adventures:0 "Military Adventures"
+  MCE_military_adventures_desc:0 "Our ambitions require bold campaigns and a navy prepared for war."
+
+  MCE_porch_of_mecca:0 "Porch of Mecca"
+  MCE_porch_of_mecca_desc:0 "As a gateway to the holy lands, we welcome scholars, pilgrims, and religious learning."
+
+  MCE_acehnese_moneylending:0 "Pedir Moneylending"
+  MCE_acehnese_moneylending_desc:0 "A strong financial network allows us to fund our state and borrow on favourable terms."
+
+  MCE_settle_the_islands:0 "Settle the Islands"
+  MCE_settle_the_islands_desc:0 "The islands around us offer new settlements, ports, and opportunities for growth."

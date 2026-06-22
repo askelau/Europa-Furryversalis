@@ -18460,3 +18460,39 @@ MCD_ideas = {
 		global_colonial_growth = 20
 	}
 }
+
+MCE_ideas = {
+	start = {
+		global_ship_cost = -0.1
+		global_missionary_strength = 0.02
+	}
+	bonus = {
+		production_efficiency = 0.1
+	}
+	trigger = {
+		tag = MCE
+	}
+	free = yes
+
+	MCE_export_economy = {
+		global_trade_power = 0.1
+	}
+	MCE_islamise_sumatra = {
+		missionary_maintenance_cost = -0.25
+	}
+	MCE_rise_of_aceh = {
+		province_warscore_cost = -0.1
+	}
+	MCE_military_adventures = {
+		naval_morale = 0.15
+	}
+	MCE_porch_of_mecca = {
+		technology_cost = -0.10
+	}
+	MCE_acehnese_moneylending = {
+		interest = -1
+	}
+	MCE_settle_the_islands = { 
+		global_colonial_growth = 20
+	}
+}
