@@ -16,6 +16,26 @@ MCE: "Macedonian Empire"
 MCE_ADJ: "Macedonian"
 MCE_ADJ2: "Macedonian"
 
+PHO: "Phoenicia"
+PHO_ADJ: "Phoenician"
+PHO_ADJ2: "Phoenician"
+
+BNH: "Beth Nahrain"
+BNH_ADJ: "Beth Nahraini"
+BNH_ADJ2: "Beth Nahraini"
+
+BAB: "Babylon"
+BAB_ADJ: "Babylonian"
+BAB_ADJ2: "Babylonian"
+
+SDN: "Sidon"
+SDN_ADJ: "Sidonian"
+SDN_ADJ2: "Sidonian"
+
+ASY: "Assyria"
+ASY_ADJ: "Assyrian"
+ASY_ADJ2: "Assyrian"
+
 Wakandan_group: "Wakanda Culture Group"
 Wakandanculture: "Wakandan Culture" 
 

@@ -1,10 +1,9 @@
-#382 - Damascus
-
-owner = SYR
-controller = SYR
-culture = phoenician
+﻿#382 - Damascus
+owner = BNH
+controller = BNH
+culture = aramaic
 religion = coptic
-add_core = SYR
+add_core = BNH
 capital = "Dimashq"
 trade_goods = iron
 hre = no

@@ -78,3 +78,119 @@ l_english:
 
   mce_universal_empire:0 "Universal Empire"
   mce_universal_empire_desc:0 "Greeks, Anatolians, Persians, Egyptians, and countless others may all serve beneath one imperial crown."
+
+l_english:
+  # Phoenicia
+  PHO_ideas:0 "Phoenician Ideas"
+  PHO_ideas_start:0 "Phoenician Traditions"
+  PHO_ideas_bonus:0 "Phoenician Ambition"
+  PHO_heirs_of_carthage:0 "Heirs of Carthage"
+  PHO_purple_trade:0 "Masters of the Purple Trade"
+  PHO_mediterranean_colonies:0 "Mediterranean Colonies"
+  PHO_levantine_ports:0 "Levantine Ports"
+  PHO_merchant_fleets:0 "Merchant Fleets"
+  PHO_cosmopolitan_cities:0 "Cosmopolitan Cities"
+  PHO_seafaring_traditions:0 "Ancient Seafaring Traditions"
+  PHO_heirs_of_carthage_desc:0 "The legacy of the Phoenician colonies lives on in our people."
+
+  PHO_purple_trade_desc:0 "The famous purple dye of Phoenicia remains a symbol of wealth and prestige."
+
+  PHO_mediterranean_colonies_desc:0 "The sea is our highway and distant shores our opportunity."
+
+  PHO_levantine_ports_desc:0 "The harbors of the Levant connect the markets of three continents."
+
+  PHO_merchant_fleets_desc:0 "A strong merchant fleet secures our prosperity."
+
+  PHO_cosmopolitan_cities_desc:0 "People from many lands gather in our cities."
+
+  PHO_seafaring_traditions_desc:0 "Generations of sailors have mastered the waters of the Mediterranean."
+
+
+  BNH_ideas:0 "Beth Nahraini Ideas"
+  BNH_ideas_start:0 "Beth Nahraini Traditions"
+  BNH_ideas_bonus:0 "Beth Nahraini Ambition"
+  BNH_monastic_scholarship:0 "Monastic Scholarship"
+  BNH_syriac_literature:0 "Syriac Literature"
+  BNH_church_of_the_east:0 "Church of the East Heritage"
+  BNH_crossroads_of_nations:0 "Crossroads of Nations"
+  BNH_mesopotamian_fortresses:0 "Mesopotamian Fortresses"
+  BNH_aramaic_administration:0 "Aramaic Administration"
+  BNH_ancient_learning_centers:0 "Ancient Learning Centers"
+  BNH_monastic_scholarship_desc:0 "The monasteries of Mesopotamia preserve ancient learning and educate generations of scholars."
+
+  BNH_syriac_literature_desc:0 "Our scribes continue the long literary traditions of the Syriac language."
+
+  BNH_church_of_the_east_desc:0 "The Christian communities of Mesopotamia provide unity and stability throughout the realm."
+
+  BNH_crossroads_of_nations_desc:0 "Trade routes from Anatolia, Persia and Arabia meet within our lands."
+
+  BNH_mesopotamian_fortresses_desc:0 "Strong fortifications defend the fertile lands between the rivers."
+
+  BNH_aramaic_administration_desc:0 "An experienced administrative class allows us to govern efficiently."
+
+  BNH_ancient_learning_centers_desc:0 "The schools and monasteries of Mesopotamia attract scholars from across the East."
+
+
+  BAB_ideas:0 "Babylonian Ideas"
+  BAB_ideas_start:0 "Babylonian Traditions"
+  BAB_ideas_bonus:0 "Babylonian Ambition"
+  BAB_legacy_of_hammurabi:0 "Legacy of Hammurabi"
+  BAB_canals_of_mesopotamia:0 "Canals of Mesopotamia"
+  BAB_ancient_bureaucracy:0 "Ancient Bureaucracy"
+  BAB_astronomical_traditions:0 "Astronomical Traditions"
+  BAB_fertile_crescent:0 "Fertile Crescent"
+  BAB_imperial_capitals:0 "Imperial Capitals"
+  BAB_rebuilders_of_babylon:0 "Rebuilders of Babylon"
+
+  BAB_legacy_of_hammurabi_desc:0 "The ancient laws of Babylon remain a symbol of order and justice."
+
+  BAB_canals_of_mesopotamia_desc:0 "Irrigation canals transform the fertile lands between the rivers."
+
+  BAB_ancient_bureaucracy_desc:0 "The administrative traditions of Mesopotamia stretch back thousands of years."
+
+  BAB_astronomical_traditions_desc:0 "Babylonian astronomers were among the finest of the ancient world."
+
+  BAB_fertile_crescent_desc:0 "The rich soil of Mesopotamia supports a prosperous population."
+
+  BAB_imperial_capitals_desc:0 "The great cities of Babylon and Baghdad inspire respect throughout the region."
+
+  BAB_rebuilders_of_babylon_desc:0 "We shall restore the splendor of ancient Babylon."
+
+
+  SDN_ideas:0 "Sidonian Ideas"
+  SDN_ideas_start:0 "Sidonian Traditions"
+  SDN_ideas_bonus:0 "Sidonian Ambition"
+  SDN_old_harbor:0 "The Old Harbor"
+  SDN_purple_dyers:0 "Purple Dyers"
+  SDN_city_of_glass:0 "City of Glass"
+  SDN_mercantile_council:0 "Mercantile Council"
+  SDN_levantic_diplomacy:0 "Levantine Diplomacy"
+  SDN_coastal_walls:0 "Coastal Walls"
+  SDN_cypriot_routes:0 "Cypriot Routes"
+  SDN_old_harbor_desc:0 "Sidon's ancient harbor has long sheltered merchants, fishermen and warships alike."
+  SDN_purple_dyers_desc:0 "Our dyers preserve the secret craft of producing the famous royal purple."
+  SDN_city_of_glass_desc:0 "Sidonian glassmakers are renowned for their skill and fine craftsmanship."
+  SDN_mercantile_council_desc:0 "The city's leading merchant families guide policy through a powerful council."
+  SDN_levantic_diplomacy_desc:0 "Surrounded by greater powers, Sidon survives through careful diplomacy."
+  SDN_coastal_walls_desc:0 "Strong coastal walls protect our city from raids and sieges."
+  SDN_cypriot_routes_desc:0 "Our ships maintain profitable routes between the Levant and Cyprus."
+
+  
+
+  ASY_ideas:0 "Assyrian Ideas"
+  ASY_ideas_start:0 "Assyrian Traditions"
+  ASY_ideas_bonus:0 "Assyrian Ambition"
+  ASY_nineveh_memory:0 "Memory of Nineveh"
+  ASY_mountain_churches:0 "Mountain Churches"
+  ASY_syrian_scriptoria:0 "Syriac Scriptoria"
+  ASY_upper_tigris_forts:0 "Upper Tigris Forts"
+  ASY_border_militias:0 "Border Militias"
+  ASY_merchant_diaspora:0 "Merchant Diaspora"
+  ASY_restored_assur:0 "Restored Assur"
+  ASY_nineveh_memory_desc:0 "The ruins of Nineveh remind our people of Assyria's ancient greatness."
+  ASY_mountain_churches_desc:0 "Remote churches and monasteries preserve our faith in difficult times."
+  ASY_syrian_scriptoria_desc:0 "Syriac scriptoria keep learning, theology and administration alive."
+  ASY_upper_tigris_forts_desc:0 "Fortresses along the Upper Tigris defend the approaches to our homeland."
+  ASY_border_militias_desc:0 "Local militias guard the frontier and strengthen our armies in war."
+  ASY_merchant_diaspora_desc:0 "Assyrian merchants abroad connect us to distant markets and communities."
+  ASY_restored_assur_desc:0 "By restoring Assur, we renew the political and spiritual heart of Assyria."

@@ -1,10 +1,10 @@
-#1855 - Sidon
-
-owner = SYR
-controller = SYR
+﻿#1855 - Sidon
+owner = SDN
+controller = SDN
 culture = phoenician
 religion = coptic
-add_core = SYR
+add_core = SDN
+add_core = PHO
 capital = "Sayda"
 trade_goods = naval_supplies
 hre = no

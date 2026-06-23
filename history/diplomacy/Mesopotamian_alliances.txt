@@ -1,0 +1,18 @@
+# Mesopotamian / Levantine Christian subject setup
+# Put this in /history/diplomacy/Mesopotamian_alliances.txt
+
+# Sidon is a Phoenician coastal client under Phoenicia.
+dependency = {
+    subject_type = vassal
+    first = PHO
+    second = SDN
+    start_date = 1444.11.11
+}
+
+# Babylon controls Lower Mesopotamia but begins as a vassal of Beth Nahrain.
+dependency = {
+    subject_type = vassal
+    first = BNH
+    second = BAB
+    start_date = 1444.11.11
+}

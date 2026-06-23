@@ -1,10 +1,9 @@
-#377 - Aleppo
-
-owner = SYR
-controller = SYR
-culture = phoenician
+﻿#377 - Aleppo
+owner = BNH
+controller = BNH
+culture = aramaic
 religion = coptic
-add_core = SYR
+add_core = BNH
 capital = "Halab"
 trade_goods = silk
 hre = no

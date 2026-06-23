@@ -1,10 +1,9 @@
-#364 - Gaza
-
-owner = SYR
-controller = SYR
+﻿#364 - Gaza
+owner = PHO
+controller = PHO
 culture = phoenician
 religion = coptic
-add_core = SYR
+add_core = PHO
 capital = "Gazzah"
 trade_goods = salt
 hre = no

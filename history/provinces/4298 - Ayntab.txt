@@ -1,8 +1,7 @@
-#4398 - Ayntab
-
+﻿#4398 - Ayntab
 owner = ARM
 controller = ARM
-culture = armenian
+culture = aramaic
 religion = coptic
 add_core = ARM
 capital = "Ayntab"

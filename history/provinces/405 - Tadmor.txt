@@ -1,10 +1,10 @@
 #405 - Tadmor
 
-owner = SYR
-controller = SYR
-culture = phoenician
+owner = BNH
+controller = BNH
+culture = aramaic
 religion = coptic
-add_core = SYR
+add_core = BNH
 capital = "Tadmuriyah"
 trade_goods = livestock
 hre = no

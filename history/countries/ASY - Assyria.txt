@@ -1,0 +1,18 @@
+# Assyria country history
+government = monarchy
+government_rank = 1
+mercantilism = 10
+technology_group = muslim
+religion = coptic
+primary_culture = aramaic
+capital = 411
+
+1444.11.11 = {
+    monarch = {
+        name = "Sargon"
+        dynasty = "Assuraya"
+        adm = 3
+        dip = 4
+        mil = 3
+    }
+}

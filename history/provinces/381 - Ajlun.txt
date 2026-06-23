@@ -1,10 +1,9 @@
-#381 - Ajlun
-
-owner = SYR
-controller = SYR
+﻿#381 - Ajlun
+owner = PHO
+controller = PHO
 culture = phoenician
 religion = coptic
-add_core = SYR
+add_core = PHO
 capital = "Ajlun"
 trade_goods = grain
 hre = no

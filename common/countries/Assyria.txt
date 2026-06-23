@@ -1,0 +1,17 @@
+graphical_culture = westerngfx
+color = { 100 100 150 }
+
+# Optional monarch/leader names can be added here later.
+# monarch_names = {
+# }
+# leader_names = {
+# }
+ship_names = {
+    "Assyria"
+}
+army_names = {
+    "Army of Assyria"
+}
+fleet_names = {
+    "Fleet of Assyria"
+}

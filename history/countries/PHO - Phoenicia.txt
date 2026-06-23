@@ -1,0 +1,18 @@
+# Phoenicia country history
+government = monarchy
+government_rank = 1
+mercantilism = 10
+technology_group = muslim
+religion = coptic
+primary_culture = phoenician
+capital = 321
+
+1444.11.11 = {
+    monarch = {
+        name = "Hanno"
+        dynasty = "Barqid"
+        adm = 3
+        dip = 4
+        mil = 3
+    }
+}

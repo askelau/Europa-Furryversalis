@@ -18497,3 +18497,178 @@ MCE_ideas = {
 		num_accepted_cultures = 2
 	}
 }
+
+PHO_ideas = {
+    start = {
+        trade_efficiency = 0.15
+        ship_durability = 0.10
+    }
+    bonus = {
+        global_trade_power = 0.20
+    }
+    trigger = {
+        tag = PHO
+    }
+    free = yes
+    PHO_heirs_of_carthage = {
+        merchants = 1
+    }
+    PHO_purple_trade = {
+        global_trade_goods_size_modifier = 0.10
+    }
+    PHO_mediterranean_colonies = {
+        range = 0.15
+    }
+    PHO_levantine_ports = {
+        development_cost = -0.10
+    }
+    PHO_merchant_fleets = {
+        naval_forcelimit_modifier = 0.20
+    }
+    PHO_cosmopolitan_cities = {
+        tolerance_heathen = 2
+    }
+    PHO_seafaring_traditions = {
+        recover_navy_morale_speed = 0.10
+    }
+}
+
+BNH_ideas = {
+    start = {
+        global_institution_spread = 0.10
+        global_missionary_strength = 0.01
+    }
+    bonus = {
+        technology_cost = -0.10
+    }
+    trigger = {
+        tag = BNH
+    }
+    free = yes
+    BNH_monastic_scholarship = {
+        technology_cost = -0.05
+    }
+    BNH_syriac_literature = {
+        global_institution_spread = 0.10
+    }
+    BNH_church_of_the_east = {
+        tolerance_own = 2
+    }
+    BNH_crossroads_of_nations = {
+        trade_efficiency = 0.10
+    }
+    BNH_mesopotamian_fortresses = {
+        defensiveness = 0.15
+    }
+    BNH_aramaic_administration = {
+        core_creation = -0.10
+    }
+    BNH_ancient_learning_centers = {
+        advisor_pool = 1
+    }
+}
+
+BAB_ideas = {
+    start = {
+        global_tax_modifier = 0.10
+        development_cost = -0.10
+    }
+    bonus = {
+        administrative_efficiency = 0.05
+    }
+    trigger = {
+        tag = BAB
+    }
+    free = yes
+    BAB_legacy_of_hammurabi = {
+        stability_cost_modifier = -0.10
+    }
+    BAB_canals_of_mesopotamia = {
+        global_trade_goods_size_modifier = 0.10
+    }
+    BAB_ancient_bureaucracy = {
+        core_creation = -0.10
+    }
+    BAB_astronomical_traditions = {
+        technology_cost = -0.05
+    }
+    BAB_fertile_crescent = {
+        production_efficiency = 0.15
+    }
+    BAB_imperial_capitals = {
+        prestige = 1
+    }
+    BAB_rebuilders_of_babylon = {
+        build_cost = -0.10
+    }
+}
+
+SDN_ideas = {
+    start = {
+        trade_efficiency = 0.10
+        global_ship_trade_power = 0.15
+    }
+    bonus = {
+        global_trade_power = 0.15
+    }
+    trigger = {
+        tag = SDN
+    }
+    free = yes
+    SDN_old_harbor = {
+        local_ship_repair = 0.15
+    }
+    SDN_purple_dyers = {
+        production_efficiency = 0.10
+    }
+    SDN_city_of_glass = {
+        global_trade_goods_size_modifier = 0.05
+    }
+    SDN_mercantile_council = {
+        merchants = 1
+    }
+    SDN_levantic_diplomacy = {
+        diplomatic_reputation = 1
+    }
+    SDN_coastal_walls = {
+        defensiveness = 0.10
+    }
+    SDN_cypriot_routes = {
+        trade_steering = 0.15
+    }
+}
+
+ASY_ideas = {
+    start = {
+        defensiveness = 0.10
+        tolerance_own = 1
+    }
+    bonus = {
+        infantry_power = 0.10
+    }
+    trigger = {
+        tag = ASY
+    }
+    free = yes
+    ASY_nineveh_memory = {
+        prestige = 1
+    }
+    ASY_mountain_churches = {
+        global_missionary_strength = 0.01
+    }
+    ASY_syrian_scriptoria = {
+        global_institution_spread = 0.10
+    }
+    ASY_upper_tigris_forts = {
+        fort_maintenance_modifier = -0.10
+    }
+    ASY_border_militias = {
+        manpower_recovery_speed = 0.10
+    }
+    ASY_merchant_diaspora = {
+        trade_efficiency = 0.10
+    }
+    ASY_restored_assur = {
+        legitimacy = 1
+    }
+}
