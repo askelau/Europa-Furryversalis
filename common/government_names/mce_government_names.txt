@@ -1,0 +1,49 @@
+alexandrian_empire_government = {
+	rank = {
+		1 = IMPERIUM_ALEXANDRI
+		2 = IMPERIUM_ALEXANDRI
+		3 = IMPERIUM_ALEXANDRI
+	}
+
+	ruler_male = {
+		1 = BASILEUS
+		2 = BASILEUS
+		3 = BASILEUS_TON_BASILEON
+	}
+
+	ruler_female = {
+		1 = BASILISSA
+		2 = BASILISSA
+		3 = BASILISSA_TON_BASILEON
+	}
+
+	consort_male = {
+		1 = BASILEUS_CONSORT
+		2 = BASILEUS_CONSORT
+		3 = BASILEUS_CONSORT
+	}
+
+	consort_female = {
+		1 = BASILISSA_CONSORT
+		2 = BASILISSA_CONSORT
+		3 = BASILISSA_CONSORT
+	}
+
+	heir_male = {
+		1 = DIADOCHOS
+		2 = DIADOCHOS
+		3 = DIADOCHOS
+	}
+
+	heir_female = {
+		1 = DIADOCHOS_FEM
+		2 = DIADOCHOS_FEM
+		3 = DIADOCHOS_FEM
+	}
+
+	government_reform = alexandrian_empire_reform
+
+	trigger = {
+		has_reform = alexandrian_empire_reform
+	}
+}

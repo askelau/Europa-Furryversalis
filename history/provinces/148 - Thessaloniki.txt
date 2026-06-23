@@ -1,8 +1,8 @@
 #148 - Macedonia
 
-owner = MCE
-controller = MCE
-add_core = MCE
+owner = MCD
+controller = MCD
+add_core = MCD
 culture = greek
 religion = orthodox
 capital = "Thessaloniki"

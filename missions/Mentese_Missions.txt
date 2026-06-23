@@ -9,7 +9,7 @@
 	has_country_shield = yes
 
 	men_gain_independence = {
-		icon = mission_independence
+		icon = mike_mission
 		required_missions = { }
 		position = 1
 		trigger = { is_subject = no }
@@ -131,7 +131,7 @@ mentese_western_missions = {
 	}
 
 	men_unite_greece = {
-		icon = mission_conquer_province
+		icon = mike_mission
 		required_missions = { men_cross_hellespont }
 		position = 4
 

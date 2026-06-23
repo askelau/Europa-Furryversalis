@@ -41,6 +41,8 @@
  mce_alexandrias_legacy_desc:0 "Alexandria became a beacon of knowledge and trade. Our greatest cities must follow its example."
  mce_wealth_of_the_east_title:0 "Wealth of the East"
  mce_wealth_of_the_east_desc:0 "The trade of Egypt, Mesopotamia, Persia, and India will fill our treasuries and enrich our cities."
+ mce_special_unit_title:0 "Improve the army"
+ mce_special_unit_desc:0 "To sustain our empire, we would need men of quality"
 
  mce_seleucid_legacy:0 "Seleucid Legacy"
  mce_seleucid_legacy_desc:0 "The eastern successor kingdom has been restored and reorganized under Macedonian rule."

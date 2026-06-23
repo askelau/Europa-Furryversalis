@@ -15,7 +15,7 @@
 	has_country_shield = yes
 
 	lgr_gain_independence = {
-		icon = mission_independence
+		icon = mike_mission
 		required_missions = { }
 		position = 1
 		trigger = { is_subject = no }
@@ -89,10 +89,7 @@
 
 	lgr_restore_empire = {
 		icon = mission_empire
-		required_missions = {
-			lgr_develop_greece
-			lgr_conquer_anatolia
-		}
+		required_missions = { lgr_conquer_anatolia }
 		position = 6
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -128,7 +125,7 @@ lesser_greek_western_missions = {
 	has_country_shield = yes
 
 	lgr_conquer_greece = {
-		icon = mission_conquer_province
+		icon = mike_mission
 		required_missions = { lgr_gain_independence }
 		position = 2
 		trigger = {
