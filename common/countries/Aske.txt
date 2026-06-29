@@ -1,0 +1,77 @@
+graphical_culture = westerngfx
+
+color = { 75  220  216 }
+
+revolutionary_colors = { 0 8 0 }
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
+}
+
+monarch_names = {
+	"Aske Andersen #0" = 20
+	"Aske Lund Madsen #0" = 20
+	"Aske Muhammed Nielsen #0" = 20
+	"Uchiha Sasuke #3" = 20
+	"Aske Guldborg #0" = 20
+	"Aske Thilemann #0" = 20
+	"Aske #0" = 20
+	"Aske Eriksen #0" = 20
+	"Aske The Magician #0" = 20
+	"AskeBassen #0" = 20
+	"Askemanden #0" = 20
+	"Aske Storpik #0" = 10
+	"Aske Lillepik #0" = 20
+	"Aske Mellempik #1" = 20
+	"Aske Gayson #0" = 20
+	"Aske Dick #0" = 20
+	"Fuck Dig #0" = 20
+	"Aske Sutsen #0" = 20
+	"Aske Selvsutter #0" = 20
+	"Aske Engeborg #0" = 20
+	"Aske Florin #0" = 20
+	"Aske Voldtængtsgaard #8" = 20
+}
+
+leader_names = { 
+	Aske Askepot Askefar Askemor Askestorpik "Aske Den Store" 
+	"Aske Med Den Lille" "Aske Klaske" "Aske Klunkefar"
+}
+
+ship_names = {
+	"Alghu Khan"
+	"Baraq Khan"
+	Chagatai
+	Orghina 
+	"Genghis Khan"
+	"Mubarak Shah"
+	"Yes�nto'a"
+	Qipchaq
+	"Jagatai Khan" "Amo Darya"
+	"Syr Darya" "�gedai Khan"
+	G�y�k "M�ngke Khan" "Qubilai Khan"
+	Duwa "Qazan Khan" "Tughlugh Timur"
+	Irtysh "Amir Husayn" "Timur i Leng"
+	Samarqand
+}
