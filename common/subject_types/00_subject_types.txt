@@ -1316,8 +1316,9 @@ hereditary_pronoia_subject_type = {
 
 	takes_diplo_slot = no
 	can_be_annexed = yes
-	can_be_integrated = no
+	has_overlords_ruler = no
 	disable_inheritance = yes
+	can_union_break = no
 
 	# Pronoias do not count combined subject strength against overlord
 	relative_power_class = 0
@@ -1392,7 +1393,7 @@ hereditary_pronoia_subject_type = {
 	}
 }
 
-pronoia_subject_type = { #can be inherited
+pronoia_subject_type = { 
 
 	# Graphics:
 	sprite = GFX_icon_pronoia_subject_type
@@ -1401,7 +1402,6 @@ pronoia_subject_type = { #can be inherited
 
 	copy_from = hereditary_pronoia_subject_type
 	count = hereditary_pronoia_subject_type
-	disable_inheritance = yes # Use this for Personal Union types of subjects to disallow the inheriting mechanic
 	base_liberty_desire = 50.0
 }
 

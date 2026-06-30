@@ -55,3 +55,45 @@ dependency = {
 	second = NAX
 	start_date = 1444.1.1
 }
+
+alliance = {
+	first = EPI
+	second = MCD
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = ATH
+	second = NAX
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = ATH
+	second = MOE
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = ATH
+	second = ACH
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = NAX
+	second = MOE
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = ACH
+	second = MOE
+	start_date = 1431.1.25
+}
+
+alliance = {
+	first = NAX
+	second = ACH
+	start_date = 1431.1.25
+}

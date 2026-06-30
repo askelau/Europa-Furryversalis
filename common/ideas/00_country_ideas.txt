@@ -18467,7 +18467,7 @@ MCE_ideas = {
 		administrative_efficiency = 0.05
 	}
 	bonus = {
-		discipline = 0.05
+		army_tradition = 1
 	}
 	trigger = {
 		tag = MCE
