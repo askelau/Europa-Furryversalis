@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = western
+technology_group = muslim
 primary_culture = danish
 religion = christian
 capital = 2120 #Ili
