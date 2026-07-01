@@ -1,4 +1,4 @@
-#Wakanda
+﻿#Wakanda
 
 graphical_culture = westerngfx	 
 

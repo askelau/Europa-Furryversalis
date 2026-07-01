@@ -1,4 +1,4 @@
-alexandrian_empire_reform = {
+﻿alexandrian_empire_reform = {
 	icon = "roman_empire"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes

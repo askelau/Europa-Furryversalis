@@ -1,4 +1,4 @@
-wakandareligions_group = {
+﻿wakandareligions_group = {
         flags_with_emblem_percentage = 10
         flag_emblem_index_range = { 83 96 }
     

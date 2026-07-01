@@ -1,4 +1,4 @@
-alexandrian_empire_government = {
+﻿alexandrian_empire_government = {
 	rank = {
 		1 = IMPERIUM_ALEXANDRI
 		2 = IMPERIUM_ALEXANDRI

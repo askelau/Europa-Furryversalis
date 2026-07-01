@@ -1,4 +1,4 @@
-namespace = greek_restoration
+﻿namespace = greek_restoration
 
 country_event = {
 	id = greek_restoration.1

@@ -1,4 +1,4 @@
-EMP_crusader_1 = {
+﻿EMP_crusader_1 = {
 	slot = 1
 	generic = no
 	ai = yes

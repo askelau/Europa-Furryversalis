@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+﻿graphical_culture = westerngfx
 color = { 210 170 60 }
 
 # Optional monarch/leader names can be added here later.
