@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = muslim
+technology_group = nomad_group
 primary_culture = danish
-religion = christian
+religion = catholic
 capital = 2120 #Ili
 
 1444.1.1 = {
