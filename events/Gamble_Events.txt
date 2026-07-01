@@ -1,0 +1,97 @@
+namespace = Gamble_Events
+
+country_event = {
+    #Startscreen event popup explaining the gambling mechanic
+    id = InitialGamblingPopup.1
+    title = InitialGamblingPopup.1.t
+    desc = InitialGamblingPopup.1.d
+    picture = EP_MOAIS_eventPicture
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = InitialGamblingPopup.1.a
+
+        country_event = {
+            id = initiateGambling.2
+            days = 30
+        }
+    }
+}
+
+country_event = {
+    id = InitiateGambling.2
+    title = InitiateGambling.2.t
+    desc = InitiateGambling.2.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+    hidden = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+    }
+
+    option{
+        name = InitiateGambling.2.a
+        #Will be a list of all gambling events.
+        random_list = {
+            50 = {
+               country_event = {
+                    id = GambleDucats.3
+               } 
+            }
+            50 = {
+               country_event = {
+                    id = GambleDucats.3
+               } 
+            }
+        }
+        country_event = {
+            id = initiateGambling.2
+            days = 30
+        }
+    }
+}
+
+country_event = {
+    id = GambleDucats.3
+    title = GambleDucats.3.t
+    desc = GambleDucats.3.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleDucats.3.a
+        random_list = {
+            50 = {
+                add_treasury = 1000
+            }
+            50 = {
+                add_treasury = -1000
+            }
+        }
+    }
+    
+    option{
+        name = GambleDucats.3.b
+    }
+}

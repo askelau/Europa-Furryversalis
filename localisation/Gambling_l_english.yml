@@ -1,0 +1,14 @@
+﻿l_english:
+
+InitialGamblingPopup.1.t: "The gambling mechanic"
+InitialGamblingPopup.1.d: "The game now contains a new gambling event that will happen every 20 years for all players. Players will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as you never know what you might lose. "
+InitialGamblingPopup.1.a: "Understood!"
+
+InitiateGambling.2.t: "A huge gamble"
+InitiateGambling.2.d: "A gamble is being initiated, choosing random resource..."
+InitiateGambling.2.a: "Understood."
+
+GambleDucats.3.t: "A Ducat Gamble"
+GambleDucats.3.d: "A gambler has come to your court, offering you a chance to gain ducats or lose them. Do you take the risk or are you gay?"
+GambleDucats.3.a: "Yes, I will take the risk."
+GambleDucats.3.b: "No, I will not take the risk."
