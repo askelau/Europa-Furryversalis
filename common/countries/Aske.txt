@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+﻿graphical_culture = westerngfx
 
 color = { 161  100  40 }
 
@@ -66,11 +66,11 @@ ship_names = {
 	Orghina 
 	"Genghis Khan"
 	"Mubarak Shah"
-	"Yes�nto'a"
+	"Yesünto'a"
 	Qipchaq
 	"Jagatai Khan" "Amo Darya"
-	"Syr Darya" "�gedai Khan"
-	G�y�k "M�ngke Khan" "Qubilai Khan"
+	"Syr Darya" "Ögedai Khan"
+	Güyük "Möngke Khan" "Qubilai Khan"
 	Duwa "Qazan Khan" "Tughlugh Timur"
 	Irtysh "Amir Husayn" "Timur i Leng"
 	Samarqand
