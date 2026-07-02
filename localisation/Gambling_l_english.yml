@@ -9,6 +9,41 @@ InitiateGambling.2.d: "A gamble is being initiated, choosing random resource..."
 InitiateGambling.2.a: "Understood."
 
 GambleDucats.3.t: "A Ducat Gamble"
-GambleDucats.3.d: "A gambler has come to your court, offering you a chance to gain ducats or lose them. Do you take the risk or are you gay?"
+GambleDucats.3.d: "A gambler has come to your court, offering you a chance to gain or lose Ducats. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
 GambleDucats.3.a: "Yes, I will take the risk."
 GambleDucats.3.b: "No, I will not take the risk."
+
+GambleStability.4.t: "A Stability Gamble"
+GambleStability.4.d: "A gambler has come to your court, offering you a chance to gain or lose Stability. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GambleStability.4.a: "Yes, I will take the risk." 
+GambleStability.4.b: "No, I will not take the risk."
+
+GambleAdministrativePower.5.t: "An Administrative Power Gamble"
+GambleAdministrativePower.5.d: "A gambler has come to your court, offering you a chance to gain or lose Administrative Power. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GambleAdministrativePower.5.a: "Yes, I will take the risk."  
+GambleAdministrativePower.5.b: "No, I will not take the risk."
+
+GambleDiplomaticPower.6.t: "A Diplomatic Power Gamble"
+GambleDiplomaticPower.6.d: "A gambler has come to your court, offering you a chance to gain or lose Diplomatic Power. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GambleDiplomaticPower.6.a: "Yes, I will take the risk."
+GambleDiplomaticPower.6.b: "No, I will not take the risk."
+
+GambleMilitaryPower.7.t: "A Military Power Gamble"
+GambleMilitaryPower.7.d: "A gambler has come to your court, offering you a chance to gain or lose Military Power. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GambleMilitaryPower.7.a: "Yes, I will take the risk." 
+GambleMilitaryPower.7.b: "No, I will not take the risk."
+
+GambleManpower.8.t: "A Manpower Gamble"
+GambleManpower.8.d: "A gambler has come to your court, offering you a chance to gain or lose Manpower. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GambleManpower.8.a: "Yes, I will take the risk."
+GambleManpower.8.b: "No, I will not take the risk."
+
+GamblePrestige.9.t: "A Prestige Gamble"
+GamblePrestige.9.d: "A gambler has come to your court, offering you a chance to gain or lose Prestige. Do you take the risk or are you §Rgay§ (§Rstraight§ if Thorbjørn)?"
+GamblePrestige.9.a: "Yes, I will take the risk."
+GamblePrestige.9.b: "No, I will not take the risk."
+
+GambleRuler.10.t: "A Ruler Gamble"
+GambleRuler.10.d: "A gambler has come to your court, offering you a chance to gain or lose Ruler Worth. Do you take the risk or are you §Rgay§  (§Rstraight § if Thorbjørn)?"
+GambleRuler.10.a: "Yes, I will take the risk."   
+GambleRuler.10.b: "No, I will not take the risk."

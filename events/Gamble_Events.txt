@@ -1,5 +1,6 @@
 namespace = Gamble_Events
 
+#_____________________________________Gamble Start Popup_____________________________________
 country_event = {
     #Startscreen event popup explaining the gambling mechanic
     id = InitialGamblingPopup.1
@@ -27,6 +28,7 @@ country_event = {
     }
 }
 
+#_____________________________________Gamble Initiator_____________________________________
 country_event = {
     id = InitiateGambling.2
     title = InitiateGambling.2.t
@@ -46,14 +48,44 @@ country_event = {
         name = InitiateGambling.2.a
         #Will be a list of all gambling events.
         random_list = {
-            50 = {
+            25 = {
                country_event = {
                     id = GambleDucats.3
                } 
             }
-            50 = {
+            15 = {
                country_event = {
-                    id = GambleDucats.3
+                    id = GambleAdministrativePower.5
+               } 
+            }
+            15 = {
+               country_event = {
+                    id = GambleDiplomaticPower.6
+               } 
+            }
+            15 = {
+               country_event = {
+                    id = GambleMilitaryPower.7
+               } 
+            }
+            8 = {
+               country_event = {
+                    id = GambleStability.4
+               } 
+            }
+            8 = {
+               country_event = {
+                    id = GamblePrestige.9
+               } 
+            }
+            100 = {
+               country_event = {
+                    id = GambleRuler.10
+               } 
+            }
+            6 = {
+               country_event = {
+                    id = GambleManpower.8
                } 
             }
         }
@@ -64,6 +96,7 @@ country_event = {
     }
 }
 
+#_____________________________________Gamble Ducats_____________________________________
 country_event = {
     id = GambleDucats.3
     title = GambleDucats.3.t
@@ -82,16 +115,384 @@ country_event = {
     option{
         name = GambleDucats.3.a
         random_list = {
-            50 = {
-                add_treasury = 1000
+            30 = {
+                add_years_of_income = 0.5
             }
-            50 = {
-                add_treasury = -1000
+            30 = {
+                add_years_of_income = -0.5
+            }
+            12 = {
+                add_years_of_income = 2
+            }
+            12 = {
+                add_years_of_income = -2
+            }
+            6 = {
+                add_years_of_income = 5
+            }
+            6 = {
+                add_years_of_income = -5
+            }
+            2 = {
+                add_years_of_income = 10
+            }
+            2 = {
+                add_years_of_income = -10
             }
         }
     }
     
     option{
         name = GambleDucats.3.b
+    }
+}
+
+#_____________________________________Gamble Stability_____________________________________
+country_event = {
+    id = GambleStability.4
+    title = GambleStability.4.t
+    desc = GambleStability.4.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleStability.4.a
+        random_list = {
+            30 = {
+                add_stability = 1
+            }
+            30 = {
+                add_stability = -1
+            }
+            15 = {
+                add_stability = 2
+            }
+            15 = {
+                add_stability = -2
+            }
+            5 = {
+                add_stability = 3
+            }
+            5 = {
+                add_stability = -3
+            }
+
+        }
+    }
+    
+    option{
+        name = GambleStability.4.b
+    }
+}
+
+#_____________________________________Gamble Administrative power_____________________________________
+country_event = {
+    id = GambleAdministrativePower.5
+    title = GambleAdministrativePower.5.t
+    desc = GambleAdministrativePower.5.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleAdministrativePower.5.a
+        random_list = {
+            30 = {
+                add_adm_power = 50
+            }
+            30 = {
+                add_adm_power = -50
+            }
+            12 = {
+                add_adm_power = 120
+            }
+            12 = {
+                add_adm_power = -120
+            }
+            6 = {
+                add_adm_power = 350
+            }
+            6 = {
+                add_adm_power = -350
+            }
+            2 = {
+                add_adm_power = 700
+            }
+            2 = {
+                add_adm_power = -700
+            }
+        }
+    }
+    
+    option{
+        name = GambleAdministrativePower.5.b
+    }
+}
+
+#_____________________________________Gamble Diplomatic power_____________________________________
+country_event = {
+    id = GambleDiplomaticPower.6
+    title = GambleDiplomaticPower.6.t
+    desc = GambleDiplomaticPower.6.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleDiplomaticPower.6.a
+        random_list = {
+            30 = {
+                add_dip_power = 50
+            }
+            30 = {
+                add_dip_power = -50
+            }
+            12 = {
+                add_dip_power = 120
+            }
+            12 = {
+                add_dip_power = -120
+            }
+            6 = {
+                add_dip_power = 350
+            }
+            6 = {
+                add_dip_power = -350
+            }
+            2 = {
+                add_dip_power = 700
+            }
+            2 = {
+                add_dip_power = -700
+            }
+        }
+    }
+    
+    option{
+        name = GambleDiplomaticPower.6.b
+    }
+}
+
+#_____________________________________Gamble Military power_____________________________________
+country_event = {
+    id = GambleMilitaryPower.7
+    title = GambleMilitaryPower.7.t
+    desc = GambleMilitaryPower.7.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleMilitaryPower.7.a
+        random_list = {
+            30 = {
+                add_mil_power = 50
+            }
+            30 = {
+                add_mil_power = -50
+            }
+            12 = {
+                add_mil_power = 120
+            }
+            12 = {
+                add_mil_power = -120
+            }
+            6 = {
+                add_mil_power = 350
+            }
+            6 = {
+                add_mil_power = -350
+            }
+            2 = {
+                add_mil_power = 700
+            }
+            2 = {
+                add_mil_power = -700
+            }
+        }
+    }
+    
+    option{
+        name = GambleMilitaryPower.7.b
+    }
+}
+
+#_____________________________________Gamble Manpower_____________________________________
+country_event = {
+    id = GambleManpower.8
+    title = GambleManpower.8.t
+    desc = GambleManpower.8.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleManpower.8.a
+        random_list = {
+            30 = {
+                add_yearly_manpower = 0.5
+            }
+            30 = {
+                add_yearly_manpower = -0.5
+            }
+            12 = {
+                add_yearly_manpower = 2
+            }
+            12 = {
+                add_yearly_manpower = -2
+            }
+            6 = {
+                add_yearly_manpower = 5
+            }
+            6 = {
+                add_yearly_manpower = -5
+            }
+            2 = {
+                add_yearly_manpower = 10
+            }
+            2 = {
+                add_yearly_manpower = -10
+            }
+        }
+    }
+    
+    option{
+        name = GambleManpower.8.b
+    }
+}
+
+#_____________________________________Gamble Prestige_____________________________________
+country_event = {
+    id = GamblePrestige.9
+    title = GamblePrestige.9.t
+    desc = GamblePrestige.9.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GamblePrestige.9.a
+        random_list = {
+            30 = {
+                add_prestige = 15
+            }
+            30 = {
+                add_prestige = -15
+            }
+            12 = {
+                add_prestige = 30
+            }
+            12 = {
+                add_prestige = -30
+            }
+            6 = {
+                add_prestige = 55
+            }
+            6 = {
+                add_prestige = -55
+            }
+            2 = {
+                add_prestige = 100
+            }
+            2 = {
+                add_prestige = -100
+            }
+        }
+    }
+    
+    option{
+        name = GamblePrestige.9.b
+    }
+}
+
+#_____________________________________Gamble Ruler_____________________________________
+country_event = {
+    id = GambleRuler.10
+    title = GambleRuler.10.t
+    desc = GambleRuler.10.d
+    picture = indiangfx_ECONOMY_eventPicture
+    is_triggered_only = yes
+
+    trigger{
+        tag = ASE
+        #tag = SEB
+        #tag = ALX
+        #tag = THO
+        AI = no
+    }
+
+    option{
+        name = GambleRuler.10.a
+        random_list = {
+            50 = {
+                immediate{
+                    define_ruler = {
+                        name = "Mana Lord"
+                        adm = 6
+                        dip = 6
+                        mil = 6
+                        age = 25
+                }
+            }
+            }
+            50 = {
+                immediate{
+                    define_ruler = {
+                        name = "Dogshit Von Schnitzelstein"
+                        adm = 0
+                        dip = 0
+                        mil = 0
+                        age = 25
+                }
+            }
+        }
+    }
+    
+    option{
+        name = GambleRuler.10.b
+        }
     }
 }
