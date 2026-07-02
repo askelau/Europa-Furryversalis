@@ -1,0 +1,110 @@
+country_decisions = {
+	seize_great_project = {
+		major = yes
+
+		potential = {
+			always = yes
+		}
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				NOT = { owned_by = ROOT }
+				OR = { 
+                    # Tilføj monument
+                    has_great_project = { type = lighthouse_of_alexandria}
+                    has_great_project = { type = stonehenge}
+                }
+			}
+            treasury = 200
+		}
+
+		effect = {
+            # kopier if statement og ændrer lighthouse_of_alexandria til valgte monument // Husk localisation til custom_tooltip
+            if = {
+                limit = {
+                    any_province = {
+                        controlled_by = ROOT
+                        NOT = { owned_by = ROOT }
+                        has_great_project = { type = lighthouse_of_alexandria }
+                    }
+                }
+
+                custom_tooltip = seize_lighthouse_of_alexandria_tt
+                custom_tooltip = seize_great_project_ae_tt
+                add_treasury = -200 
+
+                hidden_effect = {
+                    every_country = {
+                        add_aggressive_expansion = {
+                            who = ROOT 
+                            value = 15
+                            apply_calc = no 
+                        }
+                    }
+                    every_province = {
+                        limit = {
+                            controlled_by = ROOT
+                            NOT = { owned_by = ROOT }
+                            has_great_project = { type = lighthouse_of_alexandria }
+                        }
+                        save_event_target_as = efv_gp_source_lighthouse
+                    }
+
+                    capital_scope = {
+                        move_great_project = {
+                            type = lighthouse_of_alexandria
+                            from = event_target:efv_gp_source_lighthouse
+                            instant = yes
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    any_province = {
+                        controlled_by = ROOT
+                        NOT = { owned_by = ROOT }
+                        has_great_project = { type = stonehenge }
+                    }
+                }
+
+                custom_tooltip = seize_stonehenge_tt
+                custom_tooltip = seize_great_project_ae_tt
+                add_treasury = -200
+
+                hidden_effect = {
+                    every_country = {
+                        add_aggressive_expansion = {
+                            who = ROOT 
+                            value = 15
+                            apply_calc = no 
+                        }
+                    }
+                    every_province = {
+                        limit = {
+                            controlled_by = ROOT
+                            NOT = { owned_by = ROOT }
+                            has_great_project = { type = stonehenge }
+                        }
+                        save_event_target_as = efv_gp_source_stonehenge
+                    }
+
+                    capital_scope = {
+                        move_great_project = {
+                            type = stonehenge
+                            from = event_target:efv_gp_source_stonehenge
+                            instant = yes
+                        }
+                    }
+                }
+            }
+   
+        }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

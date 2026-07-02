@@ -1,2 +1,10 @@
 ﻿l_english:
  lighthouse_of_alexandria:0 "Lighthouse of Alexandria"
+
+l_english:
+ seize_great_project_title:0 "Seize Great Project"
+ seize_great_project_desc:0 "We occupy a province containing a movable Great Project. We can move it to our capital."
+ seize_great_project_ae_tt:0 "Other countries will gain §R15§! Aggressive Expansion opinion against us."
+ seize_lighthouse_of_alexandria_tt:0 "The Lighthouse of Alexandria will be moved to our capital."
+ seize_stonehenge_tt:0 "Stonehenge will be moved to our capital."
+ 
