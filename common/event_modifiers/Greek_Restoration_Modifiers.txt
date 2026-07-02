@@ -1,4 +1,4 @@
-﻿greek_thracian_reconquest = {
+greek_thracian_reconquest = {
 	ae_impact = -0.10
 	core_creation = -0.20
 }

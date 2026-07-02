@@ -1,4 +1,4 @@
-﻿#407 - Ar-Raqqah
+#407 - Ar-Raqqah
 owner = BNH
 controller = BNH
 culture = aramaic

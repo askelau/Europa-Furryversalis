@@ -1,4 +1,4 @@
-﻿#1849 - Hama
+#1849 - Hama
 owner = BNH
 controller = BNH
 culture = aramaic

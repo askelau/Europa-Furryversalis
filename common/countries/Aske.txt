@@ -1,4 +1,4 @@
-﻿graphical_culture = westerngfx
+graphical_culture = westerngfx
 
 color = { 161  100  40 }
 
@@ -51,7 +51,7 @@ monarch_names = {
 	"Aske Selvsutter #0" = 20
 	"Aske Engeborg #0" = 20
 	"Aske Florin #0" = 20
-	"Aske Voldtængtsgaard #8" = 20
+	"Aske Voldt?ngtsgaard #8" = 20
 }
 
 leader_names = { 
@@ -66,11 +66,11 @@ ship_names = {
 	Orghina 
 	"Genghis Khan"
 	"Mubarak Shah"
-	"Yesünto'a"
+	"Yes?nto'a"
 	Qipchaq
 	"Jagatai Khan" "Amo Darya"
-	"Syr Darya" "Ögedai Khan"
-	Güyük "Möngke Khan" "Qubilai Khan"
+	"Syr Darya" "?gedai Khan"
+	G?y?k "M?ngke Khan" "Qubilai Khan"
 	Duwa "Qazan Khan" "Tughlugh Timur"
 	Irtysh "Amir Husayn" "Timur i Leng"
 	Samarqand

@@ -1,4 +1,4 @@
-﻿# - Cezair i-Arab -> al-Qurna, Zihiya, Rahmaniya
+# - Cezair i-Arab -> al-Qurna, Zihiya, Rahmaniya
 owner = BAB
 controller = BAB
 culture = babylonian

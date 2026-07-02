@@ -558,7 +558,7 @@ annexationaction = {
 		}
 	}
 	
-	## condition før effect
+	## condition f?r effect
 	effect = {
 		if = {
 			limit = {

@@ -1,4 +1,4 @@
-﻿#4398 - Ayntab
+#4398 - Ayntab
 owner = ARM
 controller = ARM
 culture = aramaic

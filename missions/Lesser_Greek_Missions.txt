@@ -1,4 +1,4 @@
-﻿lesser_greek_center_missions = {
+lesser_greek_center_missions = {
 	slot = 2
 	generic = no
 	ai = yes

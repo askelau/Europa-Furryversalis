@@ -1,4 +1,4 @@
-﻿#4397 - Homs
+#4397 - Homs
 owner = BNH
 controller = BNH
 culture = aramaic

@@ -1,4 +1,4 @@
-﻿#1855 - Sidon
+#1855 - Sidon
 owner = SDN
 controller = SDN
 culture = phoenician

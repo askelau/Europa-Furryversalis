@@ -1,4 +1,4 @@
-﻿mentese_center_missions = {
+mentese_center_missions = {
 	slot = 2
 	generic = no
 	ai = yes

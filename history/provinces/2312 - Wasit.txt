@@ -1,4 +1,4 @@
-﻿#2312 - Wasit
+#2312 - Wasit
 owner = BAB
 controller = BAB
 culture = babylonian

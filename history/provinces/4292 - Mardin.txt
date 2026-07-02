@@ -1,4 +1,4 @@
-﻿#4392 - Mardin
+#4392 - Mardin
 owner = BNH
 controller = BNH
 culture = aramaic

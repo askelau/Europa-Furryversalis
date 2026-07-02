@@ -1,4 +1,4 @@
-﻿#378 - Tripoli
+#378 - Tripoli
 owner = PHO
 controller = PHO
 culture = phoenician

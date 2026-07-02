@@ -1,4 +1,4 @@
-#2302 - Içel
+#2302 - I?el
 
 owner = PHY
 controller = PHY

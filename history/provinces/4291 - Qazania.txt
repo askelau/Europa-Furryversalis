@@ -1,4 +1,4 @@
-﻿#4391 - Qazaniya
+#4391 - Qazaniya
 owner = BAB
 controller = BAB
 culture = babylonian

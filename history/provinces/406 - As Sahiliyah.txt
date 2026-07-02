@@ -1,4 +1,4 @@
-﻿#406 - As Sahiliyah
+#406 - As Sahiliyah
 owner = BAB
 controller = BAB
 culture = babylonian

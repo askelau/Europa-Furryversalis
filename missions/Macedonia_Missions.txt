@@ -1,4 +1,4 @@
-﻿macedonia_center_missions = {
+macedonia_center_missions = {
 	slot = 2
 	generic = no
 	ai = yes

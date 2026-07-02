@@ -1,11 +1,11 @@
-#322 - Küthaya
+#322 - K?thaya
 
 owner = PHY
 controller = PHY
 culture = greek
 religion = orthodox
 add_core = PHY
-capital = "Kütahya"
+capital = "K?tahya"
 trade_goods = cloth
 hre = no
 base_tax = 3

@@ -1,4 +1,4 @@
-﻿#321 - Cyprus
+#321 - Cyprus
 owner = PHO
 controller = PHO
 culture = phoenician

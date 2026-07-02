@@ -1,4 +1,4 @@
-﻿#2309 - Sinjar
+#2309 - Sinjar
 owner = BNH
 controller = BNH
 culture = aramaic

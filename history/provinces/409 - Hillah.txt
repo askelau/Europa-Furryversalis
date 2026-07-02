@@ -1,4 +1,4 @@
-﻿#409 - Karbala
+#409 - Karbala
 owner = BAB
 controller = BAB
 culture = babylonian
