@@ -1,4 +1,4 @@
-ï»¿# INSTRUCTIONS:
+# INSTRUCTIONS:
 #
 # condition				A diplomatic action can have any number of condition blocks, each with its own
 #						tooltip, potential and allow section
@@ -558,7 +558,7 @@ annexationaction = {
 		}
 	}
 	
-	## condition fï¿½r effect
+	## condition før effect
 	effect = {
 		if = {
 			limit = {

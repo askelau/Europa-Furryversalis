@@ -1,4 +1,4 @@
-﻿
+
 dependency = {
 	subject_type = pronoia_subject_type
 	first = BYZ

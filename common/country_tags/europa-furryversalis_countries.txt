@@ -1,4 +1,4 @@
-﻿WAK = "countries/Wakanda.txt"
+WAK = "countries/Wakanda.txt"
 PHY = "countries/Phrygia.txt"
 MCD = "countries/Macedonia.txt"
 MCE = "countries/MacedonianEmpire.txt"

@@ -1,4 +1,4 @@
-﻿namespace = Gamble_Events
+namespace = Gamble_Events
 
 country_event = {
     #Startscreen event popup explaining the gambling mechanic

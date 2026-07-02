@@ -2,7 +2,7 @@ song = {
     name = "Rihanna - Work"
     chance = {
         modifier = { 
-            factor = 1.5
+            factor = 3
         }
     }
 }

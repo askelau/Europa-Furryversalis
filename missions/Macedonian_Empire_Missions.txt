@@ -1,4 +1,4 @@
-﻿mce_successor_kingdoms = {
+mce_successor_kingdoms = {
 	slot = 1
 	generic = no
 	ai = yes

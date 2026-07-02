@@ -1,4 +1,4 @@
-﻿#Albania guaranteed by Venice
+#Albania guaranteed by Venice
 guarantee = {
 	first = VEN
 	second = ALB

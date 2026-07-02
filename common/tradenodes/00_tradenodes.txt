@@ -1,4 +1,4 @@
-﻿african_great_lakes={
+african_great_lakes={
 	location=4064
 	color={
 		57 168 220 

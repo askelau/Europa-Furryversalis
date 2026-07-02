@@ -1,4 +1,4 @@
-﻿# Mesopotamian / Levantine Christian subject setup
+# Mesopotamian / Levantine Christian subject setup
 # Put this in /history/diplomacy/Mesopotamian_alliances.txt
 
 # Sidon is a Phoenician coastal client under Phoenicia.

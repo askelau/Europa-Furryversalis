@@ -1,4 +1,4 @@
-﻿government = monarchy
+government = monarchy
 add_government_reform = empire_of_trebizond
 primary_culture = pontic_greek
 add_accepted_culture = greek

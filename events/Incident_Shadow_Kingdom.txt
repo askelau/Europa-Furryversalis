@@ -1,4 +1,4 @@
-﻿namespace = shadow_kingdom
+namespace = shadow_kingdom
 
 country_event = {
 	id = shadow_kingdom.1
