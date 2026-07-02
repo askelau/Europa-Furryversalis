@@ -1,6 +1,5 @@
 country_decisions = {
 	seize_great_project = {
-		major = yes
 
 		potential = {
 			always = yes
