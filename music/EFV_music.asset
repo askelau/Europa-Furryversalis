@@ -7,3 +7,8 @@ music = {
     name = "Glorious Morning"
     file = "Glorious Morning.ogg"
 }
+
+music = {
+    name = "Naruto"
+    file = "Naruto.ogg"
+}
