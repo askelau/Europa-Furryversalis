@@ -1,7 +1,7 @@
 mce_antigonid_legacy = { prestige = 1 legitimacy = 1 devotion = 1 republican_tradition = 0.3 horde_unity = 1 }
 mce_ptolemaic_legacy = { global_trade_power = 0.10 naval_forcelimit_modifier = 0.15 }
 mce_seleucid_legacy = { governing_capacity_modifier = 0.10 }
-mce_united_diadochi = { global_unrest = -2 yearly_legitimacy = 1 }
+mce_united_diadochi = { global_unrest = -2 legitimacy = 1 }
 mce_euphrates_crossing = { land_morale = 0.10 }
 mce_babylon_restored = { global_tax_modifier = 0.10 }
 mce_persepolis_avenged = { discipline = 0.05 }

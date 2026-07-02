@@ -480,7 +480,8 @@ mce_hellenization = {
 		}
 		effect = {
 			add_country_modifier = { name = mce_fusion_of_cultures duration = -1 }
-		}add_army_tradition = 5
+			add_army_tradition = 5
+		}	
 	}
 
 
