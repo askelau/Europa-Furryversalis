@@ -78,7 +78,7 @@ country_event = {
                     id = GamblePrestige.9
                } 
             }
-            100 = {
+            8 = {
                country_event = {
                     id = GambleRuler.10
                } 
@@ -466,26 +466,28 @@ country_event = {
 
     option{
         name = GambleRuler.10.a
+        kill_ruler = yes
+        hidden_effect = {
+            add_stability = 1
+        }
         random_list = {
             50 = {
-                immediate{
-                    define_ruler = {
-                        name = "Mana Lord"
-                        adm = 6
-                        dip = 6
-                        mil = 6
-                        age = 25
-                }
+                define_ruler = {
+                    name = "Mana Lord"
+                    adm = 6
+                    dip = 6
+                    mil = 6
+                    age = 25
             }
+
             }
             50 = {
-                immediate{
-                    define_ruler = {
-                        name = "Dogshit Von Schnitzelstein"
-                        adm = 0
-                        dip = 0
-                        mil = 0
-                        age = 25
+                define_ruler = {
+                    name = "Dogshit Von Schnitzelstein"
+                    adm = 0
+                    dip = 0
+                    mil = 0
+                    age = 25
                 }
             }
         }
@@ -493,6 +495,5 @@ country_event = {
     
     option{
         name = GambleRuler.10.b
-        }
     }
 }
