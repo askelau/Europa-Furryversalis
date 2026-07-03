@@ -1,0 +1,36 @@
+MCE_ideas = {
+	start = {
+		discipline = 0.05
+		administrative_efficiency = 0.05
+	}
+	bonus = {
+		army_tradition = 1
+	}
+	trigger = {
+		tag = MCE
+	}
+	free = yes
+
+	mce_alexanders_dream = {
+		core_creation = -0.20
+	}
+	mce_imperial_bureaucracy = {
+		governing_capacity_modifier = 0.20
+	}
+	mce_royal_companions = {
+		cavalry_power = 0.20
+	}
+	mce_phalanx_reforms = {
+		infantry_power = 0.15
+	}
+	mce_new_alexandrias = {
+		development_cost = -0.10
+	}
+	mce_crossroads_of_the_world = {
+		global_trade_power = 0.15
+		trade_efficiency = 0.10
+	}
+	mce_universal_empire = {
+		num_accepted_cultures = 2
+	}
+}

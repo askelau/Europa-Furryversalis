@@ -19,7 +19,8 @@ country_decisions = {
 		}
 
 		effect = {
-            # kopier if statement og ændrer lighthouse_of_alexandria til valgte monument // Husk localisation til custom_tooltip
+            # kopier if statement ind i effect = {} og ændrer lighthouse_of_alexandria til valgte monument // Husk localisation til custom_tooltip
+            #_____________________________________________________________________________________________________________________________________
             if = {
                 limit = {
                     any_province = {
@@ -59,6 +60,7 @@ country_decisions = {
                     }
                 }
             }
+            #_____________________________________________________________________________________________________________________________________
 
             if = {
                 limit = {
