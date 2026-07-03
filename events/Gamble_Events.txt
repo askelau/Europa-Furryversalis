@@ -152,7 +152,7 @@ country_event = {
     id = GambleStability.4
     title = GambleStability.4.t
     desc = GambleStability.4.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = ECONOMY_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -198,7 +198,7 @@ country_event = {
     id = GambleAdministrativePower.5
     title = GambleAdministrativePower.5.t
     desc = GambleAdministrativePower.5.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = PRINTING_PRESS_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -249,7 +249,7 @@ country_event = {
     id = GambleDiplomaticPower.6
     title = GambleDiplomaticPower.6.t
     desc = GambleDiplomaticPower.6.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = DIPLOMACY_SIGNING_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -300,7 +300,7 @@ country_event = {
     id = GambleMilitaryPower.7
     title = GambleMilitaryPower.7.t
     desc = GambleMilitaryPower.7.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = muslimgfx_LAND_MILITARY_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -351,7 +351,7 @@ country_event = {
     id = GambleManpower.8
     title = GambleManpower.8.t
     desc = GambleManpower.8.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = HORDE_ON_HORSEBACK_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -402,7 +402,7 @@ country_event = {
     id = GamblePrestige.9
     title = GamblePrestige.9.t
     desc = GamblePrestige.9.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = AFRICAN_CHIEFTAIN_eventPicture
     is_triggered_only = yes
 
     trigger{
@@ -453,7 +453,7 @@ country_event = {
     id = GambleRuler.10
     title = GambleRuler.10.t
     desc = GambleRuler.10.d
-    picture = indiangfx_ECONOMY_eventPicture
+    picture = KING_ASSASSINATION_eventPicture
     is_triggered_only = yes
 
     trigger{
