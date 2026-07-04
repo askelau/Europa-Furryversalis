@@ -1,0 +1,4 @@
+build_stan_army = {
+	land_morale = 0.07
+	land_maintenance_modifier = -0.1
+}
