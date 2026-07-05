@@ -1,7 +1,7 @@
 ﻿l_english:
 
-InitialGamblingPopup.1.t: "The gambling mechanic"
-InitialGamblingPopup.1.d: "The game now contains a new gambling event that will happen every 20 years for all players. Players will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as you never know what you might lose. "
+InitialGamblingPopup.1.t: "Gambling"
+InitialGamblingPopup.1.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
 InitialGamblingPopup.1.a: "Understood!"
 
 InitiateGambling.2.t: "A huge gamble"
