@@ -2,3 +2,14 @@ build_stan_army = {
 	land_morale = 0.07
 	land_maintenance_modifier = -0.1
 }
+stan_tax_boost = {
+	global_tax_modifier = 0.15
+}
+stan_expansionist_country = {
+	harsh_treatment_cost = -0.8
+	state_maintenance_modifier = -0.35
+}
+supreme_askestan_army = {
+	land_morale = 0.5
+	land_maintenance_modifier = -0.8
+}

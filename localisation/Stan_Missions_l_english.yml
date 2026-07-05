@@ -1,7 +1,34 @@
 ﻿l_english:
 
-build_askes_army_title: "Prepare our army"
+build_askes_army_title: "Prepare our amry"
 build_askes_army_desc: "Build an amry, too many is never too much!"
 
-build_stan_army:0 "Better army"
+build_stan_army:0 "Better amry"
 build_stan_army_desc:0 "Build an amry, too many is never too much!"
+
+develop_aske_title: "Tax boost"
+develop_aske_desc: "Increase tax across the nation"
+
+stan_tax_boost:0 "Tax boost"
+stan_tax_boost_desc:0 "Increase tax across the nation"
+
+grow_aske_title: "More expansion"
+grow_aske_desc: "Expand more more more more!"
+
+stan_expansionist_country:0 "More expansion"
+stan_expansionist_country_desc:0 "Expand more more more more!"
+
+askes_even_bigger_army_title: "Even bigger amry"
+askes_even_bigger_army_desc: "Build an amry, fuck China!"
+
+perma_claim_china: "Gain a permanent claim on China"
+
+form_supreme_askestan_title: "Form Supreme Askestan"
+form_supreme_askestan_desc: "Form Supreme Askestan, the second greatest nation in the world, right after the mighty Supreme Alexanderstan!"
+
+take_china_tooltip: "All provinces in South China, North China and Xinan regions must be owned by the player."
+
+supreme_askestan_army:0 "Supreme Askestan Army buff"
+supreme_askestan_army_desc:0 "Receive a significant boost to your army's morale and maintenance efficiency."
+
+form_supreme_askestan_tooltip: "Form the great nation of Supreme Askestan"
