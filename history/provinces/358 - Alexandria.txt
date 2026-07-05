@@ -8,9 +8,9 @@ add_core = EGY
 capital = "Al Iskandirya"
 trade_goods = spices
 hre = no
-base_tax = 5 
-base_production = 5
-base_manpower = 3
+base_tax = 8 
+base_production = 8
+base_manpower = 5
 is_city = yes
 
 fort_15th = yes
@@ -23,6 +23,6 @@ discovered_by = indian
 discovered_by = east_african
 add_province_triggered_modifier = coptic_alexandria
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 3
 
 
