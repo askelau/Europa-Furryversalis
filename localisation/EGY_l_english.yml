@@ -1,3 +1,31 @@
 ﻿l_english:
+  # Nile Modifier
   the_nile:0 "The Nile"
   the_nile_desc:0 "The Nile is the lifesource of Egypt"
+  
+l_english:
+  # National Ideas
+  EGY_ideas:0 "Egyptian Ideas"
+  EGY_ideas_start:0 "Egyptian Traditions"
+  EGY_ideas_bonus:0 "Egyptian Ambition"
+
+  gift_of_the_nile:0 "Gift of the Nile"
+  gift_of_the_nile_desc:0 "The Nile is the heart of Egypt. Its floods enrich our fields, sustain our cities, and bind the Two Lands together."
+
+  legacy_of_the_pyramids:0 "Legacy of the Pyramids"
+  legacy_of_the_pyramids_desc:0 "The monuments of our ancestors still tower above the desert, reminding the world of Egypt's ancient mastery of stone, labor, and royal ambition."
+
+  chariots:0 "Chariots of the Pharaohs"
+  chariots_desc:0 "From the battlefields of antiquity, the chariot became a symbol of royal power. We shall revive this tradition through a strong and mobile cavalry."
+
+  bureau_of_the_two_lands:0 "Bureau of the Two Lands"
+  bureau_of_the_two_lands_desc:0 "A restored Egypt must be governed from Delta to Cataract. Through scribes, tax collectors, and loyal officials, the crown shall centralize the Two Lands."
+
+  breadbasket_of_the_mediterranean:0 "Breadbasket of the Mediterranean"
+  breadbasket_of_the_mediterranean_desc:0 "For centuries, Egyptian grain fed empires. By restoring irrigation and protecting the harvest, we shall once again make Egypt the granary of the Mediterranean."
+
+  the_cataract_fortresses:0 "The Cataract Fortresses"
+  the_cataract_fortresses_desc:0 "The southern Nile is guarded by cataracts, deserts, and ancient fortresses. Any invader marching north must bleed before reaching the heart of Egypt."
+
+  crossroads_between_europe_and_africa:0 "Crossroads Between Europe and Africa"
+  crossroads_between_europe_and_africa_desc:0 "Egypt sits between Africa, Arabia, and the Mediterranean. Whoever rules Egypt controls one of the great meeting points of world trade."

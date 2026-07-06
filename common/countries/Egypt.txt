@@ -26,12 +26,103 @@ historical_units = {
 }
 
 monarch_names = {
-	
+	"Ramesses #0" = 40
+	"Thutmose #0" = 25
+	"Amenhotep #0" = 20
+	"Ahmose #0" = 15
+	"Seti #0" = 15
+	"Psamtik #0" = 10
+	"Necho #0" = 10
+	"Amasis #0" = 10
+	"Nectanebo #0" = 10
+	"Khufu #0" = 5
+	"Djoser #0" = 5
+	"Sneferu #0" = 5
+	"Mentuhotep #0" = 5
+	"Horemheb #0" = 5
+	"Merneptah #0" = 5
+
+	"Hatshepsut #0" = -10
+	"Nefertiti #0" = -5
+	"Tiye #0" = -5
+	"Ahmose-Nefertari #0" = -5
+	"Cleopatra #0" = -5
+	"Arsinoe #0" = -3
+	"Berenice #0" = -2
+
+	"Narmer #0" = 0
+	"Khafre #0" = 0
+	"Menkaure #0" = 0
+	"Akhenaten #0" = 0
+	"Tutankhamun #0" = 0
+	"Taharqa #0" = 0
+	"Piye #0" = 0
+	"Shabaka #0" = 0
+	"Shebitku #0" = 0
+	"Apries #0" = 0
+	"Neferhotep #0" = 0
+	"Intef #0" = 0
+	"Senusret #0" = 0
+	"Amenemhat #0" = 0
 }
 
 leader_names = {
-
+	Ahmose
+	Amenhotep
+	Amenemhat
+	Apries
+	Djoser
+	Horemheb
+	Intef
+	Khafre
+	Khufu
+	Merneptah
+	Mentuhotep
+	Narmer
+	Necho
+	Nectanebo
+	Piye
+	Psamtik
+	Ramesses
+	Seti
+	Shabaka
+	Shebitku
+	Sneferu
+	Senusret
+	Taharqa
+	Thutmose
 }
 
 ship_names = {
+	Alexandria
+	Memphis
+	Thebes
+	Heliopolis
+	Elephantine
+	Sais
+	Philae
+	Abu Simbel
+	Giza
+	Saqqara
+	Karnak
+	Luxor
+	Nile
+	Blue Nile
+	White Nile
+	Ra
+	Amun
+	Horus
+	Osiris
+	Isis
+	Anubis
+	Thoth
+	Sekhmet
+	Bastet
+	Sobek
+	Khnum
+	Hapi
+	Maat
+	Scarab
+	Sphinx
+	Great Pyramid
 }
