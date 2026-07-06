@@ -1,0 +1,76 @@
+aske_ideas = {
+    start = {
+        vassal_income = 0.5
+        ae_impact = -0.1		
+    }					
+    bonus = {			
+        army_tradition = 1		
+    }					
+    trigger = {				
+        tag = ASE		
+    }					
+    free = yes				
+					
+    aske_idea.1 = {			
+        land_morale = 0.2			
+        diplomatic_reputation = 2			
+    }					
+    aske_idea.2 = {	
+        army_tradition_from_battle = 0.5	
+    }						
+    aske_idea.3 = {		
+        discipline = 0.05		        
+    }						
+    aske_idea.4 = {		
+        diplomatic_upkeep = 1	
+    }						
+    aske_idea.5 = {		
+        siege_ability = 0.4
+    }	                                       
+    aske_idea.6 = {       
+        production_efficiency = 0.15
+        trade_steering = 0.2	
+    }	                                        
+    aske_idea.7 = {	                        
+        state_maintenance_modifier = -0.2		
+    }						
+}	
+
+
+    # start = {
+    #     trade_efficiency = 0.1	
+    #     leader_land_shock = 1	
+    # }					
+    # bonus = {			
+    #     army_tradition = 1		
+    # }					
+    # trigger = {				
+    #     tag = ASE		
+    # }					
+    # free = yes				
+					
+    # aske_idea.1 = {				
+    #     land_morale = 0.2			
+    #     naval_morale = 0.2			
+    # }					
+    # aske_idea.2 = {			
+    #     diplomatic_reputation = 2		
+    # }						
+    # aske_idea.3 = {				
+    #     discipline = 0.05		        
+    # }						
+    # aske_idea.4 = {				
+    #     fort_maintenance_modifier = -0.5	
+    # }						
+    # aske_idea.5 = {				
+    #     development_cost = -0.15		
+    #     idea_cost = -0.15			
+    # }	                                       
+    # aske_idea.6 = {                          
+    #     global_trade_goods_size_modifier = 0.25	
+    # }	                                        
+    # aske_idea.7 = {	                        
+    #     monarch_admin_power = 1	                
+	#     monarch_diplomatic_power = 1	        
+    #     monarch_military_power = 1		
+    # }

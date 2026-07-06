@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 161  100  40 }
+color = { 255  205  249 }
 
 revolutionary_colors = { 0 8 0 }
 
@@ -30,33 +30,34 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aske Andersen #0" = 20
-	"Aske Lund Madsen #0" = 20
-	"Aske Muhammed Nielsen #0" = 20
-	"Uchiha Sasuke #3" = 20
-	"Aske Guldborg #0" = 20
-	"Aske Thilemann #0" = 20
-	"Aske #0" = 20
-	"Aske Eriksen #0" = 20
-	"Aske The Magician #0" = 20
-	"AskeBassen #0" = 20
-	"Askemanden #0" = 20
-	"Aske Storpik #0" = 10
-	"Aske Lillepik #0" = 20
-	"Aske Mellempik #1" = 20
-	"Aske Gayson #0" = 20
-	"Aske Dick #0" = 20
+	"Thorbjørn Andersen #0" = 20
+	"Thorbjørn Lund Madsen #0" = 20
+	"Thorbjørn Muhammed Nielsen #0" = 20
+	"Thor Bear #3" = 20
+	"Thorbjørn Guldborg #0" = 20
+	"Thorbjørn Thilemann #0" = 20
+	"Thorbjørn #0" = 20
+	"Thorbjørn Eriksen #0" = 20
+	"Thorbjørn The Magician #0" = 20
+	"ThorbjørnBassen #0" = 20
+	"Thorbjørnmanden #0" = 20
+	"Thorbjørn Storpik #0" = 10
+	"Thorbjørn Lillepik #0" = 20
+	"Thorbjørn Mellempik #1" = 20
+	"Thorbjørn Gayson #0" = 20
+	"Thorbjørn Dick #0" = 20
 	"Fuck Dig #0" = 20
-	"Aske Sutsen #0" = 20
-	"Aske Selvsutter #0" = 20
-	"Aske Engeborg #0" = 20
-	"Aske Florin #0" = 20
-	"Aske Voldt?ngtsgaard #8" = 20
+	"Thorbjørn Sutsen #0" = 20
+	"Thorbjørn Selvsutter #0" = 20
+	"Thorbjørn Engeborg #0" = 20
+	"Thorbjørn Florin #0" = 20
+	"Thor og bjørn#8" = 20
+	"I know what you are ^w^ #0" = 20
 }
 
 leader_names = { 
-	Aske Askepot Askefar Askemor Askestorpik "Aske Den Store" 
-	"Aske Med Den Lille" "Aske Klaske" "Aske Klunkefar"
+	Thorbjørn Thorbjørnpot Thorbjørnfar Thorbjørnmor Thorbjørnstorpik "Thorbjørn Den Store" 
+	"Thorbjørn Med Den Lille" "Thorbjørn Klaske" "Thorbjørn Klunkefar"
 }
 
 ship_names = {
