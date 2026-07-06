@@ -1,0 +1,136 @@
+alexander_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ALX
+	}
+	has_country_shield = yes
+
+	alexander_the_bad = {
+		icon = mike_mission
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Pølexander the Bad"
+				dynasty = "Von Tissemand"
+				adm = 1
+				dip = 1
+				mil = 1
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+
+	alexander_the_not_good = {
+		icon = mike_mission
+		required_missions = { alexander_the_bad }
+		position = 2
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Pølexander the Not Good"
+				dynasty = "Von Tissemand"
+				adm = 2
+				dip = 2
+				mil = 2
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+
+	alexander_the_mediocre = {
+		icon = mike_mission
+		required_missions = { alexander_the_not_good }
+		position = 3
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Pølexander the Mediocre"
+				dynasty = "Von Tissemand"
+				adm = 3
+				dip = 3
+				mil = 3
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+
+	alexander_the_ok = {
+		icon = mike_mission
+		required_missions = { alexander_the_mediocre }
+		position = 4
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Alexander the OK"
+				dynasty = "Von Tissemand"
+				adm = 4
+				dip = 4
+				mil = 4
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+
+	alexander_the_good= {
+		icon = mike_mission
+		required_missions = { alexander_the_ok }
+		position = 5
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Alexander the Good"
+				dynasty = "Von Tissemand"
+				adm = 5
+				dip = 5
+				mil = 5
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+
+	alx_alexander_the_great = {
+		icon = mike_mission
+		required_missions = { alexander_the_good }
+		position = 5
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			define_ruler = {
+				name = "Alexander the Great"
+				dynasty = "Von Tissemand"
+				adm = 6
+				dip = 6
+				mil = 6
+				fixed = yes
+				age = 20
+			}
+			add_ruler_personality = immortal_personality
+		}
+	}
+}

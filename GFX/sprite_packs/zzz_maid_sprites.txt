@@ -1,0 +1,28 @@
+ms_maid_sprite_pack = {
+	country_trigger = {
+		OR = { #Add any tag below
+			tag = ALX
+		}
+	}
+
+	sprite_infantry = {
+		0 = MAID_INFANTRY_1
+		1 = MAID_INFANTRY_2
+		2 = MAID_INFANTRY_3
+		3 = MAID_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = MAID_CAVALRY_1
+		1 = MAID_CAVALRY_2
+		2 = MAID_CAVALRY_3
+		3 = MAID_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = MAID_ARTILLERY_1
+		1 = MAID_ARTILLERY_2
+		2 = MAID_ARTILLERY_3
+		3 = MAID_ARTILLERY_4
+	}
+}

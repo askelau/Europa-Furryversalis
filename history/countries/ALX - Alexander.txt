@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = indian
+primary_culture = danish
+religion = catholic
+capital = 1248 #Ili
+
+1444.1.1 = {
+    monarch = {
+        name = "Pølexander the Horrible"
+        dynasty = "Von Tissemand"
+        ADM = 0
+        DIP = 0
+        MIL = 0
+        birth_date = 1425.1.1
+    }
+    clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+}
