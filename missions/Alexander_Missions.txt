@@ -116,7 +116,7 @@ alexander_missions = {
 	alx_alexander_the_great = {
 		icon = mike_mission
 		required_missions = { alexander_the_good }
-		position = 5
+		position = 6
 		trigger = {
 			army_size_percentage = 1
 		}
@@ -131,6 +131,41 @@ alexander_missions = {
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
+		}
+	}
+}
+
+alexander_maldives_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ALX
+	}
+	has_country_shield = yes
+
+	alx_develop_the_maldives = {
+		icon = mike_mission
+		required_missions = { }
+		position = 1
+
+		trigger = {
+			1248 = {
+				owned_by = ROOT
+				development = 30
+			}
+		}
+
+		provinces_to_highlight = {
+			province_id = 1248
+			owned_by = ROOT
+		}
+
+		effect = {
+			1248 = {
+				change_trade_goods = sextoys
+			}
 		}
 	}
 }

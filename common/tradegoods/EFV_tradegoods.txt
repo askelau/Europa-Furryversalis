@@ -1,0 +1,13 @@
+sextoys = {
+	color = { 1.0 0.5 0.85 }
+    
+    is_latent = yes
+
+	modifier = {
+		global_unrest = -2
+        spy_offence = 0.5
+	}
+	province = {
+		local_sailors_modifier = 1
+	}
+}
