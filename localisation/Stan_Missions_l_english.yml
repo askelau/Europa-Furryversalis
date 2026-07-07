@@ -1,5 +1,6 @@
 ﻿l_english:
 
+#Aske
 build_askes_army_title: "Prepare our amry"
 build_askes_army_desc: "Build an amry, too many is never too much!"
 
@@ -26,9 +27,49 @@ perma_claim_china: "Gain a permanent claim on China"
 form_supreme_askestan_title: "Form Supreme Askestan"
 form_supreme_askestan_desc: "Form Supreme Askestan, the second greatest nation in the world, right after the mighty Supreme Alexanderstan!"
 
-take_china_tooltip: "All provinces in South China, North China and Xinan regions must be owned by the player."
+take_china_tooltip: "All provinces in South China, North China and Xinan regions must be owned by Aske."
 
 supreme_askestan_army:0 "Supreme Askestan Army buff"
 supreme_askestan_army_desc:0 "Receive a significant boost to your army's morale and maintenance efficiency."
 
 form_supreme_askestan_tooltip: "Form the great nation of Supreme Askestan"
+
+#Thorbjørn
+tho_colony_range:0 "Range and growth"
+tho_colony_range_desc:0 "Gain more colonial range and growth!"
+
+tho_colony_range_and_colonist:0 "More colonizing"
+tho_colony_range_and_colonist_desc:0 "Gain even more colonial range and another colonist!"
+
+tho_colony_cost:0 "Cheaper colonies"
+tho_colony_cost_desc:0 "Those colonies are damn expensive, take a discount on the house!"
+
+tho_tmp_colonist_and_range:0 "Temporary colony shit"
+tho_tmp_colonist_and_range_desc:0 "Here's a temporary colonist and some more range. Take it or leave it."
+
+
+tho_navy_limit_title: "Need ships"
+tho_navy_limit_desc: "You will need some ships to start your colonization adventure motherfucker!"
+
+tho_have_specific_idea_title: "A good idea"
+tho_have_specific_idea_desc: "Some ideas are good. Some ideas are bad. Some ideas just are... or something idk."
+
+tho_discover_australia_and_africa_title: "Discover places"
+tho_discover_australia_and_africa_desc: "You must discover these places for later colonization."
+
+tho_have_two_colonies_title: "Start colonizing"
+tho_have_two_colonies_desc: "You need 3 colonial provinces in Australia and one in either of the aforementioned African areas. Might as well explore America while doing it!"
+
+tho_form_supreme_thorbjornstan_title: "Form Supreme Thorbjørnstan!"
+tho_form_supreme_thorbjornstan_desc: "In order to form the great nation of Supreme Thorbjørnstan you must show your supremeness by having a prospering colony in north, central and southern America!"
+
+
+tho_discover_australia_and_africa: "You must discover Australia. In addition you must also discover at least one of these African regions: Guinea, Congo, South Africa. Consult the region specific map"
+
+tho_discover_america: "Discover land on North, Central and South America"
+
+tho_colonize_australia_and_africa: "You must own at least 3 colonized provinces on Australia. In addition you must also own at least one colonized province in of these African regions: Guinea, Congo, South Africa. Consult the region specific map."
+
+tho_american_colonies: "One colony of at least 5 provinces must be owned in every part of America. That means one in North America, Central America and South America. In addition all 5 colonized provinces in every part of America must be part of the same colonial region"
+
+tho_form_supreme_thorbjornstan_tooltip: "Form the great nation of Supreme Thorbjørnstan"

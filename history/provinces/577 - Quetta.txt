@@ -2,6 +2,7 @@
 
 owner = THO
 controller = THO
+add_core = THO
 culture = danish	
 religion = catholic
 capital = "Quetta"

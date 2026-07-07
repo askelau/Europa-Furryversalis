@@ -177,7 +177,7 @@ askes_missions{
                     change_country_color = {
                         color = { 255 0 0 }
                     }
-            }
+                }
             }
         }
     }

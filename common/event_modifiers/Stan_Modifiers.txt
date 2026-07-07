@@ -13,3 +13,18 @@ supreme_askestan_army = {
 	land_morale = 0.5
 	land_maintenance_modifier = -0.8
 }
+tho_colony_range = {
+	range = 0.5
+	global_colonial_growth = 10
+}
+tho_colony_range_and_colonist = {
+	range = 1
+	colonists = 1
+}
+tho_colony_cost = {
+	colony_cost_modifier = -0.3
+}
+tho_tmp_colonist_and_range = {
+	colonists = 1
+	range = 0.5
+}

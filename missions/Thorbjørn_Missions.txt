@@ -1,0 +1,246 @@
+thornbjørns_missions{
+    slot = 1
+    generic = no
+    ai = no
+    has_country_shield = yes
+    potential{
+        tag = THO
+    }
+
+    tho_navy_limit = {
+        position = 1
+        icon = THO_mission
+        required_missions = { 
+
+        }
+        trigger = {
+            navy_size_percentage = 1
+        }
+        effect = {
+            add_country_modifier = {
+				name = "tho_tmp_colonist_and_range"
+				duration = 3650
+			}
+            create_explorer = {
+                tradition = 50
+            }
+        }
+    }
+
+    tho_have_specific_idea = {
+        position = 2
+        icon = THO_mission
+        required_missions = { 
+            tho_navy_limit
+        }
+        trigger = {
+            or {
+                has_idea_group = exploration_ideas
+                has_idea_group = expansion_ideas
+            }
+        }
+        effect = {
+            add_country_modifier = {
+				name = "tho_colony_cost"
+				duration = -1
+			}
+        }
+    }
+
+    tho_discover_australia_and_africa = {
+        position = 3
+        icon = THO_mission
+        required_missions = { 
+            tho_have_specific_idea
+        }
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = tho_discover_australia_and_africa
+
+                any_province {
+                    region = australia_region
+                    has_discovered = ROOT
+                }
+                or {
+                    any_province {
+                        region = guinea_region
+                        has_discovered = ROOT
+                    }
+                    any_province {
+                        region = kongo_region
+                        has_discovered = ROOT
+                    }
+                    any_province {
+                        region = south_africa_region
+                        has_discovered = ROOT
+                    }
+                }
+            }
+        }
+        effect = {
+            add_country_modifier = {
+				name = "tho_colony_range"
+				duration = -1
+			}
+		}
+    }
+    
+    tho_have_two_colonies = {
+        position = 4
+        icon = THO_mission
+        required_missions = { 
+            tho_discover_australia_and_africa
+        }
+        provinces_to_highlight = {
+            or {
+                region = guinea_region
+                region = kongo_region
+                region = south_africa_region
+                colonial_region = colonial_australia
+            }
+        }
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = tho_discover_america
+                any_province {
+                    superregion = north_america_superregion
+                    has_discovered = ROOT
+                }
+
+                any_province {
+                    superregion = central_america_superregion
+                    has_discovered = ROOT
+                }
+
+                any_province {
+                    continent = south_america
+                    has_discovered = ROOT
+                }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = tho_colonize_australia_and_africa
+                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				    value = 3
+				    colonial_region = colonial_australia
+				    is_city = yes
+			    }
+                any_owned_province{
+                    or {
+                        region = guinea_region
+                        region = kongo_region
+                        region = south_africa_region
+                    }
+                }
+            }
+        }
+        effect = {
+            add_country_modifier = {
+				name = "tho_colony_range_and_colonist"
+				duration = -1
+			}		
+        }
+    }
+
+    tho_form_supreme_thorbjornstan = {
+        position = 5
+        icon = THO_mission
+        required_missions = { 
+            tho_have_two_colonies
+        }
+        provinces_to_highlight = {
+            colonial_region = colonial_alaska
+        }
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = tho_american_colonies
+                #South American colonial regions
+                or {
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_la_plata
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_brazil
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_peru
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_colombia
+                        is_city = yes
+                    }
+                }
+
+                #Central American colonial regions
+                or {
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_the_carribean
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_mexico
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_california
+                        is_city = yes
+                    }
+                }
+
+                #North American colonial regions
+                or {
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_eastern_america
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_canada
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_louisiana
+                        is_city = yes
+                    }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                        value = 5
+                        colonial_region = colonial_alaska
+                        is_city = yes
+                    }
+                }
+
+            }
+        }
+		effect = {
+            add_treasury = 10000
+            add_stability = 6
+            add_adm_power = 500
+            add_dip_power = 500
+            add_mil_power = 500
+            add_prestige = 100
+            add_legitimacy = 100
+
+            custom_tooltip = tho_form_supreme_thorbjornstan_tooltip
+            hidden_effect{
+                ROOT = {
+                    override_country_name = "Supreme Throbjørnstan"
+                    change_country_color = {
+                        color = { 255 92 234 }
+                    }
+                }
+            }
+        }
+    }
+}
