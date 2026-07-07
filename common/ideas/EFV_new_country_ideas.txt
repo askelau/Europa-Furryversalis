@@ -244,3 +244,41 @@ ASY_ideas = {
         legitimacy = 1
     }
 }
+
+DGL_ideas = {
+    start = {
+        defensiveness = 0.5
+        hostile_attrition = 2.0
+        fort_maintenance_modifier = -0.5
+    }
+    bonus = {
+        infantry_power = 0.15
+    }
+    trigger = {
+        tag = DGL
+    }
+    free = yes
+    DGL_Naval_Defenses = {
+        blockade_force_required = 0.5
+		hostile_disembark_speed = 1.0
+		block_slave_raid = yes
+    }
+    DGL_Local_Advantage = {
+        global_defender_dice_roll_bonus = 2
+    }
+    DGL_Bigger_Forts = {
+        garrison_size = 0.5
+    }
+    DGL_Fort_Economic_Rebalance_Act = {
+        fort_maintenance_modifier = -0.5
+    }
+    DGL_Maldives_Diplomacy = {
+        diplomatic_reputation = 3
+    }
+    DGL_Trading = {
+        trade_efficiency = 0.2
+    }
+    DGL_Goods = {
+        global_trade_goods_size_modifier = 0.2
+    }
+}
