@@ -6,6 +6,7 @@ primary_culture = danish
 religion = catholic
 capital = 572 #Ili
 historical_friend = VIJ
+historical_rival = DGL
 
 1444.1.1 = {
     monarch = {

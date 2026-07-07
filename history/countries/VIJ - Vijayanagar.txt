@@ -5,6 +5,7 @@ religion = hinduism
 technology_group = indian
 capital = 541	# Vijayanagara
 historical_friend = ALX
+historical_friend = DGL
 
 change_brahmins_or_church_land_share_effect = {
 	share = -5

@@ -1,0 +1,5 @@
+alliance = {
+	first = DGL
+	second = VIJ
+	start_date = 1431.1.25
+}
