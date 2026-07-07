@@ -1,0 +1,3 @@
+sextoys = {
+	base_price = 20
+}
