@@ -1,0 +1,34 @@
+alexandrisk_monarchy_reform = {
+	icon = "roman_empire"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	valid_for_nation_designer = no
+	maintain_dynasty = yes
+	rulers_can_be_generals = no
+	heir = no
+	disallowed_trade_goods = { cloves grain wool cloth fish fur salt naval_supplies copper iron ivory tea chinaware spices coffee cotton sugar cocoa silk dyes tropical_wood livestock incense glass paper gems }
+
+	potential = {
+		OR = {
+			tag = ALX
+		}
+	}
+
+	trigger = {
+		OR = {
+			tag = ALX
+		}
+	}
+
+	modifiers = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	ai = {
+		factor = 1000
+	}
+}

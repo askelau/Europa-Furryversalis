@@ -1,9 +1,11 @@
 government = monarchy
-add_government_reform = feudalism_reform
+government_rank = 1
+add_government_reform = alexandrisk_monarchy_reform
 technology_group = indian
 primary_culture = danish
 religion = catholic
-capital = 1248 #Ili
+capital = 572 #Ili
+historical_friend = VIJ
 
 1444.1.1 = {
     monarch = {

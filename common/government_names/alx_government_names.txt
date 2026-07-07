@@ -1,0 +1,48 @@
+alexandrisk_monarchy_government = {
+	rank = {
+		1 = ALX_TWINKY
+		2 = ALX_GAYDOM
+		3 = ALX_GRAND_GAYDOM
+	}
+
+	ruler_male = {
+		1 = ALX_TWINK
+		2 = ALX_GAY
+		3 = ALX_GRAND_GAY
+	}
+
+	ruler_female = {
+		1 = ALX_TWINK
+		2 = ALX_GAY
+		3 = ALX_GRAND_GAY
+	}
+
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		government = monarchy
+		has_reform = alexandrisk_monarchy_reform
+	}
+}

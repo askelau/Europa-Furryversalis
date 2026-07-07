@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = byzantine_autocracy_reform
+add_government_reform = alexandrian_empire_reform
 government_rank = 3
 primary_culture = greek
 religion = orthodox
@@ -8,7 +8,7 @@ capital = 148
 
 1399.1.1 = {
 	monarch = {
-		name = "Adrianos"
+		name = "Adrianoss"
 		dynasty = "Philanthropeno"
 		adm = 4
 		dip = 4

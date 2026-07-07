@@ -41,8 +41,6 @@ alexandrian_empire_government = {
 		3 = DIADOCHOS_FEM
 	}
 
-	government_reform = alexandrian_empire_reform
-
 	trigger = {
 		has_reform = alexandrian_empire_reform
 	}

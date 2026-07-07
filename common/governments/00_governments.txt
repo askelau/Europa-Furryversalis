@@ -96,7 +96,6 @@ monarchy = {
 				caliphate_reform
 				barbary_sultanate_reform
 				roman_empire_reform
-				alexandrian_empire_reform
 				persian_government_reform
 				zoroastrian_persian_government_reform
 				portuguese_monarchy_reform
@@ -130,6 +129,11 @@ monarchy = {
 				austrian_absolute_monarchy
 				merchant_aristocracy_reform
 				gothic_monarchy_reform
+
+				#################################### MODDED GOVERNMENTS ##########################################
+				alexandrian_empire_reform
+				alexandrisk_monarchy_reform
+
 			}
 		}
 		hereditary_vs_nobility = {

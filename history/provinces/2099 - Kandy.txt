@@ -1,0 +1,22 @@
+#2099 - Kandy
+
+owner = ALX
+controller = ALX 
+add_core = ALX
+culture = danish
+religion = catholic
+capital = "Gampala"
+trade_goods = wine
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+discovered_by = east_african
+
+

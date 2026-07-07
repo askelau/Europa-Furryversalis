@@ -1,5 +1,5 @@
 ﻿l_english:
-  # Phrygia
+
   PHY_ideas:0 "Phrygian Ideas"
   PHY_ideas_start:0 "Phrygian Traditions"
   PHY_ideas_bonus:0 "Phrygian Ambition"
@@ -25,8 +25,7 @@
   phy_heirs_of_the_diadochi:0 "Heirs of the Diadochi"
   phy_heirs_of_the_diadochi_desc:0 "The successor kings of Alexander carved great realms from his empire. Their legacy lives on in us."
 
-l_english:
-  # Macedonia
+
   MCD_ideas:0 "Macedonian Ideas"
   MCD_ideas_start:0 "Macedonian Traditions"
   MCD_ideas_bonus:0 "Macedonian Ambition"
@@ -52,8 +51,7 @@ l_english:
   mcd_successors_of_pella:0 "Successors of Pella"
   mcd_successors_of_pella_desc:0 "Pella was once the center of a world-spanning empire. Its legacy inspires new generations to serve the realm."
 
-l_english:
-  # Macedonian Empire
+
   MCE_ideas:0 "Macedonian Imperial Ideas"
   MCE_ideas_start:0 "Imperial Traditions"
   MCE_ideas_bonus:0 "Imperial Ambition"
@@ -79,8 +77,6 @@ l_english:
   mce_universal_empire:0 "Universal Empire"
   mce_universal_empire_desc:0 "Greeks, Anatolians, Persians, Egyptians, and countless others may all serve beneath one imperial crown."
 
-l_english:
-  # Phoenicia
   PHO_ideas:0 "Phoenician Ideas"
   PHO_ideas_start:0 "Phoenician Traditions"
   PHO_ideas_bonus:0 "Phoenician Ambition"
