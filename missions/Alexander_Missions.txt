@@ -10,7 +10,7 @@ alx_first_slot = {
 	has_country_shield = yes
 
 	alx_north_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_end_the_maldives} 
 		position = 5
 		trigger = {
@@ -27,7 +27,7 @@ alx_first_slot = {
 	}
 
 	alx_trade_mission_to_zanzibar = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_cultural_relocation }
 		position = 7
 
@@ -54,7 +54,7 @@ alx_first_slot = {
 	}
 
 	alx_conquer_madagascar = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_trade_mission_to_zanzibar }
 		position = 8
 
@@ -83,7 +83,7 @@ alx_first_slot = {
 	}
 
 	alx_build_madagascar = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_conquer_madagascar}
 		position = 9
 
@@ -130,7 +130,7 @@ alx_second_slot = {
 	has_country_shield = yes
 
 	alx_force_limit = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { }
 		position = 1
 
@@ -153,7 +153,7 @@ alx_second_slot = {
 	}
 
 	alx_prepare_the_navy = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_force_limit}
 		position = 2
 
@@ -178,7 +178,7 @@ alx_second_slot = {
 	}
 
 	alx_maldives_city = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_end_the_maldives} 
 		position = 5
 		trigger = {
@@ -195,7 +195,7 @@ alx_second_slot = {
 	}
 
 	alx_traitor = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_cultural_relocation}
 		position = 7
 
@@ -211,7 +211,7 @@ alx_second_slot = {
 	}
 
 	alx_no_use_for_me_anymore = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_traitor}
 		position = 8
 
@@ -230,7 +230,7 @@ alx_second_slot = {
 	}
 
 	alx_modern_slaves = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_no_use_for_me_anymore}
 		position = 8
 
@@ -260,7 +260,7 @@ alx_third_slot = {
 	has_country_shield = yes
 
 	alx_burn_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { 
 			alx_isolate_maldives
 			alx_prepare_the_navy
@@ -309,7 +309,7 @@ alx_third_slot = {
 	}
 
 	alx_end_the_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_burn_maldives}
 		position = 4
 
@@ -345,7 +345,7 @@ alx_third_slot = {
 	}
 
 	alx_develop_sri_lanka = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_end_the_maldives}
 		position = 5
 
@@ -376,7 +376,7 @@ alx_third_slot = {
 	}
 
 	alx_cultural_relocation = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_north_maldives alx_maldives_city alx_develop_sri_lanka alx_inner_maldives alx_south_maldives}
 		position = 6
 
@@ -473,7 +473,7 @@ alx_third_slot = {
 	}
 
 	alx_alexantropolis = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_cultural_relocation}
 		position = 7
 
@@ -505,7 +505,7 @@ alx_third_slot = {
 	}
 
 	alx_growing_power = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_alexantropolis }
 		position = 9
 
@@ -531,7 +531,7 @@ alx_third_slot = {
 	}
 
 	alx_slave_trade_cb = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_growing_power alx_suez alx_modern_slaves alx_build_madagascar}
 		position = 10
 		trigger = {}
@@ -545,7 +545,7 @@ alx_third_slot = {
 	}
 
 	alx_form_alexanderstan = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_slave_trade_cb}
 		position = 11
 
@@ -588,7 +588,7 @@ alx_fourth_slot = {
 	has_country_shield = yes
 
 	alx_vij_alliance = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { }
 		position = 1
 
@@ -614,7 +614,7 @@ alx_fourth_slot = {
 	}
 
 	alx_isolate_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_vij_alliance}
 		position = 2
 
@@ -643,7 +643,7 @@ alx_fourth_slot = {
 	}
 
 	alx_inner_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_end_the_maldives} 
 		position = 5
 		trigger = {
@@ -659,7 +659,7 @@ alx_fourth_slot = {
 	}
 
 	alx_expand_navy = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_cultural_relocation }
 		position = 7
 
@@ -684,7 +684,7 @@ alx_fourth_slot = {
 	}
 
 	alx_somali_pirate_slaves = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_expand_navy }
 		position = 8
 
@@ -721,7 +721,7 @@ alx_fourth_slot = {
 	}
 
 	alx_suez = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = { alx_somali_pirate_slaves alx_yemen}
 		position = 9
 
@@ -774,7 +774,7 @@ alx_fifth_slot = {
 	has_country_shield = yes
 
 	alx_south_maldives = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_end_the_maldives} 
 		position = 5
 		trigger = {
@@ -790,7 +790,7 @@ alx_fifth_slot = {
 	}
 
 	alx_yemen = {
-		icon = mike_mission
+		icon = alx_mission
 		required_missions = {alx_expand_navy} 
 		position = 8
 
