@@ -282,3 +282,54 @@ DGL_ideas = {
         global_trade_goods_size_modifier = 0.2
     }
 }
+
+ALX_ideas = {
+	start = {
+		global_ship_trade_power = 0.40
+		global_manpower_modifier = 0.30
+	}
+
+	bonus = {
+		global_trade_power = 0.2
+	}
+
+	trigger = {
+		tag = ALX
+	}
+
+	free = yes
+
+	ALX_indian_ocean_fleet = {
+		naval_forcelimit_modifier = 0.33
+	}
+
+	ALX_slaves_in_the_military = {
+		land_forcelimit_modifier = 0.25
+        land_maintenance_modifier = -0.2
+	}
+
+	ALX_private_harbours = {
+		global_ship_cost = -0.5
+		ship_durability = 0.05
+	}
+
+	ALX_overseas_raiders = {
+		blockade_efficiency = 0.33
+		naval_morale = 0.20
+        leader_naval_shock = 3
+        infantry_power = 0.1
+	}
+
+	ALX_slave_sailors = {
+		global_sailors_modifier = 0.33
+        sailor_maintenance_modifer = -0.3
+	}
+
+	ALX_exotic_commodities = {
+		trade_efficiency = 0.15
+	}
+
+	ALX_empire_of_the_indian_ocean = {
+		land_morale = 0.15
+	}
+}

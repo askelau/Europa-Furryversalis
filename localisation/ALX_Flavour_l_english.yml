@@ -116,4 +116,30 @@
 
   alx_suez_title:0 "Secure Suez"
   alx_suez_desc:0 "Det er bare Suez kanalen"
-  
+
+
+  ALX_ideas:0 "Alexandersk Ideas"
+  ALX_ideas_start:0 "Alexandersk Traditions"
+  ALX_ideas_bonus:0 "Alexandersk Ambition"
+
+  ALX_indian_ocean_fleet:0 "Indian Ocean Fleet"
+  ALX_indian_ocean_fleet_desc:0 "Many ships = Many kanokiokugler fyret."
+
+  ALX_slaves_in_the_military:0 "Slaves in the Military"
+  ALX_slaves_in_the_military_desc:0 "Why should't they fight for us."
+
+  ALX_private_harbours:0 "Private Harbours"
+  ALX_private_harbours_desc:0 "Slaverne laver skibet. Skibsdamen tuner det."
+
+  ALX_overseas_raiders:0 "Overseas Raiders"
+  ALX_overseas_raiders_desc:0 ""Jeg boarder!""
+
+  ALX_slave_sailors:0 "Slave Sailors"
+  ALX_slave_sailors_desc:0 "Somebody gotta clean the poopdeck"
+
+  ALX_exotic_commodities:0 "Merchant Commodities"
+  ALX_exotic_commodities_desc:0 "Sælg; 100 gunpowder kegs. Sælg; 50 cannonball crates. Sælg; 50 wood crates. Sælg; 50 fruit crates."
+
+  ALX_empire_of_the_indian_ocean:0 "Pirate Legend"
+  ALX_empire_of_the_indian_ocean_desc:0 ""OMG!!!! DU ER PIRATE LEGEND!!!""
+    
