@@ -113,7 +113,7 @@ askes_missions{
             grow_aske
         }
         trigger = {
-             army_size = 130
+             army_size_percentage = 1.5
              num_of_generals = 5
         }
 		effect = {

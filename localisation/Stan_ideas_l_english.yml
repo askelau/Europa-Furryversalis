@@ -1,5 +1,6 @@
 ﻿l_english:
 
+#Aske
 aske_ideas:0 "Askes Ideas"
 aske_ideas_bonus:0 "Aske"
 aske_ideas_start:0 "Aske"
@@ -17,3 +18,22 @@ aske_idea.6:0 "Aske production and trade"
 aske_idea.6_desc:0 "By being ruled by Aske, our economy will be more efficient and our trade will be more prosperous just like Aske."
 aske_idea.7:0 "Aske state maintenance"
 aske_idea.7_desc:0 "By being ruled by Aske, our state maintenance costs will be reduced just like Aske."
+
+#Thorbjørn
+tho_ideas:0 "Thorbjørns Ideas"
+tho_ideas_bonus:0 "Thorbjørn"
+tho_ideas_start:0 "Thorbjørn"
+tho_idea.1:0 "Thorbjørn tax and tradition"
+tho_idea.1_desc:0 "By being ruled by Thorbjørn, our people will pay more taxes and our army will get more tradition from battles, just like Thorbjørn."
+tho_idea.2:0 "Thorbjørn colonial range"
+tho_idea.2_desc:0 "By being ruled by Thorbjørn, our colonists will have more tange, just like Thorbjørn."
+tho_idea.3:0 "Thorbjørn less liberty"
+tho_idea.3_desc:0 "By being ruled by Thorbjørn, our subjects will have less liberty desire, just like Thorbjørn."
+tho_idea.4:0 "Thorbjørn less inflation and corruption"
+tho_idea.4_desc:0 "By being ruled by Thorbjørn, our country will reduce more inflation and corruption, just like Thorbjørn."
+tho_idea.5:0 "Thorbjørn better trading"
+tho_idea.5_desc:0 "By being ruled by Thorbjørn, our traders will have more range and efficiency, just like Thorbjørn."
+tho_idea.6:0 "Thorbjørn discipline"
+tho_idea.6_desc:0 "By being ruled by Thorbjørn, our army will have more discipline just like Thorbjørn."
+tho_idea.7:0 "Thorbjørn tech prices"
+tho_idea.7_desc:0 "By being ruled by Thorbjørn, our administrative and diplomatic technology will be cheaper, just like Thorbjørn."
