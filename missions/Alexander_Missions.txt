@@ -1,5 +1,126 @@
-alexander_missions = {
+alx_first_slot = {
 	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ALX
+	}
+	has_country_shield = yes
+
+	alx_north_maldives = {
+		icon = mike_mission
+		required_missions = {alx_end_the_maldives} 
+		position = 5
+		trigger = {
+			4944 = {
+				religion = catholic
+			}
+		}
+
+		provinces_to_highlight = { province_id = 4944 }
+		
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+	alx_trade_mission_to_zanzibar = {
+		icon = mike_mission
+		required_missions = { alx_cultural_relocation }
+		position = 7
+
+		trigger = {
+			1201 = {
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+		}
+
+		provinces_to_highlight = { province_id = 1201}
+
+		effect = {
+			create_explorer = {
+				tradition = 60
+			}
+			madagascar_highlands_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			betsimasaraka_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			southern_madagascar = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			sakalava_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_conquer_madagascar = {
+		icon = mike_mission
+		required_missions = { alx_trade_mission_to_zanzibar }
+		position = 8
+
+		trigger = {
+			madagascar_highlands_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			betsimasaraka_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			southern_madagascar = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			sakalava_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = madagascar_highlands_area
+				area = betsimasaraka_area
+				area = southern_madagascar
+				area = sakalava_area
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = growing_economy
+				duration = 5500
+			}
+		}
+	}
+
+	alx_build_madagascar = {
+		icon = mike_mission
+		required_missions = {alx_conquer_madagascar}
+		position = 9
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					area = madagascar_highlands_area
+					area = betsimasaraka_area
+					area = southern_madagascar
+					area = sakalava_area
+				}
+				has_building = marketplace
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = madagascar_highlands_area
+				area = betsimasaraka_area
+				area = southern_madagascar
+				area = sakalava_area
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = expansionist_country
+				duration = -1
+			}
+
+		}
+	}
+}
+
+alx_second_slot = {
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -8,13 +129,15 @@ alexander_missions = {
 	}
 	has_country_shield = yes
 
-	alexander_the_bad = {
+	alx_force_limit = {
 		icon = mike_mission
 		required_missions = { }
 		position = 1
+
 		trigger = {
 			army_size_percentage = 1
 		}
+
 		effect = {
 			define_ruler = {
 				name = "Pølexander the Bad"
@@ -29,13 +152,17 @@ alexander_missions = {
 		}
 	}
 
-	alexander_the_not_good = {
+	alx_prepare_the_navy = {
 		icon = mike_mission
-		required_missions = { alexander_the_bad }
+		required_missions = {alx_force_limit}
 		position = 2
+
 		trigger = {
-			army_size_percentage = 1
+			num_of_heavy_ship = 5
+			num_of_transport = 20
+			num_of_galley = 10
 		}
+
 		effect = {
 			define_ruler = {
 				name = "Pølexander the Not Good"
@@ -50,13 +177,154 @@ alexander_missions = {
 		}
 	}
 
-	alexander_the_mediocre = {
+	alx_maldives_city = {
 		icon = mike_mission
-		required_missions = { alexander_the_not_good }
-		position = 3
+		required_missions = {alx_end_the_maldives} 
+		position = 5
 		trigger = {
-			army_size_percentage = 1
+			4943 = {
+				religion = catholic
+			}
 		}
+
+		provinces_to_highlight = { province_id = 4943 }
+
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+	alx_traitor = {
+		icon = mike_mission
+		required_missions = {alx_cultural_relocation}
+		position = 7
+
+		trigger = {
+			num_of_infantry = 50
+		}
+
+		effect = {
+			add_historical_rival = VIJ
+			VIJ = { add_historical_rival = ROOT }
+			coromandel_region = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_no_use_for_me_anymore = {
+		icon = mike_mission
+		required_missions = {alx_traitor}
+		position = 8
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = coromandel_region value = 25 }
+		}
+
+		provinces_to_highlight = {
+			region = coromandel_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			bengal_region = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_modern_slaves = {
+		icon = mike_mission
+		required_missions = {alx_no_use_for_me_anymore}
+		position = 8
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = { region = bengal_region value = 30 }
+		}
+
+		provinces_to_highlight = {
+			region = bengal_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			add_prestige_or_monarch_power = { amount = 50 }
+		}
+	}
+}
+
+alx_third_slot = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ALX
+	}
+	has_country_shield = yes
+
+	alx_burn_maldives = {
+		icon = mike_mission
+		required_missions = { 
+			alx_isolate_maldives
+			alx_prepare_the_navy
+		}
+		position = 3
+
+		trigger = {
+			OR = {
+				maldives_area = {
+					type = all
+					owned_by = ROOT
+				}
+				maldives_area = {
+					type = all
+					controlled_by = ROOT
+				}
+			}
+		}
+
+		provinces_to_highlight = {
+			area = maldives_area
+		}
+
+		effect = {
+			4942 = {
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+			}
+			4943 = {
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+			}
+			4944 = {
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+			}
+			1248 = {
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+			}
+		}
+	}
+
+	alx_end_the_maldives = {
+		icon = mike_mission
+		required_missions = {alx_burn_maldives}
+		position = 4
+
+		trigger = {
+			NOT = { exists = DGL }
+			maldives_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		provinces_to_highlight = {
+			owned_by = DGL
+		}
+
 		effect = {
 			define_ruler = {
 				name = "Pølexander the Mediocre"
@@ -68,37 +336,186 @@ alexander_missions = {
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
+			set_government_rank = 2
+			1248 = {change_trade_goods = slaves}
+			4942 = {change_trade_goods = slaves}
+			4943 = {change_trade_goods = slaves}
+			4944 = {change_trade_goods = slaves}
 		}
 	}
 
-	alexander_the_ok = {
+	alx_develop_sri_lanka = {
 		icon = mike_mission
-		required_missions = { alexander_the_mediocre }
-		position = 4
+		required_missions = {alx_end_the_maldives}
+		position = 5
+
 		trigger = {
-			army_size_percentage = 1
-		}
-		effect = {
-			define_ruler = {
-				name = "Alexander the OK"
-				dynasty = "Von Tissemand"
-				adm = 4
-				dip = 4
-				mil = 4
-				fixed = yes
-				age = 20
+			development_in_provinces = {
+				area = south_lanka_area
+				value = 35
 			}
+			development_in_provinces = {
+				area = lanka_area
+				value = 25
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = south_lanka_area
+				area = lanka_area
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = army_enthusiasm
+				duration = 7200
+			}
+		}
+	}
+
+	alx_cultural_relocation = {
+		icon = mike_mission
+		required_missions = {alx_north_maldives alx_maldives_city alx_develop_sri_lanka alx_inner_maldives alx_south_maldives}
+		position = 6
+
+		trigger = {
+			maldives_area = {
+				type = all
+				owned_by = ROOT
+			}
+			south_lanka_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lanka_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			4943 = {
+				change_trade_goods = gold
+				add_base_tax = 9
+				add_base_production = 9
+				add_base_manpower = 9
+				change_culture = danish
+				change_province_name = "Alexantropolis"
+            	rename_capital = "Alexantropolis"
+			}
+			4942 = {
+				change_trade_goods = wine
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				change_culture = danish
+			}
+			4944 = {
+				change_trade_goods = wine
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				change_culture = danish
+			}
+			1248 = {
+				change_trade_goods = wine
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				change_culture = danish
+			}
+			2100 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			4408 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			4409 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			572 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			2099 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			4407 = {
+				change_trade_goods = slaves
+				add_base_tax = -20
+				add_base_production = -20
+				add_base_manpower = -20
+				change_culture = malayalam
+			}
+			set_capital = 4943
+		}
+	}
+
+	alx_alexantropolis = {
+		icon = mike_mission
+		required_missions = {alx_cultural_relocation}
+		position = 7
+
+		trigger = {
+			4943 = {
+				owned_by = ROOT
+				development = 50
+			}
+		}
+
+		provinces_to_highlight = { province_id = 4943 }
+
+		effect = {
+			4943 = {
+				change_trade_goods = sextoys
+				center_of_trade = 2
+			}
+			define_ruler = {
+					name = "Alexander the OK"
+					dynasty = "Von Tissemand"
+					adm = 4
+					dip = 4
+					mil = 4
+					fixed = yes
+					age = 20
+				}
 			add_ruler_personality = immortal_personality
 		}
 	}
 
-	alexander_the_good= {
+	alx_growing_power = {
 		icon = mike_mission
-		required_missions = { alexander_the_ok }
-		position = 5
+		required_missions = { alx_alexantropolis }
+		position = 9
+
 		trigger = {
-			army_size_percentage = 1
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 100
+				trade_goods = slaves			
+			}
 		}
+
 		effect = {
 			define_ruler = {
 				name = "Alexander the Good"
@@ -113,13 +530,32 @@ alexander_missions = {
 		}
 	}
 
-	alx_alexander_the_great = {
+	alx_slave_trade_cb = {
 		icon = mike_mission
-		required_missions = { alexander_the_good }
-		position = 6
-		trigger = {
-			army_size_percentage = 1
+		required_missions = { alx_growing_power alx_suez alx_modern_slaves alx_build_madagascar}
+		position = 10
+		trigger = {}
+
+		effect = {
+			custom_tooltip = alx_unlocked_slave_trade_cb_tt
+			hidden_effect = {
+				set_country_flag = alx_unlocked_slave_trade_cb
+			}
 		}
+	}
+
+	alx_form_alexanderstan = {
+		icon = mike_mission
+		required_missions = { alx_slave_trade_cb}
+		position = 11
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 200
+				trade_goods = slaves			
+			}
+		}
+
 		effect = {
 			define_ruler = {
 				name = "Alexander the Great"
@@ -131,12 +567,18 @@ alexander_missions = {
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
+			override_country_name = "Alexanderstan"
+			change_price = {
+				trade_goods = slaves
+				value = 0.5
+				duration = -1
+			}
 		}
 	}
 }
 
-alexander_maldives_missions = {
-	slot = 2
+alx_fourth_slot = {
+	slot = 4
 	generic = no
 	ai = yes
 	potential = {
@@ -145,27 +587,242 @@ alexander_maldives_missions = {
 	}
 	has_country_shield = yes
 
-	alx_develop_the_maldives = {
+	alx_vij_alliance = {
 		icon = mike_mission
 		required_missions = { }
 		position = 1
 
 		trigger = {
-			1248 = {
-				owned_by = ROOT
-				development = 30
+			OR = {
+				NOT = { exists = VIJ }
+				VIJ = { 
+					alliance_with = ROOT				
+				}
 			}
 		}
 
 		provinces_to_highlight = {
-			province_id = 1248
-			owned_by = ROOT
+			owned_by = VIJ
 		}
 
 		effect = {
-			1248 = {
-				change_trade_goods = sextoys
+			add_country_modifier = {
+				name = influential_diplomacy
+				duration = 5500
 			}
+		}
+	}
+
+	alx_isolate_maldives = {
+		icon = mike_mission
+		required_missions = {alx_vij_alliance}
+		position = 2
+
+		trigger = {
+			OR = {
+				NOT = { exists = VIJ }
+				NOT = { exists = DGL }
+				VIJ = {
+					NOT = {
+						alliance_with = DGL					
+					}
+				}
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				owned_by = VIJ 
+				owned_by = DGL
+			}
+		}
+
+		effect = {
+			maldives_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_inner_maldives = {
+		icon = mike_mission
+		required_missions = {alx_end_the_maldives} 
+		position = 5
+		trigger = {
+			1248 = {
+				religion = catholic
+			}
+		}
+		provinces_to_highlight = { province_id = 1248 }
+		
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+	alx_expand_navy = {
+		icon = mike_mission
+		required_missions = { alx_cultural_relocation }
+		position = 7
+
+		trigger = {
+			num_of_heavy_ship = 15
+			num_of_galley = 30
+		}
+
+		effect = {
+			majarteen_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			somaliland_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			ifat_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			aussa_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			mogadishu_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			ajuuran_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			tihama_al_yemen_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			upper_yemen_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			yemen_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			hadramut_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			mahra_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_somali_pirate_slaves = {
+		icon = mike_mission
+		required_missions = { alx_expand_navy }
+		position = 8
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				OR = {
+				area = majarteen_area
+				area = somaliland_area
+				area = ifat_area
+				area = aussa_area
+				area = mogadishu_area
+				area = ajuuran_area
+				}
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = majarteen_area
+				area = somaliland_area
+				area = ifat_area
+				area = aussa_area
+				area = mogadishu_area
+				area = ajuuran_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			2315 = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			4316 = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+		}
+	}
+
+	alx_suez = {
+		icon = mike_mission
+		required_missions = { alx_somali_pirate_slaves alx_yemen}
+		position = 9
+
+		trigger = {
+		2315 = { country_or_non_sovereign_subject_holds = ROOT }
+		4316 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2315
+				province_id = 4316
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { 
+					has_dlc = "Leviathan" 
+					4316 = {
+						NOT = {
+							has_great_project = { 
+								type = suez_canal 
+								tier = 3 
+							}
+						}
+					}
+					NOT = { adm_tech = 22 }
+				}
+				country_event = { id = flavor_mam.115 }
+				custom_tooltip = flavor_mam.115_tt
+			}
+			else = {
+				4316 = { add_base_production = 3 }
+			}
+			add_mercantilism = 3
+		}
+	}
+}
+
+alx_fifth_slot = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		tag = ALX
+	}
+	has_country_shield = yes
+
+	alx_south_maldives = {
+		icon = mike_mission
+		required_missions = {alx_end_the_maldives} 
+		position = 5
+		trigger = {
+			4942 = {
+				religion = catholic
+			}
+		}
+		provinces_to_highlight = { province_id = 4942 }
+		
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+	alx_yemen = {
+		icon = mike_mission
+		required_missions = {alx_expand_navy} 
+		position = 8
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+				area = tihama_al_yemen_area
+				area = upper_yemen_area
+				area = yemen_area
+				area = hadramut_area
+				area = mahra_area
+				}
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = tihama_al_yemen_area
+				area = upper_yemen_area
+				area = yemen_area
+				area = hadramut_area
+				area = mahra_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = imperial_ambition
+				duration = 5500
+			}		
 		}
 	}
 }

@@ -1,0 +1,19 @@
+cb_slavetrade = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		has_country_flag = alx_unlocked_slave_trade_cb
+		is_free_or_tributary_trigger = yes
+		is_revolutionary = no
+	}
+
+	prerequisites = {
+		FROM = {
+			is_free_or_tributary_trigger = yes
+			NOT = { primary_culture = ROOT }
+		}
+		NOT = { truce_with = FROM }
+	}
+
+	war_goal = slavetrade_blockade_ports
+}
