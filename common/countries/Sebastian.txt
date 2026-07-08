@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 161  100  40 }
+color = { 255  249  158 }
 
 revolutionary_colors = { 0 8 0 }
 
@@ -30,33 +30,33 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aske Andersen #0" = 20
-	"Aske Lund Madsen #0" = 20
-	"Aske Muhammed Nielsen #0" = 20
+	"Sebastian Andersen #0" = 20
+	"Sebastian Lund Madsen #0" = 20
+	"Sebastian Muhammed Nielsen #0" = 20
 	"Uchiha Sasuke #3" = 20
-	"Aske Guldborg #0" = 20
-	"Aske Thilemann #0" = 20
-	"Aske #0" = 20
-	"Aske Eriksen #0" = 20
-	"Aske The Magician #0" = 20
-	"AskeBassen #0" = 20
-	"Askemanden #0" = 20
-	"Aske Storpik #0" = 10
-	"Aske Lillepik #0" = 20
-	"Aske Mellempik #1" = 20
-	"Aske Gayson #0" = 20
-	"Aske Dick #0" = 20
+	"Sebastian Guldborg #0" = 20
+	"Sebastian Thilemann #0" = 20
+	"Sebastian #0" = 20
+	"Sebastian Eriksen #0" = 20
+	"Sebastian The Magician #0" = 20
+	"SebastianBassen #0" = 20
+	"Sebastianmanden #0" = 20
+	"Sebastian Storpik #0" = 10
+	"Sebastian Lillepik #0" = 20
+	"Sebastian Mellempik #1" = 20
+	"Sebastian Gayson #0" = 20
+	"Sebastian Dick #0" = 20
 	"Fuck Dig #0" = 20
-	"Aske Sutsen #0" = 20
-	"Aske Selvsutter #0" = 20
-	"Aske Engeborg #0" = 20
-	"Aske Florin #0" = 20
-	"Aske Voldt?ngtsgaard #8" = 20
+	"Sebastian Sutsen #0" = 20
+	"Sebastian Selvsutter #0" = 20
+	"Sebastian Engeborg #0" = 20
+	"Sebastian Florin #0" = 20
+	"Sebumbum #8" = 20
 }
 
 leader_names = { 
-	Aske Askepot Askefar Askemor Askestorpik "Aske Den Store" 
-	"Aske Med Den Lille" "Aske Klaske" "Aske Klunkefar"
+	Sebastian Sebastianpot Sebastianfar Sebastianmor Sebastianstorpik "Sebastian Den Store" 
+	"Sebastian Med Den Lille" "Sebastian Klaske" "Sebastian Klunkefar"
 }
 
 ship_names = {

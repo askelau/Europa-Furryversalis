@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = chinese
+primary_culture = danish
+religion = catholic
+capital = 2380
+
+1444.1.1 = {
+    monarch = {
+        name = "Sebelibumbastius Maximus 2"
+        dynasty = "EEEEEEEE"
+        ADM = 6
+        DIP = 1
+        MIL = 2
+        birth_date = 1425.1.1
+    }
+}
