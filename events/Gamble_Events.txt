@@ -11,10 +11,12 @@ country_event = {
     fire_only_once = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -38,10 +40,12 @@ country_event = {
     hidden = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
     }
 
     option{
@@ -105,10 +109,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or {
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -156,10 +162,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -202,10 +210,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -253,10 +263,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -304,10 +316,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -355,10 +369,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -406,10 +422,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 
@@ -457,10 +475,12 @@ country_event = {
     is_triggered_only = yes
 
     trigger{
-        tag = ASE
-        #tag = SEB
-        #tag = ALX
-        tag = THO
+        or{
+            tag = ASE
+            #tag = SEB
+            #tag = ALX
+            tag = THO
+        }
         AI = no
     }
 

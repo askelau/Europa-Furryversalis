@@ -1,4 +1,4 @@
-thornbjÃ¸rns_missions{
+thornbjørns_missions{
     slot = 1
     generic = no
     ai = no
@@ -235,7 +235,7 @@ thornbjÃ¸rns_missions{
             custom_tooltip = tho_form_supreme_thorbjornstan_tooltip
             hidden_effect{
                 ROOT = {
-                    override_country_name = "Supreme ThrobjÃ¸rnstan"
+                    override_country_name = "Supreme Throbjørnstan"
                     change_country_color = {
                         color = { 255 92 234 }
                     }

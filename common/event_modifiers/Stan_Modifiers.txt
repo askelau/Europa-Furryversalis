@@ -10,8 +10,8 @@ stan_expansionist_country = {
 	state_maintenance_modifier = -0.35
 }
 supreme_askestan_army = {
-	land_morale = 0.5
-	land_maintenance_modifier = -0.8
+	land_morale = 0.2
+	land_maintenance_modifier = -0.3
 }
 tho_colony_range = {
 	range = 0.5

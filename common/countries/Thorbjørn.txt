@@ -52,7 +52,6 @@ monarch_names = {
 	"Thorbjørn Engeborg #0" = 20
 	"Thorbjørn Florin #0" = 20
 	"Thor og bjørn#8" = 20
-	"I know what you are ^w^ #0" = 20
 }
 
 leader_names = { 
