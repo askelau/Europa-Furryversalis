@@ -23,6 +23,13 @@
   sextoys:0 "Sextoys"
   sextoysDESC:0 "Everybody loves it :P"
 
+  cb_slavetrade:0 "Slave Trade"
+  cb_slavetrade_desc:0 "They are of a different culture and can be targeted for slave raids."
+  slavetrade_blockade_ports:0 "Blockade Ports"
+  slavetrade_blockade_ports_desc:0 "War goal is to blockade enemy ports."
+  SLAVETRADE_WAR_NAME:0 "$ORDER$$FIRST$ Slave Trade War against $SECOND_NAME$"
+  alx_unlocked_slave_trade_cb_tt:0 "§GUnlocks§! the §YSlave Trade§! Casus Belli against countries with a different primary culture."
+
   alexandrisk_monarchy_reform:0 "Alexandrisk Monarchy"
   alexandrisk_monarchy_reform_desc:0 "Det ligner en tissemand der stikker ud, og derfor vil jeg have det."
   ALX_TWINKY:0 "Twinky"
@@ -31,10 +38,3 @@
   ALX_TWINK:0 "Twink"
   ALX_GAY:0 "Gay"
   ALX_GRAND_GAY:0 "Grand Gay"
-
-  cb_slavetrade:0 "Slave Trade"
-  cb_slavetrade_desc:0 "They are of a different culture and can be targeted for slave raids."
-  slavetrade_blockade_ports:0 "Blockade Ports"
-  slavetrade_blockade_ports_desc:0 "War goal is to blockade enemy ports."
-  SLAVETRADE_WAR_NAME:0 "$ORDER$$FIRST$ Slave Trade War against $SECOND_NAME$"
-  alx_unlocked_slave_trade_cb_tt:0 "§GUnlocks§! the §YSlave Trade§! Casus Belli against countries with a different primary culture."

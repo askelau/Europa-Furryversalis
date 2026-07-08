@@ -133,6 +133,7 @@ monarchy = {
 				#################################### MODDED GOVERNMENTS ##########################################
 				alexandrian_empire_reform
 				alexandrisk_monarchy_reform
+				gay_monarchy_reform
 
 			}
 		}

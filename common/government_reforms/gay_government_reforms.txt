@@ -1,0 +1,33 @@
+gay_monarchy_reform = {
+	icon = "roman_empire"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	valid_for_nation_designer = no
+	maintain_dynasty = yes
+	rulers_can_be_generals = no
+	heir = no
+
+	potential = {
+		OR = {
+			tag = THO
+		}
+	}
+
+	trigger = {
+		OR = {
+			tag = THO
+		}
+	}
+
+	modifiers = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	ai = {
+		factor = 1000
+	}
+}
