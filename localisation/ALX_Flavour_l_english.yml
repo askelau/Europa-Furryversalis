@@ -30,11 +30,90 @@
   SLAVETRADE_WAR_NAME:0 "$ORDER$$FIRST$ Slave Trade War against $SECOND_NAME$"
   alx_unlocked_slave_trade_cb_tt:0 "§GUnlocks§! the §YSlave Trade§! Casus Belli against countries with a different primary culture."
 
-  alexandrisk_monarchy_reform:0 "Alexandrisk Monarchy"
-  alexandrisk_monarchy_reform_desc:0 "Det ligner en tissemand der stikker ud, og derfor vil jeg have det."
-  ALX_TWINKY:0 "Twinky"
-  ALX_GAYDOM:0 "Gaydom"
-  ALX_GRAND_GAYDOM:0 "Grand Gaydom"
-  ALX_TWINK:0 "Twink"
-  ALX_GAY:0 "Gay"
-  ALX_GRAND_GAY:0 "Grand Gay"
+  alexandrisk_monarchy_reform:0 "Slaver Monarchy"
+  alexandrisk_monarchy_reform_desc:0 "It's basically free labour."
+  ALX_Slavers_Guild:0 "Slaver's Guild"
+  ALX_Slaver_League:0 "Slaver League"
+  ALX_Slaver_Empire:0 "Slaver Empire"
+  ALX_Slaver:0 "Slaver"
+  ALX_Slavemaster:0 "Slavemaster"
+  ALX_Grand_Slavemaster:0 "Grand Slavemaster"
+
+  alx_force_limit_title:0 "Pølexander the Bad"
+  alx_force_limit_desc:0 "What can he even do?"
+
+  alx_prepare_the_navy_title:0 "Prepare the Navy"
+  alx_prepare_the_navy_desc:0 "We gotta get to the Maldives somehow; Somewhere over the rainbow, way up highThere's a land that I heard of once in a lullabySomewhere over the rainbow, skies are blueAnd the dreams that you dare to dream really do come true"
+
+  alx_burn_maldives_title:0 "Burn the Maldives"
+  alx_burn_maldives_desc:0 "KILL THEM ALL!!!!"
+
+  alx_end_the_maldives_title:0 "End the Maldives"
+  alx_end_the_maldives_desc:0 "These people's only purpose is being slaves"
+
+  alx_north_maldives_title:0 "Convert North Maldives"
+  alx_north_maldives_desc:0 "North Maldives must know the way of Bamse Buller"
+
+  alx_maldives_city_title:0 "Convert Maldives City"
+  alx_maldives_city_desc:0 "This city must follow Edderkoppen"
+
+  alx_inner_maldives_title:0 "Convert Inner Maldives"
+  alx_inner_maldives_desc:0 "Allahu NEJ TAK....."
+
+  alx_south_maldives_title:0 "Convert South Maldives"
+  alx_south_maldives_desc:0 "Det er ikke tvang, hvis de ikke er gamle nok til at samtykke"
+
+  alx_develop_sri_lanka_title:0 "Develop Sri Lanka"
+  alx_develop_sri_lanka_desc:0 "WHY AM I DOING THIS?"
+
+  alx_cultural_relocation_title:0 "Cultural Relocation"
+  alx_cultural_relocation_desc:0 "Some "people" belong elsewhere. Conveniently, we have already decided where."
+
+  alx_alexantropolis_title:0 "Alexantropolis"
+  alx_alexantropolis_desc:0 "Is it AN Alexander or A Alexander???"
+
+  alx_growing_power_title:0 "Growing Power"
+  alx_growing_power_desc:0 "Du er en big boi nu"
+
+  alx_slave_trade_cb_title:0 "Slave Trade Doctrine"
+  alx_slave_trade_cb_desc:0 "Det er vores naturlige ret"
+
+  alx_form_alexanderstan_title:0 "Form Alexanderstan"
+  alx_form_alexanderstan_desc:0 "Alexanderstan, greatest country in the world. All other countries are run by little girls. Alexanderstan, number one exporter of potassium. All other countries have inferior potassium."
+
+  alx_vij_alliance_title:0 "Alliance with Vijayanagar"
+  alx_vij_alliance_desc:0 "Lets abuse it."
+
+  alx_isolate_maldives_title:0 "Isolate the Maldives"
+  alx_isolate_maldives_desc:0 "Det kan blive nemmere"
+
+  alx_trade_mission_to_zanzibar_title:0 "Trade Mission to Zanzibar"
+  alx_trade_mission_to_zanzibar_desc:0 "Handler de med franske hotdogs?"
+
+  alx_conquer_madagascar_title:0 "Conquer Madagascar"
+  alx_conquer_madagascar_desc:0 "Maybe the penguins are good at picking cotton."
+
+  alx_build_madagascar_title:0 "Build Madagascar"
+  alx_build_madagascar_desc:0 "Måske kommer der en løve, en zebra, en giraf og en lækker flodhest."
+
+  alx_traitor_title:0 "The Traitor"
+  alx_traitor_desc:0 "I don't want to play with you anymore"
+
+  alx_no_use_for_me_anymore_title:0 "No Use for Me Anymore"
+  alx_no_use_for_me_anymore_desc:0 "Maybe we can play a different way :)"
+
+  alx_modern_slaves_title:0 "Modern Slaves"
+  alx_modern_slaves_desc:0 "I have a feeling this region will be a source of cheap labour in the future."
+
+  alx_expand_navy_title:0 "Expand the Navy"
+  alx_expand_navy_desc:0 "Many ships = many slaves transported = Profit"
+
+  alx_somali_pirate_slaves_title:0 "Somali Pirate Slaves"
+  alx_somali_pirate_slaves_desc:0 "Big forehead = big slave worker morale??? maybe"
+
+  alx_yemen_title:0 "Dominate Yemen"
+  alx_yemen_desc:0 ""You get a slave. You get a slave. And you get a slave""
+
+  alx_suez_title:0 "Secure Suez"
+  alx_suez_desc:0 "Det er bare Suez kanalen"
+  

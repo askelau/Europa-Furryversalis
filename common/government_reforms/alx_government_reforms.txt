@@ -22,6 +22,9 @@ alexandrisk_monarchy_reform = {
 
 	modifiers = {
 		global_trade_goods_size_modifier = 0.1
+		free_concentrate_development = yes
+		may_perform_slave_raid = yes
+		coast_raid_range = 4 
 	}
 
 	custom_attributes = {
