@@ -161,7 +161,7 @@ sebastians_missions = {
             }
 
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 1
+                value = 60
                 culture = danish
             }
         }
@@ -191,11 +191,13 @@ sebastians_missions = {
         required_missions = { seb_mission_four }
         provinces_to_highlight = {
             superregion = east_indies_superregion
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            NOT = { 
+                country_or_non_sovereign_subject_holds = ROOT 
+                }
         }
         trigger = {
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                value = 1
+                value = 150
                 culture = danish
             }
             east_indies_superregion = {
