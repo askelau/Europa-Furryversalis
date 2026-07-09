@@ -1,11 +1,11 @@
 graphical_culture = westerngfx
 
-color = { 245 175 223 }
+color = { 105 10 55 }
 
 revolutionary_colors = { 0 8 0 }
 
 historical_idea_groups = {
-	religious_ideas
+	naval_ideas
 	trade_ideas
 	quantity_ideas
 	offensive_ideas
@@ -20,48 +20,61 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aske Andersen #0" = 20
-	"Aske Lund Madsen #0" = 20
-	"Aske Muhammed Nielsen #0" = 20
-	"Uchiha Sasuke #3" = 20
-	"Aske Guldborg #0" = 20
-	"Aske Thilemann #0" = 20
-	"Aske #0" = 20
-	"Aske Eriksen #0" = 20
-	"Aske The Magician #0" = 20
-	"AskeBassen #0" = 20
-	"Askemanden #0" = 20
-	"Aske Storpik #0" = 10
-	"Aske Lillepik #0" = 20
-	"Aske Mellempik #1" = 20
-	"Aske Gayson #0" = 20
-	"Aske Dick #0" = 20
-	"Fuck Dig #0" = 20
-	"Aske Sutsen #0" = 20
-	"Aske Selvsutter #0" = 20
-	"Aske Engeborg #0" = 20
-	"Aske Florin #0" = 20
-	"Aske Voldt?ngtsgaard #8" = 20
+	"Pølexander #4" = 25
+	"Mr Childmolester #27" = 25
+	"Den lille bitch" = 5
+	"RæveFurryen" = 5
+	"Mr Gaymann #2" = 10
+	"Alexander Gokkesok" = 10
+	"Alexander uden bukser #1" = 10
+	"Alexander Røvhår #1" = 9
+	"Alexander fra Sverige" = 1
+	"Alexander i KVINDEUDGAVE.... Ulækkert" = -99
+	"Mr Chillmann603" = 0
+	"Beetlejuice4368" = 0
+	"Jurassic4218" = 0
+	"Knight of Ni113" = 0
+	"LasseManden" = 0
+	"sonogay22" = 0
+	"Toroslar3310" = 0 
+	"Zeumedes" = 0
+	"Pup" = 0
+	"Pippi Kortskørt" = -1
 }
 
 leader_names = { 
-	Aske Askepot Askefar Askemor Askestorpik "Aske Den Store" 
-	"Aske Med Den Lille" "Aske Klaske" "Aske Klunkefar"
+	"Klunkeslikker"
+	"Stinkepik"
+	"Børnelokker"
+	"Slavehandler"
+	"Med Hæmoride"
+	"Med Downsyndrom"
+	"I GTA"
+	"Fra Pjort"
+	"Den Dumme"
+	"Den Stinkende"
+	"Den Brækfremkaldende"
+	"Den Ubehøvlede"
+	"Den Bestialske"
+	"Den Pædofile"
+	"Den Liderlige"
+	"Den Homofobiske"
 }
 
 ship_names = {
-	"Alghu Khan"
-	"Baraq Khan"
-	Chagatai
-	Orghina 
-	"Genghis Khan"
-	"Mubarak Shah"
-	"Yes?nto'a"
-	Qipchaq
-	"Jagatai Khan" "Amo Darya"
-	"Syr Darya" "?gedai Khan"
-	G?y?k "M?ngke Khan" "Qubilai Khan"
-	Duwa "Qazan Khan" "Tughlugh Timur"
-	Irtysh "Amir Husayn" "Timur i Leng"
-	Samarqand
+	"GrogSucker"
+	"Mother Grogger"
+	"Sardinen"
+	"Kassedamen"
+	"Commendation Seeker"
+	"Dice"
+	"Send Deck Pics"
+	"The Tax Collector"
+	"Heisenburger"
+	"Ole Lund Madsen"
+	"Kyuubi"
+	"Donald Harris"
+	"SS Sneakbelly"
+	"Ship Happens"
+	"J Epp island hopper"
 }
