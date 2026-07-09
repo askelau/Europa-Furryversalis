@@ -1,0 +1,26 @@
+sebastiansk_monarchy_government = {
+	rank = {
+		1 = SEB_Nazi
+		2 = SEB_Nazi_Kingdom
+		3 = SEB_Nazi_Empire
+	}
+
+	ruler_male = {
+		1 = SEB_Nazi_Leader
+		2 = SEB_Nazi_King
+		3 = SEB_Nazi_Emperor
+	}
+
+	ruler_female = {
+		1 = SEB_Nazi_Leader
+		2 = SEB_Nazi_Queen
+		3 = SEB_Nazi_Empress
+	}
+
+
+
+	trigger = {
+		government = monarchy
+		has_reform = sebastiansk_monarchy_reform
+	}
+}

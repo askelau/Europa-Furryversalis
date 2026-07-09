@@ -1,0 +1,35 @@
+sebastiansk_monarchy_reform = {
+	icon = "roman_empire"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	valid_for_nation_designer = no
+	maintain_dynasty = yes
+	rulers_can_be_generals = yes
+
+	potential = {
+		OR = {
+			tag = SEB
+		}
+	}
+
+	trigger = {
+		OR = {
+			tag = SEB
+		}
+	}
+
+	modifiers = {
+		culture_conversion_cost = -0.9
+        num_accepted_cultures = -10
+        global_unrest = -2
+        administrative_efficiency = -0.05
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	ai = {
+		factor = 1000
+	}
+}
