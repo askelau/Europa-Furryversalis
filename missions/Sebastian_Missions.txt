@@ -1,0 +1,91 @@
+sebastians_missions{
+    slot = 1
+    generic = no
+    ai = no
+    has_country_shield = yes
+    potential{
+        tag = THO
+    }
+
+    seb_mission_one = {
+        position = 1
+        icon = THO_mission
+        required_missions = { 
+
+        }
+        trigger = {
+
+        }
+        effect = {
+
+        }
+    }
+
+    seb_mission_two = {
+        position = 2
+        icon = THO_mission
+        required_missions = { 
+            tho_navy_limit
+        }
+        trigger = {
+
+        }
+        effect = {
+
+        }
+    }
+
+    seb_mission_three = {
+        position = 3
+        icon = THO_mission
+        required_missions = { 
+            tho_have_specific_idea
+        }
+        trigger = {
+
+        }
+        effect = {
+
+		}
+    }
+    
+    seb_mission_four = {
+        position = 4
+        icon = THO_mission
+        required_missions = { 
+            tho_discover_australia_and_africa
+        }
+        provinces_to_highlight = {
+
+        }
+        trigger = {
+            custom_trigger_tooltip = {
+
+            }
+
+            custom_trigger_tooltip = {
+
+            }
+        }
+        effect = {
+	
+        }
+    }
+
+    seb_mission_five = {
+        position = 5
+        icon = THO_mission
+        required_missions = { 
+            tho_have_two_colonies
+        }
+        provinces_to_highlight = {
+
+        }
+        trigger = {
+
+        }
+		effect = {
+
+        }
+    }
+}

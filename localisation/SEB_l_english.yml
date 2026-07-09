@@ -1,0 +1,34 @@
+#Missions
+seb_mission_one_title: ""
+seb_mission_one_desc: ""
+
+seb_mission_two_title: ""
+seb_mission_two_desc: ""
+
+seb_mission_three_title: ""
+seb_mission_three_desc: ""
+
+seb_mission_four_title: ""
+seb_mission_four_desc: ""
+
+seb_mission_five_title: ""
+seb_mission_five_desc: ""
+
+#Ideas
+seb_ideas:0 "Sebastians Ideas"
+seb_ideas_bonus:0 ""
+seb_ideas_start:0 ""
+seb_idea.1:0 ""
+seb_idea.1_desc:0 ""
+seb_idea.2:0 ""
+seb_idea.2_desc:0 "B"
+seb_idea.3:0 ""
+seb_idea.3_desc:0 ""
+seb_idea.4:0 ""
+seb_idea.4_desc:0 ""
+seb_idea.5:0 ""
+seb_idea.5_desc:0 ""
+seb_idea.6:0 ""
+seb_idea.6_desc:0 ""
+seb_idea.7:0 ""
+seb_idea.7_desc:0 ""

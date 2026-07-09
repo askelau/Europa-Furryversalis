@@ -1,0 +1,34 @@
+seb_ideas = {
+    start = {
+	
+    }					
+    bonus = {		
+
+    }					
+    trigger = {				
+        tag = SEB		
+    }					
+    free = yes				
+					
+    seb_idea.1 = {			
+       		
+    }					
+    seb_idea.2 = {	
+
+    }						
+    seb_idea.3 = {		
+
+    }						
+    seb_idea.4 = {		
+
+    }						
+    seb_idea.5 = {		
+
+    }	                                       
+    seb_idea.6 = {       
+
+    }	                                        
+    seb_idea.7 = {	                        
+
+    }						
+}	
