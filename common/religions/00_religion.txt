@@ -2600,3 +2600,4 @@ zoroastrian_group = {
 	crusade_name = HOLY_WAR
 	
 }
+

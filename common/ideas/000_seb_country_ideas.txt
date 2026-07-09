@@ -29,6 +29,7 @@ seb_ideas = {
     }						
     seb_idea.5 = {		
         governing_capacity_modifier = 0.15
+        global_missionary_strength = 0.02
     }	                                       
     seb_idea.6 = {       
         diplomatic_reputation = -2

@@ -1,0 +1,148 @@
+bamsebuller = {
+    legitimacy = 0.5
+    core_creation = -0.10
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 6
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+forste_ben = {
+    discipline = 0.05
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 1
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+andet_ben = {
+    global_manpower_modifier = 0.20
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 2
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+tredje_ben = {
+    trade_efficiency = 0.15
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 3
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+fjerde_ben = {
+    naval_morale = 0.10
+    ship_durability = 0.10
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 4
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+femte_ben = {
+    diplomatic_reputation = 1
+    improve_relation_modifier = 0.20
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 5
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+sjette_ben = {
+    development_cost = -0.10
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 6
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+syvende_ben = {
+    missionaries = 1
+    tolerance_own = 1
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 2
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+ottende_ben = {
+    siege_ability = 0.15
+    land_morale = 0.10
+
+    potential = { religion = edderkoppen }
+    trigger = {}
+
+    sprite = 1 
+
+    effect = {}
+    removed_effect = {}
+
+    ai_will_do = {
+        factor = 1
+    }
+}

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = sebastiansk_monarchy_reform
 technology_group = chinese
 primary_culture = danish
-religion = catholic
+religion = edderkoppen
 capital = 2380
 
 1444.1.1 = {

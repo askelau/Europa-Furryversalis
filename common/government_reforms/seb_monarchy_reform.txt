@@ -19,10 +19,12 @@ sebastiansk_monarchy_reform = {
 	}
 
 	modifiers = {
-		culture_conversion_cost = -0.9
+		culture_conversion_cost = -0.95
         num_accepted_cultures = -10
         global_unrest = -2
         administrative_efficiency = -0.05
+		culture_conversion_time = -0.75
+		years_of_nationalism = -15
 	}
 
 	custom_attributes = {
