@@ -193,7 +193,7 @@ sebastians_missions = {
             superregion = east_indies_superregion
             NOT = { 
                 country_or_non_sovereign_subject_holds = ROOT 
-                }
+            }
         }
         trigger = {
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -206,6 +206,13 @@ sebastians_missions = {
             }
         }
         effect = {
+            add_stability = 3
+            add_adm_power = 250
+            add_dip_power = 250
+            add_mil_power = 250
+            add_prestige = 50
+            add_legitimacy = 50
+            custom_tooltip = form_supreme_sebastianstan_tooltip
             hidden_effect{
                 ROOT = {
                     override_country_name = "Supreme Sebastianstan"
