@@ -1,91 +1,216 @@
-sebastians_missions{
+sebastian_colonist_missions = {
     slot = 1
     generic = no
     ai = no
     has_country_shield = yes
     potential{
-        tag = THO
+        tag = SEB
     }
 
-    seb_mission_one = {
-        position = 1
-        icon = THO_mission
-        required_missions = { 
-
+    seb_colonist_mission_one = {
+        icon = mission_build_up_to_force_limit
+        position = 3
+        required_missions = { seb_mission_two }
+        provinces_to_highlight = {
+            or = {
+                or {
+                    region = moluccas_region
+                    region = indonesia_region
+                }
+            }
         }
         trigger = {
-
+            any_owned_province{
+                or {
+                    region = moluccas_region
+                    region = indonesia_region
+                }
+            }
         }
         effect = {
+            add_country_modifier = {
+                name = "seb_colonist"
+                duration = -1
+            }
+        }
+    }
+}
 
+sebastians_missions = {
+    slot = 2
+    generic = no
+    ai = no
+    has_country_shield = yes
+    potential{
+        tag = SEB
+    }
+
+
+    seb_mission_one = {
+        icon = mission_build_up_to_force_limit
+        required_missions = {  }
+        trigger = {
+            is_at_war = no
+            army_size_percentage = 1
+        }
+        effect = {
+            custom_tooltip = claim_neighbor_province
+            hidden_effect = {
+                every_owned_province = {
+                    every_neighbor_province = {
+                        limit = {
+                            NOT = { owned_by = ROOT }
+                            NOT = { is_permanent_claim = ROOT	}
+                            NOT = { is_core = ROOT	}
+                        }
+                        add_claim = ROOT
+                    }
+                }
+            }
         }
     }
 
     seb_mission_two = {
-        position = 2
-        icon = THO_mission
-        required_missions = { 
-            tho_navy_limit
-        }
-        trigger = {
-
-        }
+        icon = mission_conquer_50_development
+        required_missions = { seb_mission_one }
+        trigger = { grown_by_development = 75 }
         effect = {
-
+            capital_scope = {
+                add_base_tax = 1
+                add_base_production = 1
+                add_base_manpower = 1
+            }
+            indo_china_region = {
+                limit = {
+                    NOT = {
+                        is_permanent_claim = ROOT
+                    }
+                    NOT = {
+                        is_core = ROOT
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
+            every_owned_province = {
+                every_neighbor_province = {
+                    limit = {
+                        NOT = { owned_by = ROOT }
+                        NOT = { is_permanent_claim = ROOT	}
+                        NOT = { is_core = ROOT	}
+                    }
+                    add_claim = ROOT
+                }
+            }
+            add_country_modifier = {
+                name = "imperial_ambition"
+                duration = 3650
+            }
         }
     }
-
     seb_mission_three = {
-        position = 3
-        icon = THO_mission
-        required_missions = { 
-            tho_have_specific_idea
+        icon = mission_cannons_firing
+        required_missions = {
+            seb_mission_two
+        }
+        provinces_to_highlight = {
+            region = indo_china_region
         }
         trigger = {
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                region = indo_china_region
+                value = 35
+            }
+        }
+
+        effect = {
+            add_mil_power = 100
+            add_adm_power = 100
+            add_country_modifier = {
+                name = "expansionist_country"
+                duration = 9125
+            }
+
+            malaya_region = {
+                limit = {
+                    NOT = {
+                        is_permanent_claim = ROOT
+                    }
+                    NOT = {
+                        is_core = ROOT
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
 
         }
-        effect = {
-
-		}
     }
-    
+    #4th
     seb_mission_four = {
-        position = 4
-        icon = THO_mission
-        required_missions = { 
-            tho_discover_australia_and_africa
-        }
+        icon = mission_assemble_an_army
+        required_missions = { seb_mission_three }
         provinces_to_highlight = {
-
+            region = malaya_region
+            NOT = {
+                owned_by = ROOT
+            }
         }
         trigger = {
-            custom_trigger_tooltip = {
-
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                region = malaya_region
+                value = 17
             }
 
-            custom_trigger_tooltip = {
-
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 1
+                culture = danish
             }
         }
         effect = {
-	
+            add_army_tradition_or_mil_power = { amount = 20 }
+            add_country_modifier = {
+                name = "army_enthusiasm"
+                duration = 9125
+            }
+
+            east_indies_superregion = {
+                limit = {
+                    NOT = {
+                        is_permanent_claim = ROOT
+                    }
+                    NOT = {
+                        is_core = ROOT
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
         }
     }
-
+    #5th
     seb_mission_five = {
-        position = 5
-        icon = THO_mission
-        required_missions = { 
-            tho_have_two_colonies
-        }
+        icon = mission_unite_home_region
+        required_missions = { seb_mission_four }
         provinces_to_highlight = {
-
+            superregion = east_indies_superregion
         }
         trigger = {
-
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 1
+                culture = danish
+            }
+            east_indies_superregion = {
+                type = all
+                owned_by = ROOT
+            }
         }
-		effect = {
-
+        effect = {
+            hidden_effect{
+                ROOT = {
+                    override_country_name = "Supreme Sebastianstan"
+                    change_country_color = {
+                        color = { 255 255 0 }
+                    }
+                }
+            }
         }
     }
 }

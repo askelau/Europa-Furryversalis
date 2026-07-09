@@ -1,0 +1,3 @@
+seb_colonist = {
+	colonists = 1
+}

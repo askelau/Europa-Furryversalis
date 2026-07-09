@@ -13,8 +13,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -42,8 +42,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
     }
@@ -111,8 +111,8 @@ country_event = {
     trigger{
         or {
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -164,8 +164,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -212,8 +212,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -265,8 +265,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -318,8 +318,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -371,8 +371,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -424,8 +424,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no
@@ -477,8 +477,8 @@ country_event = {
     trigger{
         or{
             tag = ASE
-            #tag = SEB
-            #tag = ALX
+            tag = SEB
+            tag = ALX
             tag = THO
         }
         AI = no

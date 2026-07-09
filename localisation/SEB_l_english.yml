@@ -1,4 +1,5 @@
 ﻿l_english:
+
 #Missions
 seb_mission_one_title: ""
 seb_mission_one_desc: ""
@@ -14,6 +15,9 @@ seb_mission_four_desc: ""
 
 seb_mission_five_title: ""
 seb_mission_five_desc: ""
+
+seb_colonist_mission_one_title: ""
+seb_colonist_mission_one_desc: ""
 
 #Ideas
 seb_ideas:0 "Sebastians Ideas"
