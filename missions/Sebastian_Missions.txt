@@ -191,6 +191,7 @@ sebastians_missions = {
         required_missions = { seb_mission_four }
         provinces_to_highlight = {
             superregion = east_indies_superregion
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
         trigger = {
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -199,7 +200,7 @@ sebastians_missions = {
             }
             east_indies_superregion = {
                 type = all
-                owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
             }
         }
         effect = {
