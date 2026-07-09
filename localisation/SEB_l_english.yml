@@ -1,23 +1,28 @@
 ﻿l_english:
 
 #Missions
-seb_mission_one_title: ""
-seb_mission_one_desc: ""
+seb_mission_one_title: "Army and Peace"
+seb_mission_one_desc: "Build up your army and aquire peace."
 
-seb_mission_two_title: ""
-seb_mission_two_desc: ""
+seb_mission_two_title: "Grow your nation"
+seb_mission_two_desc: "Grow your nation by gaining at least 75 development."
 
-seb_mission_three_title: ""
-seb_mission_three_desc: ""
+seb_mission_three_title: "Take Indochina"
+seb_mission_three_desc: "Grow larger in the Indochina region."
 
-seb_mission_four_title: ""
-seb_mission_four_desc: ""
+seb_mission_four_title: "One true culture"
+seb_mission_four_desc: "Take land in the Malaya region while keeping the only true culture."
 
-seb_mission_five_title: ""
-seb_mission_five_desc: ""
+seb_mission_five_title: "Form Supreme Sebastianstan"
+seb_mission_five_desc: "Form Supreme Sebastianstan, the third greatest nation in the world, right after the mighty Supreme Alexanderstan and Askestan!"
 
-seb_colonist_mission_one_title: ""
-seb_colonist_mission_one_desc: ""
+seb_colonist_mission_one_title: "Colonist for land"
+seb_colonist_mission_one_desc: "Gain a colonist by taking land from the Indonesia or Moluccas region"
+
+form_supreme_sebastianstan_tooltip: "Form the great nation of Supreme Sebastianstan"
+
+seb_colonist:0 "Extra colonist"
+seb_colonist_desc:0 "Gain an extra colonist"
 
 #Ideas
 seb_ideas:0 "Sebastians Ideas"
