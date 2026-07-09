@@ -52,6 +52,7 @@ monarch_names = {
 	"Sebastian Engeborg #0" = 20
 	"Sebastian Florin #0" = 20
 	"Sebumbum #8" = 20
+	"Snuskesnude Røvbasse #3" = 20
 }
 
 leader_names = { 

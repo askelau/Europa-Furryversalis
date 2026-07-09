@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = nomad_group
-primary_culture = danish
-religion = catholic
+primary_culture = Askesk_culture
+religion = edderkoppen
 capital = 2120 #Ili
 
 1444.1.1 = {

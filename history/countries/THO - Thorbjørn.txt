@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = gay_monarchy_reform
 technology_group = nomad_group
-primary_culture = danish
-religion = catholic
+primary_culture = Thorbjornsk_culture
+religion = edderkoppen
 capital = 577
 
 1444.1.1 = {

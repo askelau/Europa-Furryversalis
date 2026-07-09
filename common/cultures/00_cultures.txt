@@ -10419,3 +10419,202 @@ Wakandan_group = {
 		"Von Lee"
 	}
 }
+
+Game_of_Games_group = {
+	country = {
+		global_manpower_modifier = 0.01
+	}
+
+	Alexandersk_culture = {
+		primary = ALX
+
+		male_names = {
+			"Pølexander"
+			"Mr Childmolester"
+			"Den lille bitch"
+			"RæveFurryen"
+			"Mr Gaymann"
+			"Alexander Gokkesok"
+			"Alexander uden bukser"
+			"Alexander Røvhår"
+			"Alexander fra Sverige"
+			"Mr Chillmann603"
+			"Beetlejuice4368"
+			"Jurassic4218"
+			"Knight of Ni113"	
+			"sonogay22"
+			"Toroslar3310"
+			"Zeumedes"
+			"Pup"
+		}
+
+		female_names = {
+			"Alexander i KVINDEUDGAVE.... Ulækkert"			
+			"Pippi Kortskørt"
+			"LasseManden"
+			"Alexine"
+			"Alaxine"
+			"Aluxine"
+			"Alyxine"
+			"Aløxine"
+			"Alæxine"
+			"Alixine"
+			"Aloxine"
+			"Alåxine"
+		}
+
+		dynasty_names = {
+			"Von Tissemand"
+			"Von Børnelurer"
+			"Epstein"
+		}
+	}
+
+	
+
+	Sebastiansk_culture = {
+		primary = SEB
+		
+		male_names = {
+			"Sebastian Andersen" 
+			"Sebastian Lund Madsen"
+			"Sebastian Muhammed Nielsen"
+			"Uchiha Sasuke" 
+			"Sebastian Guldborg"
+			"Sebastian Thilemann"
+			"Sebastian"
+			"Sebastian Eriksen"
+			"Sebastian The Magician"
+			"SebastianBassen" 
+			"Sebastianmanden"
+			"Sebastian Storpik"
+			"Sebastian Lillepik"
+			"Sebastian Mellempik"
+			"Sebastian Gayson"
+			"Sebastian Dick"
+			"Fuck Dig"
+			"Sebastian Sutsen"
+			"Sebastian Selvsutter"
+			"Sebastian Engeborg"
+			"Sebastian Florin"
+			"Sebumbum"
+			"Snuskesnude Røvbasse"
+		}
+
+		female_names = {
+			"Sebine"
+			"Sabine"
+			"Subine"
+			"Sybine"
+			"Søbine"
+			"Sæbine"
+			"Sibine"
+			"Sobine"
+			"Såbine"
+		}
+
+		dynasty_names = {
+			"Tuborg"
+			"Brian Tuborg"
+			"Von Parringskald"
+			"Babyis"
+		}
+	}
+
+
+
+	Thorbjornsk_culture = {
+		primary = THO
+
+		male_names = {
+			"Thorbjørn Andersen"
+			"Thorbjørn Lund Madsen"
+			"Thorbjørn Muhammed Nielsen"
+			"Thor Bear"
+			"Thorbjørn Guldborg"
+			"Thorbjørn Thilemann"
+			"Thorbjørn"
+			"Thorbjørn Eriksen"
+			"Thorbjørn The Magician"
+			"ThorbjørnBassen"
+			"Thorbjørnmanden"
+			"Thorbjørn Storpik"
+			"Thorbjørn Lillepik"
+			"Thorbjørn Mellempik"
+			"Thorbjørn Gayson"
+			"Thorbjørn Dick"
+			"Fuck Dig"
+			"Thorbjørn Sutsen"
+			"Thorbjørn Selvsutter"
+			"Thorbjørn Engeborg"
+			"Thorbjørn Florin"
+			"Thor og bjørn"
+		}
+
+		female_names = {
+			"Therbine"
+			"Tharbine"
+			"Thurbine"
+			"Thyrbine"
+			"Thørbine"
+			"Thærbine"
+			"Thirbine"
+			"Thorbine"
+			"Thårbine"
+		}
+		dynasty_names = {
+			"Voldtægtsgård"
+			"Gårdgårdgård"
+			"Actually"
+		}
+	}
+
+
+
+	Askesk_culture = {
+		primary = ASE
+
+		male_names = {
+			"Aske Andersen"
+			"Aske Lund Madsen"
+			"Aske Muhammed Nielsen"
+			"Uchiha Sasuke"
+			"Aske Guldborg"
+			"Aske Thilemann"
+			"Aske"
+			"Aske Eriksen"
+			"Aske The Magician"
+			"AskeBassen"
+			"Askemanden"
+			"Aske Storpik"
+			"Aske Lillepik"
+			"Aske Mellempik"
+			"Aske Gayson"
+			"Aske Dick"
+			"Fuck Dig"
+			"Aske Sutsen"
+			"Aske Selvsutter"
+			"Aske Engeborg"
+			"Aske Florin"
+			"Aske Voldtægtsgaard"
+		}
+
+		female_names = {
+			"Askeine"
+			"Askaine"
+			"Askuine"
+			"Askyine"
+			"Askøine"
+			"Askæine"
+			"Askiine"
+			"Askoine"
+			"Askåine"
+		}
+
+		dynasty_names = {
+			"Den gode"
+			"Den seje"
+			"Den lækre"
+		}
+	}
+}

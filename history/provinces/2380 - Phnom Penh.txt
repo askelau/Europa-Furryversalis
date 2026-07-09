@@ -3,7 +3,7 @@
 owner = SEB
 controller = SEB
 add_core = SEB
-culture = danish
+culture = Sebastiansk_culture
 religion = edderkoppen
 capital = "Chaktomuk"
 trade_goods = iron
