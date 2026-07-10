@@ -15,7 +15,7 @@ alx_first_slot = {
 		position = 5
 		trigger = {
 			4944 = {
-				religion = catholic
+				religion = edderkoppen
 			}
 		}
 
@@ -183,7 +183,7 @@ alx_second_slot = {
 		position = 5
 		trigger = {
 			4943 = {
-				religion = catholic
+				religion = edderkoppen
 			}
 		}
 
@@ -401,7 +401,7 @@ alx_third_slot = {
 				add_base_tax = 9
 				add_base_production = 9
 				add_base_manpower = 9
-				change_culture = danish
+				change_culture = Alexandersk_culture
 				change_province_name = "Alexantropolis"
             	rename_capital = "Alexantropolis"
 			}
@@ -410,21 +410,21 @@ alx_third_slot = {
 				add_base_tax = 3
 				add_base_production = 3
 				add_base_manpower = 3
-				change_culture = danish
+				change_culture = Alexandersk_culture
 			}
 			4944 = {
 				change_trade_goods = wine
 				add_base_tax = 3
 				add_base_production = 3
 				add_base_manpower = 3
-				change_culture = danish
+				change_culture = Alexandersk_culture
 			}
 			1248 = {
 				change_trade_goods = wine
 				add_base_tax = 3
 				add_base_production = 3
 				add_base_manpower = 3
-				change_culture = danish
+				change_culture = Alexandersk_culture
 			}
 			2100 = {
 				change_trade_goods = slaves
@@ -648,7 +648,7 @@ alx_fourth_slot = {
 		position = 5
 		trigger = {
 			1248 = {
-				religion = catholic
+				religion = edderkoppen
 			}
 		}
 		provinces_to_highlight = { province_id = 1248 }
@@ -779,7 +779,7 @@ alx_fifth_slot = {
 		position = 5
 		trigger = {
 			4942 = {
-				religion = catholic
+				religion = edderkoppen
 			}
 		}
 		provinces_to_highlight = { province_id = 4942 }

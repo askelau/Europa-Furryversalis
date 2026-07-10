@@ -3,8 +3,8 @@
 owner = ALX
 controller = ALX 
 add_core = ALX
-culture = danish
-religion = catholic
+culture = Alexandersk_culture
+religion = edderkoppen
 capital = "Yapapatuna"
 trade_goods = wine
 hre = no

@@ -35,7 +35,7 @@ edderkoppen_group = {
 
     edderkoppen = {
         color = { 0 37 15 }
-        icon = 29
+        icon = 30
 
         country = {
             all_estate_loyalty_equilibrium = 0.1
