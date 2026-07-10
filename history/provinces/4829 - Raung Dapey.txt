@@ -1,8 +1,8 @@
 owner = SEB
 controller = SEB
 add_core = SEB
-culture = danish
-religion = catholic
+culture = Sebastiansk_culture
+religion = edderkoppen
 capital = "Raung Dapey"
 trade_goods = grain
 hre = no

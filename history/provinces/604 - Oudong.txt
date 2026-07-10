@@ -1,10 +1,10 @@
 #604 - Oudong
 
 owner = SEB
-controller = SEB
+controller = LXA
 add_core = SEB
-culture = danish
-religion = catholic
+culture = Sebastiansk_culture
+religion = edderkoppen
 capital = "Oudong"
 trade_goods = incense
 hre = no

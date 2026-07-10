@@ -1,8 +1,8 @@
 owner = SEB
-controller = SEB
+controller = LXA
 add_core = SEB
-culture = danish
-religion = catholic
+culture = Sebastiansk_culture
+religion = edderkoppen
 capital = "Kampom Pous Thom"
 trade_goods = grain
 hre = no

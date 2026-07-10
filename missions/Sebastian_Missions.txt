@@ -54,6 +54,7 @@ sebastians_missions = {
             army_size_percentage = 1
         }
         effect = {
+            add_treasury = 300
             custom_tooltip = claim_neighbor_province
             hidden_effect = {
                 every_owned_province = {
@@ -162,7 +163,7 @@ sebastians_missions = {
 
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 60
-                culture = danish
+                culture = Sebastiansk_culture
             }
         }
         effect = {
@@ -198,7 +199,7 @@ sebastians_missions = {
         trigger = {
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
                 value = 150
-                culture = danish
+                culture = Sebastiansk_culture
             }
             east_indies_superregion = {
                 type = all

@@ -1,0 +1,15 @@
+name = "Sebastians store krig for overlevelse"
+
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2380
+}
+
+1444.11.11 = {
+    add_attacker = LXA
+    add_attacker = PHA
+    add_attacker = PAT
+
+    add_defender = SEB
+}
