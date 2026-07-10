@@ -26,5 +26,6 @@ tho_colony_cost = {
 }
 tho_tmp_colonist_and_range = {
 	colonists = 1
+	may_explore = yes
 	range = 0.5
 }

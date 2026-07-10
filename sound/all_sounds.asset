@@ -95,7 +95,7 @@ sound = {
 }
 sound = {
 	name = start_changing_culture
-	file = "start_changing_culture.wav"
+	file = "jarrr.wav"
 }
 sound = {
 	name = start_convert_norse_pagan_reformed
@@ -261,7 +261,7 @@ sound = {
 
 sound = {
 	name = heir_die
-	file = "heir_die.wav"
+	file = "im_gay.wav"
 }
 sound = {
 	name = heir_new
@@ -282,7 +282,7 @@ sound = {
 }
 sound = {
 	name = hire_explorer
-	file = "recruit_explorer.wav"
+	file = "cyka_blyat_mand.wav"
 }
 sound = {
 	name = hire_admiral
@@ -342,7 +342,7 @@ sound = {
 }
 sound = {
 	name = pause
-	file = "pause.wav"
+	file = "im_gay.wav"
 }
 sound = {
 	name = excommunicated
@@ -502,12 +502,12 @@ sound = {
 sound = {
 	name = army_move
 	file = "old/army_move.wav"
-	file = "give_army_move_order.wav"	
+	file = "work_work.wav"	
 }
 sound = {
 	name = army_click
 	#file = "old/army_click.wav"
-	file = "select_army.wav"
+	file = "something_need_doing.wav"
 }
 sound = {
 	name = tab_click
@@ -636,7 +636,7 @@ sound = {
 
 sound = {
 	name = take_loan
-	file = "take_loan.wav"
+	file = "cyka_blyat_mand.wav"
 }
 
 sound = {
@@ -1163,12 +1163,23 @@ sound = {
 	name = attackt
 	#file = "old/attackt.wav"
 	file = "attack_t.wav"
+	volume = 6
 }
 sound = {
 	name = lostfight1
 	file = "lost1.wav"
+	volume = 3
 }
 sound = {
 	name = lostfight2
 	file = "lost2.wav"
+	volume = 3
+}
+sound = {
+	name = religion_edderkoppen
+	file = "eeeeeeeee1.wav"
+}
+sound = {
+	name = defender_of_the_edderkoppen_faith
+	file = "im_gay.wav"
 }

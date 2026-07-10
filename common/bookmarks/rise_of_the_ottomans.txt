@@ -1,0 +1,19 @@
+bookmark =
+{
+	name = "RISE_OF_THE_EDDERKOPS"
+	desc = "RISE_OF_THE_EDDERKOPS_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	country = ASE
+	country = THO
+	country = ALX	
+	country = SEB
+	
+	easy_country = ASE
+	easy_country = THO
+	easy_country = ALX
+    easy_country = SEB
+}

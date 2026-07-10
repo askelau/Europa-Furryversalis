@@ -21,9 +21,6 @@ thornbjørns_missions{
 				name = "tho_tmp_colonist_and_range"
 				duration = 3650
 			}
-            create_explorer = {
-                tradition = 50
-            }
         }
     }
 
