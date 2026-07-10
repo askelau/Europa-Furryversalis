@@ -4,3 +4,4 @@ tags={
 }
 name="Europa Furryversalis"
 supported_version="v1.37.5.0"
+replace_path = "gfx/loadingscreens"
