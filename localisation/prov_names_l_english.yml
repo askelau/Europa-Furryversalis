@@ -3727,6 +3727,10 @@
  RAND_SEA_NAME077:0 "Sea of Test77"
  RAND_SEA_NAME078:0 "Sea of Test78"
  RAND_SEA_NAME079:0 "Sea of Test79"
+ 
  PROV4942:0 "South Maldives"
  PROV4943:0 "Maldives City"
  PROV4944:0 "North Maldives"
+ PROV_ADJ4942:0 "South Maldivian"
+ PROV_ADJ4943:0 "Maldivian"
+ PROV_ADJ4944:0 "North Maldivian"

@@ -1,17 +1,42 @@
 graphical_culture = westerngfx
 color = { 210 170 60 }
 
-# Optional monarch/leader names can be added here later.
-# monarch_names = {
-# }
-# leader_names = {
-# }
+monarch_names = {
+	"Nabopolassar #0" = 10
+	"Nebuchadnezzar #0" = 10
+	"Nabonidus #0" = 10
+	"Belshazzar #0" = 5
+	"Amel-Marduk #0" = 10
+	"Nergal-shar-usur #0" = 10
+	"Labashi-Marduk #0" = 5
+	"Marduk-apla-iddina #0" = 10
+	"Shamash-shum-ukin #0" = 10
+	"Mushezib-Marduk #0" = 5
+	"Nadin #0" = 5
+	"Bel-ibni #0" = 5
+}
+leader_names = {
+	"Nabopolassar"
+	"Nebuchadnezzar"
+	"Nabonidus"
+	"Nergal"
+	"Belshazzar"
+	"Hammurabi"
+	"Amel-Marduk"
+	"Labashi"
+	"Shamash"
+	"Sargon"
+}
 ship_names = {
-    "Babylon"
+	"Ishtar"
+	"Marduk"
+	"Euphrates"
+	"Tigris"
+	"Babylon"
+	"Esagila"
+	"Lion of Babylon"
+	"Hanging Gardens"
+	"Enlil"
+	"Nabu"
 }
-army_names = {
-    "Army of Babylon"
-}
-fleet_names = {
-    "Fleet of Babylon"
-}
+

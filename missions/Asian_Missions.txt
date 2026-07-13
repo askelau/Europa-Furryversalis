@@ -5,7 +5,9 @@ asian_missions = {
 	potential = {
 		capital_scope = {
 			continent = asia
-			NOT = ALX
+		}
+		NOT = {
+			tag = ALX
 		}
 	}
 

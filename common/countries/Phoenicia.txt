@@ -1,17 +1,43 @@
 graphical_culture = westerngfx
 color = { 25 70 155 }
 
-# Optional monarch/leader names can be added here later.
-# monarch_names = {
-# }
-# leader_names = {
-# }
+
+monarch_names = {
+	"Ahiram #0" = 10
+	"Abibaal #0" = 10
+	"Ittobaal #0" = 10
+	"Hiram #0" = 10
+	"Mattan #0" = 10
+	"Pygmalion #0" = 5
+	"Baal-Eser #0" = 10
+	"Eshmunazar #0" = 10
+	"Bodashtart #0" = 10
+	"Tabnit #0" = 10
+	"Azemilcus #0" = 5
+	"Gerbaal #0" = 5
+}
+leader_names = {
+	"Abdmelqart"
+	"Ahiram"
+	"Azemilcus"
+	"Baalshillem"
+	"Bodashtart"
+	"Eshmunazar"
+	"Gerbaal"
+	"Hanno"
+	"Mattan"
+	"Tabnit"
+}
 ship_names = {
-    "Phoenicia"
+	"Melqart"
+	"Astarte"
+	"Tanit"
+	"Eshmun"
+	"Sidon"
+	"Tyre"
+	"Byblos"
+	"Purple Sea"
+	"Cedar"
+	"Sea Horse"
 }
-army_names = {
-    "Army of Phoenicia"
-}
-fleet_names = {
-    "Fleet of Phoenicia"
-}
+

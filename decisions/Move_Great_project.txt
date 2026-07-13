@@ -35,6 +35,10 @@ country_decisions = {
                 add_treasury = -200 
 
                 hidden_effect = {
+                    capital_scope = {
+                        save_event_target_as = efv_gp_destination
+                    }
+
                     every_country = {
                         add_aggressive_expansion = {
                             who = ROOT 
@@ -42,26 +46,26 @@ country_decisions = {
                             apply_calc = no 
                         }
                     }
+
                     every_province = {
                         limit = {
                             controlled_by = ROOT
                             NOT = { owned_by = ROOT }
-                            has_great_project = { type = lighthouse_of_alexandria }
+                            has_great_project = {
+                                type = lighthouse_of_alexandria
+                            }
                         }
-                        save_event_target_as = efv_gp_source_lighthouse
-                    }
 
-                    capital_scope = {
                         move_great_project = {
                             type = lighthouse_of_alexandria
-                            from = event_target:efv_gp_source_lighthouse
+                            province = event_target:efv_gp_destination
                             instant = yes
                         }
                     }
                 }
             }
             #_____________________________________________________________________________________________________________________________________
-
+            # Stonehenge
             if = {
                 limit = {
                     any_province = {
@@ -76,6 +80,9 @@ country_decisions = {
                 add_treasury = -200
 
                 hidden_effect = {
+                    capital_scope = {
+                        save_event_target_as = efv_gp_destination
+                    }
                     every_country = {
                         add_aggressive_expansion = {
                             who = ROOT 
@@ -87,15 +94,14 @@ country_decisions = {
                         limit = {
                             controlled_by = ROOT
                             NOT = { owned_by = ROOT }
-                            has_great_project = { type = stonehenge }
+                            has_great_project = {
+                                type = stonehenge
+                            }
                         }
-                        save_event_target_as = efv_gp_source_stonehenge
-                    }
 
-                    capital_scope = {
                         move_great_project = {
                             type = stonehenge
-                            from = event_target:efv_gp_source_stonehenge
+                            province = event_target:efv_gp_destination
                             instant = yes
                         }
                     }

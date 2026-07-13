@@ -57,7 +57,7 @@ monarch_names = {
 
 leader_names = { 
 	Sebastian Sebastianpot Sebastianfar Sebastianmor Sebastianstorpik "Sebastian Den Store" 
-	"Sebastian Med Den Lille" "Sebastian Klaske" "Sebastian Klunkefar"
+	"Sebastian Med Den Lille" "Sebastian Klaske" "Sebastian Klunkefar" "Scambastian"
 }
 
 ship_names = {

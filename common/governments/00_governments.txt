@@ -134,7 +134,7 @@ monarchy = {
 				alexandrian_empire_reform
 				alexandrisk_monarchy_reform
 				gay_monarchy_reform
-				sebastiansk_monachy_reform
+				sebastiansk_monarchy_reform
 
 			}
 		}

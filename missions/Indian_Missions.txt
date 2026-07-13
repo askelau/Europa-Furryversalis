@@ -3,7 +3,9 @@ gen_north_india_2 = {
 	generic = yes
 	ai = yes
 	potential = {
-		NOT = ALX
+		NOT = {
+			tag = ALX
+		}
 		technology_group = indian
 		capital_scope = {
 			OR = {
@@ -1893,6 +1895,9 @@ gen_south_india_5 = {
 				region = deccan_region
 				region = coromandel_region
 			}
+		}
+		NOT = {
+			tag = ALX
 		}
 		OR = {
 			NOT = {

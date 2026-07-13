@@ -1,17 +1,42 @@
 graphical_culture = westerngfx
 color = { 45 120 175 }
 
-# Optional monarch/leader names can be added here later.
-# monarch_names = {
-# }
-# leader_names = {
-# }
+monarch_names = {
+	"Eshmunazar #0" = 10
+	"Tabnit #0" = 10
+	"Bodashtart #0" = 10
+	"Baalshillem #0" = 10
+	"Abdastartus #0" = 10
+	"Straton #0" = 10
+	"Tennes #0" = 5
+	"Yatonmilk #0" = 10
+	"Abdamon #0" = 5
+	"Azibaal #0" = 5
+	"Gerashtart #0" = 5
+	"Mattan #0" = 10
+}
+leader_names = {
+	"Abdastartus"
+	"Baalshillem"
+	"Bodashtart"
+	"Eshmunazar"
+	"Gerashtart"
+	"Mattan"
+	"Tabnit"
+	"Yatonmilk"
+	"Azibaal"
+	"Abdamon"
+}
 ship_names = {
-    "Sidon"
+	"Sidon"
+	"Phoenix"
+	"Cedar"
+	"Purple Sail"
+	"Astarte"
+	"Eshmun"
+	"Sea Falcon"
+	"Silver Wave"
+	"Lady Tanit"
+	"Merchant King"
 }
-army_names = {
-    "Army of Sidon"
-}
-fleet_names = {
-    "Fleet of Sidon"
-}
+

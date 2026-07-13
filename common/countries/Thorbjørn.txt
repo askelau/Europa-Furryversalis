@@ -56,7 +56,7 @@ monarch_names = {
 
 leader_names = { 
 	Thorbjørn Thorbjørnpot Thorbjørnfar Thorbjørnmor Thorbjørnstorpik "Thorbjørn Den Store" 
-	"Thorbjørn Med Den Lille" "Thorbjørn Klaske" "Thorbjørn Klunkefar"
+	"Thorbjørn Med Den Lille" "Thorbjørn Klaske" "Thorbjørn Klunkefar" "Tisbjørn"
 }
 
 ship_names = {

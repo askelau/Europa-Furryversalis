@@ -145,7 +145,6 @@ alx_second_slot = {
 				adm = 1
 				dip = 1
 				mil = 1
-				fixed = yes
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
@@ -170,7 +169,6 @@ alx_second_slot = {
 				adm = 2
 				dip = 2
 				mil = 2
-				fixed = yes
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
@@ -332,7 +330,6 @@ alx_third_slot = {
 				adm = 3
 				dip = 3
 				mil = 3
-				fixed = yes
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
@@ -497,7 +494,6 @@ alx_third_slot = {
 					adm = 4
 					dip = 4
 					mil = 4
-					fixed = yes
 					age = 20
 				}
 			add_ruler_personality = immortal_personality
@@ -523,7 +519,6 @@ alx_third_slot = {
 				adm = 5
 				dip = 5
 				mil = 5
-				fixed = yes
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
@@ -563,7 +558,6 @@ alx_third_slot = {
 				adm = 6
 				dip = 6
 				mil = 6
-				fixed = yes
 				age = 20
 			}
 			add_ruler_personality = immortal_personality
@@ -715,8 +709,8 @@ alx_fourth_slot = {
 		}
 
 		effect = {
-			2315 = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
-			4316 = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
+			2315 = { add_permanent_claim = ROOT }
+			4316 = { add_permanent_claim = ROOT }
 		}
 	}
 

@@ -1,17 +1,42 @@
 graphical_culture = westerngfx
 color = { 100 100 150 }
 
-# Optional monarch/leader names can be added here later.
-# monarch_names = {
-# }
-# leader_names = {
-# }
+monarch_names = {
+	"Ashur-nasir-pal #0" = 10
+	"Ashur-uballit #0" = 10
+	"Ashur-etil-ilani #0" = 5
+	"Adad-nirari #0" = 10
+	"Esarhaddon #0" = 10
+	"Sargon #0" = 10
+	"Sennacherib #0" = 10
+	"Shalmaneser #0" = 10
+	"Tiglath-Pileser #0" = 10
+	"Tukulti-Ninurta #0" = 10
+	"Sin-shar-ishkun #0" = 5
+	"Shamshi-Adad #0" = 10
+}
+leader_names = {
+	"Ashurbanipal"
+	"Esarhaddon"
+	"Sennacherib"
+	"Tiglath"
+	"Shalmaneser"
+	"Sargon"
+	"Ashurnasirpal"
+	"Adadnirari"
+	"Ashurdan"
+	"Tukulti"
+}
 ship_names = {
-    "Assyria"
+	"Ashur"
+	"Nineveh"
+	"Kalhu"
+	"Nimrud"
+	"Lamassu"
+	"Tigris"
+	"Iron Lion"
+	"Winged Bull"
+	"Royal Spear"
+	"Storm of Ashur"
 }
-army_names = {
-    "Army of Assyria"
-}
-fleet_names = {
-    "Fleet of Assyria"
-}
+

@@ -1,17 +1,42 @@
 graphical_culture = westerngfx
 color = { 120 60 140 }
 
-# Optional monarch/leader names can be added here later.
-# monarch_names = {
-# }
-# leader_names = {
-# }
+
+monarch_names = {
+	"Abgar #0" = 10
+	"Ma'nu #0" = 10
+	"Wa'el #0" = 5
+	"Addai #0" = 10
+	"Barsawma #0" = 10
+	"Ephrem #0" = 10
+	"Jacob #0" = 10
+	"Narsai #0" = 10
+	"Simeon #0" = 10
+	"Ishaq #0" = 10
+	"Yohannan #0" = 10
+	"Gewargis #0" = 10
+}
+leader_names = {
+	"Abgar"
+	"Addai"
+	"Augin"
+	"Babai"
+	"Barsawma"
+	"Ephrem"
+	"Isaac"
+	"Jacob"
+	"Narsai"
+	"Simeon"
+}
 ship_names = {
-    "Beth Nahrain"
-}
-army_names = {
-    "Army of Beth Nahrain"
-}
-fleet_names = {
-    "Fleet of Beth Nahrain"
+	"Beth Nahrain"
+	"Edessa"
+	"Nisibis"
+	"Urhay"
+	"Abgar"
+	"St. Addai"
+	"Euphrates"
+	"Tigris"
+	"Morning Star"
+	"Cross of the East"
 }
