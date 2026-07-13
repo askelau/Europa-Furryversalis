@@ -6,8 +6,8 @@ latent_trade_goods = {
 
 owner = ASE
 controller = ASE
-culture = danish
-religion = catholic
+culture = Askesk_culture
+religion = edderkoppen
 capital = "Uzkend"
 trade_goods = wool
 hre = no

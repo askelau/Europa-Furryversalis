@@ -10506,11 +10506,11 @@ Game_of_Games_group = {
 			"Sabine"
 			"Subine"
 			"Sybine"
-			"Sbine"
-			"Sbine"
+			"Søbine"
+			"Sæbine"
 			"Sibine"
 			"Sobine"
-			"Sbine"
+			"Såbine"
 		}
 
 		dynasty_names = {
@@ -10604,11 +10604,11 @@ Game_of_Games_group = {
 			"Askaine"
 			"Askuine"
 			"Askyine"
-			"Askine"
-			"Askine"
+			"Askæine"
+			"Askåine"
 			"Askiine"
 			"Askoine"
-			"Askine"
+			"Askøine"
 		}
 
 		dynasty_names = {

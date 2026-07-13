@@ -3,8 +3,8 @@
 owner = ASE		# ruled by a Chagataiid 
 controller = ASE
 add_core = ASE
-culture = danish
-religion = catholic
+culture = Askesk_culture
+religion = edderkoppen
 capital = "Balikul"
 trade_goods = grain
 hre = no
