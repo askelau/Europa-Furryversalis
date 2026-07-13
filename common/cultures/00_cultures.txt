@@ -10461,6 +10461,7 @@ Game_of_Games_group = {
 			"Alixine"
 			"Aloxine"
 			"Alåxine"
+			
 		}
 
 		dynasty_names = {
