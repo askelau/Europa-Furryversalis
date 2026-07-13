@@ -3,8 +3,8 @@
 owner = ASE
 controller = ASE
 add_core = ASE
-culture = danish
-religion = catholic
+culture = Askesk_culture
+religion = edderkoppen
 capital = "Almaty"
 trade_goods = cloth
 hre = no
