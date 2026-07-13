@@ -3,8 +3,8 @@
 owner = THO
 controller = THO
 add_core = THO
-culture = danish
-religion = catholic
+culture = Thorbjornsk_culture	
+religion = edderkoppen
 capital = "Bam"
 trade_goods = cotton
 hre = no
