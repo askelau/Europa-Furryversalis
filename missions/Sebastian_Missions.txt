@@ -8,7 +8,7 @@ sebastian_colonist_missions = {
     }
 
     seb_colonist_mission_one = {
-        icon = mission_build_up_to_force_limit
+        icon = Bossb
         position = 3
         required_missions = { seb_mission_two }
         provinces_to_highlight = {
@@ -47,7 +47,7 @@ sebastians_missions = {
 
 
     seb_mission_one = {
-        icon = mission_build_up_to_force_limit
+        icon = Bossb
         required_missions = {  }
         trigger = {
             is_at_war = no
@@ -72,7 +72,7 @@ sebastians_missions = {
     }
 
     seb_mission_two = {
-        icon = mission_conquer_50_development
+        icon = Bossb
         required_missions = { seb_mission_one }
         trigger = { grown_by_development = 75 }
         effect = {
@@ -109,7 +109,7 @@ sebastians_missions = {
         }
     }
     seb_mission_three = {
-        icon = mission_cannons_firing
+        icon = Bossb
         required_missions = {
             seb_mission_two
         }
@@ -147,7 +147,7 @@ sebastians_missions = {
     }
     #4th
     seb_mission_four = {
-        icon = mission_assemble_an_army
+        icon = Bossb
         required_missions = { seb_mission_three }
         provinces_to_highlight = {
             region = malaya_region
@@ -188,7 +188,7 @@ sebastians_missions = {
     }
     #5th
     seb_mission_five = {
-        icon = mission_unite_home_region
+        icon = Bossb
         required_missions = { seb_mission_four }
         provinces_to_highlight = {
             superregion = east_indies_superregion

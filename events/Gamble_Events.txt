@@ -22,8 +22,7 @@ country_event = {
 
         country_event = {
             id = initiateGambling.2
-            #days = 12775
-            days = 30
+            days = 12775
         }
     }
 }
@@ -93,7 +92,6 @@ country_event = {
         }
         country_event = {
             id = initiateGambling.2
-            #days = 12775
             days = 30
         }
     }
@@ -538,7 +536,6 @@ country_event = {
 
         country_event = {
             id = initiateGambling.2
-            #days = 12775
             days = 30
         }
     }
@@ -565,7 +562,6 @@ country_event = {
 
         country_event = {
             id = initiateGambling.2
-            #days = 12775
             days = 30
         }
     }
@@ -592,7 +588,6 @@ country_event = {
 
         country_event = {
             id = initiateGambling.2
-            #days = 12775
             days = 30
         }
     }

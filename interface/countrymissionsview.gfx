@@ -695,4 +695,8 @@ spriteTypes = {
 		name = "alx_mission"
 		texturefile = "gfx/interface/missions/alx_mission.dds"
 	}
+	spriteType = {
+		name = "Bossb"
+		texturefile = "gfx/interface/missions/Bossb.dds"
+	}
 }
