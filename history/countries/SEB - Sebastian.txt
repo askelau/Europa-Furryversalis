@@ -15,3 +15,16 @@ capital = 2380
         birth_date = 1425.1.1
     }
 }
+
+1439.1.1 = {
+	leader = {
+		name = "Lynet Mcqueen"
+		type = general
+
+		fire = 1
+		shock = 2
+		manuever = 10
+		siege = 1
+		death_date = 1463.7.5
+	}
+}

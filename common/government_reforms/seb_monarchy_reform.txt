@@ -1,5 +1,5 @@
 sebastiansk_monarchy_reform = {
-	icon = "roman_empire"
+	icon = "sebastian_monarchy"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	valid_for_nation_designer = no

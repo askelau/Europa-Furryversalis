@@ -41,4 +41,3 @@ dlc100_rom_sprite_pack = {
 		3 = ROM_ARTILLERY_4
 	}
 }
-
