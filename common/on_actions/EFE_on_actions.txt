@@ -1,6 +1,9 @@
 on_startup = {
     events = {
-        InitialGamblingPopup.1
+        InitialGamblingPopupASE.1
+		InitialGamblingPopupALX.11
+        InitialGamblingPopupSEB.12
+        InitialGamblingPopupTHO.13
     }
 }
 on_battle_lost_country = {

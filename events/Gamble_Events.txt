@@ -28,87 +28,6 @@ country_event = {
     }
 }
 
-country_event = {
-    #Startscreen event popup explaining the gambling mechanic
-    id = InitialGamblingPopupALX.11
-    title = InitialGamblingPopupALX.11.t
-    desc = InitialGamblingPopupALX.11.d
-    picture = EP_MOAIS_eventPicture
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    trigger{
-        or{
-            tag = ALX
-        }
-        AI = no
-    }
-
-    option{
-        name = InitialGamblingPopupALX.11.a
-
-        country_event = {
-            id = initiateGambling.2
-            #days = 12775
-            days = 30
-        }
-    }
-}
-
-country_event = {
-    #Startscreen event popup explaining the gambling mechanic
-    id = InitialGamblingPopupSEB.12
-    title = InitialGamblingPopupSEB.12.t
-    desc = InitialGamblingPopupSEB.12.d
-    picture = EP_MOAIS_eventPicture
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    trigger{
-        or{
-            tag = SEB
-        }
-        AI = no
-    }
-
-    option{
-        name = InitialGamblingPopupSEB.12.a
-
-        country_event = {
-            id = initiateGambling.2
-            #days = 12775
-            days = 30
-        }
-    }
-}
-
-country_event = {
-    #Startscreen event popup explaining the gambling mechanic
-    id = InitialGamblingPopupTHO.13
-    title = InitialGamblingPopupTHO.13.t
-    desc = InitialGamblingPopupTHO.13.d
-    picture = EP_MOAIS_eventPicture
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    trigger{
-        or{
-            tag = THO
-        }
-        AI = no
-    }
-
-    option{
-        name = InitialGamblingPopupTHO.13.a
-
-        country_event = {
-            id = initiateGambling.2
-            #days = 12775
-            days = 30
-        }
-    }
-}
-
 #_____________________________________Gamble Initiator_____________________________________
 country_event = {
     id = InitiateGambling.2
@@ -595,5 +514,86 @@ country_event = {
     
     option{
         name = GambleRuler.10.b
+    }
+}
+
+country_event = {
+    #Startscreen event popup explaining the gambling mechanic
+    id = InitialGamblingPopupALX.11
+    title = InitialGamblingPopupALX.11.t
+    desc = InitialGamblingPopupALX.11.d
+    picture = EP_MOAIS_eventPicture
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger{
+        or{
+            tag = ALX
+        }
+        AI = no
+    }
+
+    option{
+        name = InitialGamblingPopupALX.11.a
+
+        country_event = {
+            id = initiateGambling.2
+            #days = 12775
+            days = 30
+        }
+    }
+}
+
+country_event = {
+    #Startscreen event popup explaining the gambling mechanic
+    id = InitialGamblingPopupSEB.12
+    title = InitialGamblingPopupSEB.12.t
+    desc = InitialGamblingPopupSEB.12.d
+    picture = EP_MOAIS_eventPicture
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger{
+        or{
+            tag = SEB
+        }
+        AI = no
+    }
+
+    option{
+        name = InitialGamblingPopupSEB.12.a
+
+        country_event = {
+            id = initiateGambling.2
+            #days = 12775
+            days = 30
+        }
+    }
+}
+
+country_event = {
+    #Startscreen event popup explaining the gambling mechanic
+    id = InitialGamblingPopupTHO.13
+    title = InitialGamblingPopupTHO.13.t
+    desc = InitialGamblingPopupTHO.13.d
+    picture = EP_MOAIS_eventPicture
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger{
+        or{
+            tag = THO
+        }
+        AI = no
+    }
+
+    option{
+        name = InitialGamblingPopupTHO.13.a
+
+        country_event = {
+            id = initiateGambling.2
+            #days = 12775
+            days = 30
+        }
     }
 }
