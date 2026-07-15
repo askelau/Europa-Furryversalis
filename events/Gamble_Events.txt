@@ -4,8 +4,8 @@ namespace = Gamble_Events
 country_event = {
     #Startscreen event popup explaining the gambling mechanic
     id = InitialGamblingPopupASE.1
-    title = InitialGamblingPopup.1.t
-    desc = InitialGamblingPopup.1.d
+    title = InitialGamblingPopupASE.1.t
+    desc = InitialGamblingPopupASE.1.d
     picture = EP_MOAIS_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
@@ -18,7 +18,7 @@ country_event = {
     }
 
     option{
-        name = InitialGamblingPopup.1.a
+        name = InitialGamblingPopupASE.1.a
 
         country_event = {
             id = initiateGambling.2
@@ -31,8 +31,8 @@ country_event = {
 country_event = {
     #Startscreen event popup explaining the gambling mechanic
     id = InitialGamblingPopupALX.11
-    title = InitialGamblingPopup.11.t
-    desc = InitialGamblingPopup.11.d
+    title = InitialGamblingPopupALX.11.t
+    desc = InitialGamblingPopupALX.11.d
     picture = EP_MOAIS_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
@@ -45,7 +45,7 @@ country_event = {
     }
 
     option{
-        name = InitialGamblingPopup.11.a
+        name = InitialGamblingPopupALX.11.a
 
         country_event = {
             id = initiateGambling.2
@@ -58,8 +58,8 @@ country_event = {
 country_event = {
     #Startscreen event popup explaining the gambling mechanic
     id = InitialGamblingPopupSEB.12
-    title = InitialGamblingPopup.12.t
-    desc = InitialGamblingPopup.12.d
+    title = InitialGamblingPopupSEB.12.t
+    desc = InitialGamblingPopupSEB.12.d
     picture = EP_MOAIS_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
@@ -72,7 +72,7 @@ country_event = {
     }
 
     option{
-        name = InitialGamblingPopup.12.a
+        name = InitialGamblingPopupSEB.12.a
 
         country_event = {
             id = initiateGambling.2
@@ -85,8 +85,8 @@ country_event = {
 country_event = {
     #Startscreen event popup explaining the gambling mechanic
     id = InitialGamblingPopupTHO.13
-    title = InitialGamblingPopup.13.t
-    desc = InitialGamblingPopup.13.d
+    title = InitialGamblingPopupTHO.13.t
+    desc = InitialGamblingPopupTHO.13.d
     picture = EP_MOAIS_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
@@ -99,7 +99,7 @@ country_event = {
     }
 
     option{
-        name = InitialGamblingPopup.13.a
+        name = InitialGamblingPopupTHO.13.a
 
         country_event = {
             id = initiateGambling.2
