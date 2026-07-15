@@ -29,6 +29,7 @@
   slavetrade_blockade_ports_desc:0 "War goal is to blockade enemy ports."
   SLAVETRADE_WAR_NAME:0 "$ORDER$$FIRST$ Slave Trade War against $SECOND_NAME$"
   alx_unlocked_slave_trade_cb_tt:0 "§GUnlocks§! the §YSlave Trade§! Casus Belli against countries with a different primary culture."
+  alx_move_to_maldives:0 "Alexander and his population will §Gleave§! §YSri Lanka§! and §Gmove§! to the §YMaldives§!"
 
   alexandrisk_monarchy_reform:0 "Slaver Monarchy"
   alexandrisk_monarchy_reform_desc:0 "It's basically free labour."

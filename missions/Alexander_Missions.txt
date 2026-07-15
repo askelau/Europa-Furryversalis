@@ -393,7 +393,9 @@ alx_third_slot = {
 		}
 
 		effect = {
-			4943 = {
+			custom_tooltip = alx_move_to_maldives
+			hidden_effect = {
+				4943 = {
 				change_trade_goods = gold
 				add_base_tax = 9
 				add_base_production = 9
@@ -466,6 +468,8 @@ alx_third_slot = {
 				change_culture = malayalam
 			}
 			set_capital = 4943
+			}
+			
 		}
 	}
 
