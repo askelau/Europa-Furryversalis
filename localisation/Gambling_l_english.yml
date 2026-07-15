@@ -1,8 +1,20 @@
 ﻿l_english:
 
-InitialGamblingPopup.1.t: "Gambling"
-InitialGamblingPopup.1.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
-InitialGamblingPopup.1.a: "Understood!"
+InitialGamblingPopupASE.1.t: "Gambling"
+InitialGamblingPopupASE.1.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
+InitialGamblingPopupASE.1.a: "Understood!"
+
+InitialGamblingPopupALX.11.t: "Gambling"
+InitialGamblingPopupALX.11.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
+InitialGamblingPopupALX.11.a: "Understood!"
+
+InitialGamblingPopupSEB.12.t: "Gambling"
+InitialGamblingPopupSEB.12.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
+InitialGamblingPopupSEB.12.a: "Understood!"
+
+InitialGamblingPopupTHO.13.t: "Gambling"
+InitialGamblingPopupTHO.13.d: "A gambler will visit your court every 35 years and offer a risky gamble for a valuable resource. You will have the choice to gamble for various randomly selected resources such as ducats, manpower, stability and more. You must be careful however, as the risk might not pay off and there are no returns."
+InitialGamblingPopupTHO.13.a: "Understood!"
 
 InitiateGambling.2.t: "A huge gamble"
 InitiateGambling.2.d: "A gamble is being initiated, choosing random resource..."
