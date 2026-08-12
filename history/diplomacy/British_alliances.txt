@@ -1,0 +1,22 @@
+#Scotland-Isles
+vassal = {
+	first = SCO
+	second = LOI
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+union = {
+	first = ENG
+	second = NOL
+	start_date = 1444.1.1
+	end_date = 1640.1.1
+}
+
+vassal = {
+	first = WLS
+	second = CRN
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
