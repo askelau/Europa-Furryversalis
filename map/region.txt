@@ -38,13 +38,10 @@ scandinavia_region = {
 		skaneland_area
 		jutland_area
 		denmark_area
-		finland_area
 		northern_norway
 		eastern_norway
 		western_norway
-		bothnia_area
 		subarctic_islands_area
-		laponia_area
 		vastra_gotaland_area
 		ostra_svealand_area
 		holstein_area
@@ -152,6 +149,7 @@ russia_region = {
 		oka_area
 		arkhangelsk_area
 		vologda_area
+		laponia_area
 	}
 }
 
@@ -221,6 +219,8 @@ baltic_region = {
 		west_prussia_area
 		east_prussia_area
 		samogitia_area
+		finland_area
+		bothnia_area
 	}
 }
 
