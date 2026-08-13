@@ -18,7 +18,13 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			NOT = { tag = ASE }
+			OR = {
 			culture_group = scandinavian
+			primary_culture = danish
+			primary_culture = swedish
+			primary_culture = norwegian
+			primary_culture = icelandic
+			}
 			OR = {
 				ai = no
 				AND = {
