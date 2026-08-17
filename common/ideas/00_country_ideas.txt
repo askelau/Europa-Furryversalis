@@ -369,15 +369,16 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	dan_kalmar_union = {
-		reduced_liberty_desire_on_same_continent = 10
-		diplomatic_annexation_cost = -0.1
+		reduced_liberty_desire = 20
+		diplomatic_annexation_cost = -0.15
 	}
 	dan_sound_dues = {
 		global_own_trade_power = 0.2
-		trade_efficiency = 0.05
+		trade_efficiency = 0.1
 	}
 	dan_the_kings_sea = {
 		naval_forcelimit_modifier = 0.5
+		ship_power_propagation = 0.33
 	}
 	dan_royal_mercenaries = {
 		shock_damage = 0.1
@@ -388,7 +389,7 @@ DAN_ideas = {
 		naval_morale = 0.15
 	}
 	dan_colonial_ventures = {
-		global_colonial_growth = 15
+		range = 0.33
 		build_cost = -0.1
 	}
 	dan_danish_absolutism_idea = {
@@ -615,7 +616,7 @@ SCA_ideas = {
 	
 	sca_united_craftsman = {
 		global_allowed_num_of_buildings = 1
-		build_cost = -0.05
+		build_cost = -0.15
 	}
 	sca_unified_scandinavian = {
 		possible_policy = 1
@@ -623,21 +624,23 @@ SCA_ideas = {
 	}
 	sca_danish_baltic_fleet = {
 		trade_efficiency = 0.1
-		ship_durability = 0.05
+		naval_forcelimit_modifier = 0.5
 	}
 	sca_norwegian_marines = {
 		naval_morale = 0.2
+		shock_damage = 0.15
 	}
-	sca_finnish_hakkapeliita = {
-		cavalry_fire = 0.5
-		cavalry_cost = -0.15
+	sca_colonial_ventures = {
+		range = 0.33
+		ship_power_propagation = 0.33
 	}
 	sca_swedish_carolean = {
 		infantry_power = 0.2
+		special_unit_forcelimit = 0.25
 	}
 	sca_empire_of_the_north = {
 		max_absolutism = 10
-		yearly_absolutism = 1
+		governing_capacity_modifier = 0.15
 	}
 }
 

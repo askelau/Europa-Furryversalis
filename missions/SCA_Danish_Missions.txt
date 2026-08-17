@@ -288,13 +288,21 @@ dan_secure_baltic_mission_slot = {
 					share = 30
 				}
 			}
-			trade_income_percentage = 0.5
+			trade_income_percentage = 0.33
 		}
 		effect = {
 			add_country_modifier = {
 				name = dan_control_over_the_english_channel
 				duration = -1
 				desc = dan_control_over_the_english_channel_tt
+			}
+			97 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 25
+					key = dan_the_german_trade
+				}
 			}
 		}
 	}
@@ -731,7 +739,7 @@ dan_trade_and_colonial_mission_slot = {
 			}
 			add_country_modifier = {
 				name = dan_colonial_ambitions_mod
-				duration = 18250
+				duration = -1
 			}
 		}
 	}

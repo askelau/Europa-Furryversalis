@@ -1,0 +1,17 @@
+﻿l_english:
+ flavor_teu.EVTNAME1:0 "The Prussian Confederation Revolts"
+ flavor_teu.EVTDESC1:0 "The burghers and cities of the Prussian Confederation have risen against our authority. Danzig stands at the head of the rebellion and has appealed to Brandenburg for protection. If we refuse to release the Confederation peacefully, Brandenburg may intervene on Danzig's behalf."
+ flavor_teu.1.a:0 "Crush the traitors!"
+ flavor_teu.1.b:0 "Let Danzig and the Confederation go."
+ flavor_teu.1.tooltip:0 "§YBrandenburg§! will be informed of the war and will guarantee §YDanzig§!. Brandenburg will then decide whether to formally support and ally with Danzig."
+
+ flavor_teu.EVTNAME2:0 "The Prussian Confederation Seeks Our Support"
+ flavor_teu.EVTDESC2:0 "The Prussian Confederation has cast off the authority of the Teutonic Order and appealed to us for aid. Supporting Danzig would extend Brandenburg's influence to the Baltic coast and weaken the Order, but it could also draw us into a costly confrontation."
+ flavor_teu.2.a:0 "Support Danzig and the Confederation."
+ flavor_teu.2.b:0 "Brandenburg will stay out of this conflict."
+
+ flavor_teu.EVTNAME3:0 "The Confederation Accepts Brandenburgian Rule"
+ flavor_teu.EVTDESC3:0 "With the Teutonic Order defeated, the Prussian Confederation now looks to Brandenburg for lasting protection. Danzig is prepared to accept our overlordship, giving us a commanding position on the Baltic coast and an opportunity to organize Prussia under our authority."
+ flavor_teu.3.a:0 "Accept Danzig as our vassal."
+ flavor_teu.3.b:0 "Establish Royal Prussia under our protection."
+ flavor_teu.3.brandenburg_royal_prussia_tt:0 "§YDanzig§! will become our vassal and be reorganized as §YRoyal Prussia§!. Provinces held by Danzig in §YWest Prussia§! will be transferred to us."

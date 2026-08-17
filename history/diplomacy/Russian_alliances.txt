@@ -1,0 +1,21 @@
+
+vassal = {
+	first = NOV
+	second = PSK
+	start_date = 1444.1.1
+	end_date = 1503.4.1
+}
+
+vassal = {
+	first = NOV
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1486.1.1
+}
+
+vassal = {
+	first = NOV
+	second = TVE
+	start_date = 1444.1.1
+	end_date = 1503.4.1
+}
