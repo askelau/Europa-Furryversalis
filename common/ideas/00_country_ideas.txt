@@ -380,17 +380,17 @@ DAN_ideas = {
 		naval_forcelimit_modifier = 0.5
 		ship_power_propagation = 0.33
 	}
-	dan_royal_mercenaries = {
-		shock_damage = 0.1
-		mercenary_discipline = 0.05
+	dan_colonial_ventures = {
+		range = 0.33
+		build_cost = -0.1
 	}
 	dan_naval_heroes = {
 		leader_naval_shock = 1
 		naval_morale = 0.15
 	}
-	dan_colonial_ventures = {
-		range = 0.33
-		build_cost = -0.1
+	dan_royal_mercenaries = {
+		shock_damage = 0.1
+		mercenary_discipline = 0.05
 	}
 	dan_danish_absolutism_idea = {
 		global_autonomy = -0.05

@@ -358,6 +358,13 @@ guarantee = {
 	end_date = 1560.1.1
 }
 
+royal_marriage = {
+	first = FRA
+	second = SCO
+	start_date = 1444.1.1
+	end_date = 1560.1.1
+}
+
 # France and Venice (Treaty of Bles)
 alliance = {
 	first = FRA

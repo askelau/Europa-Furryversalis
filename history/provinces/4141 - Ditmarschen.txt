@@ -4,6 +4,7 @@ owner = DTT
 controller = DTT
 add_core = DTT
 add_core = SHL
+add_claim = DAN
 culture = danish
 religion = catholic
 hre = yes

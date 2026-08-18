@@ -312,7 +312,7 @@ country_event = {
 				modifier = supported_prussian_confederation
 			}
 		}
-		create_alliance = DNZ
+		vassalize = DNZ
 	}
 	option = { # stay out of this
 		name = "flavor_teu.2.b"
@@ -327,99 +327,6 @@ country_event = {
 			}
 		}
 		add_prestige = -10
-	}
-}
-
-# Prussian Confederation accepts Brandenburgian rule
-country_event = {
-	id = flavor_teu.3
-	title = "flavor_teu.EVTNAME3"
-	desc = "flavor_teu.EVTDESC3"
-	picture = SEJM_eventPicture
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "flavor_teu.3.a"
-		vassalize = DNZ
-		if = {
-			limit = {
-				1859 = {
-					owned_by = DNZ
-					culture = saxon
-				}
-			}
-			1859 = {
-				cede_province = ROOT
-				add_core = ROOT
-				remove_core = DNZ
-			}
-		}
-		west_prussia_area = {
-			limit = {
-				NOT = { is_permanent_claim = ROOT }
-				NOT = { is_core = ROOT	}
-				NOT = { is_permanent_claim = DNZ }
-				NOT = { is_core = DNZ }
-			}
-			add_permanent_claim = ROOT
-		}
-	}
-	
-	option = {
-		name = "flavor_teu.3.b"
-		
-		trigger = {
-			PRU = { exists = no } 
-		}
-		highlight = yes 
-		vassalize = DNZ
-		if = {
-			limit = {
-				1859 = {
-					owned_by = DNZ
-					culture = saxon
-				}
-			}
-			1859 = {
-				cede_province = ROOT
-				add_core = ROOT
-				remove_core = DNZ
-			}
-		}
-		west_prussia_area = {
-			limit = { country_or_non_sovereign_subject_holds = ROOT }
-			cede_province = ROOT 
-			add_core = ROOT 
-		}
-		custom_tooltip = flavor_teu.3.brandenburg_royal_prussia_tt
-		hidden_effect = {
-			DNZ = { 
-				change_tag = PRU
-				on_change_tag_effect = yes
-				override_country_name = RPR
-				set_country_flag = is_RPR_flag
-			}
-		}
-		if = {
-			limit = { has_dlc = "Cradle of Civilization" }
-			custom_tooltip = pol_more_army_prof_per_general_tt
-			hidden_effect = {
-				add_country_modifier = {
-					name = pol_trigger_for_army_professionalism_modifier
-					duration = 7300 
-					hidden = yes 
-				}
-			}
-		}
-		else = { 
-			add_country_modifier = {
-				name = pol_overlordship_in_prussia_modifier
-				duration = 5475 
-			}
-		}
 	}
 }
 

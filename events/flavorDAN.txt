@@ -2797,7 +2797,7 @@ country_event = {
 		name = flavor_dan.112.b
 		add_dip_power = 100
 		ai_chance = {
-			factor = 1
+			factor = 50
 		}
 	}
 	
@@ -2846,7 +2846,7 @@ country_event = {
 		add_core = 371
 		add_core = 1979
 		ai_chance = {
-			factor = 0
+			factor = 50
 		}
 	}
 }
@@ -3196,7 +3196,7 @@ country_event = {
 				days = 30
 			}
 		}
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 90 }
 	}
 	option = {	#Eliminate the Noble Threat now!
 		name = "flavor_dan.118.b"
@@ -3207,7 +3207,7 @@ country_event = {
 				id = flavor_dan.106
 			}
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 10 }
 	}
 
 	after = {

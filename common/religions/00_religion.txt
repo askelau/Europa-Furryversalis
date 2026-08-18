@@ -441,7 +441,7 @@ christian = {
 
 		on_convert = {
 			change_religion = protestant
-			add_prestige = -100
+			add_prestige = -50
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
 			remove_country_modifier = revocation_of_restraint_of_appeals

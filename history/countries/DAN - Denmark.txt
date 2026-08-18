@@ -8,9 +8,8 @@ historical_friend = NOV
 historical_friend = BRA
 historical_friend = RUS
 historical_friend = PRU
-historical_rival = ENG
-historical_rival = GBR
 historical_rival = HSA
+historical_rival = MOS
 elector = yes
 capital = 12 #Sjaelland
 

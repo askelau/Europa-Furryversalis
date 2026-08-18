@@ -98,3 +98,139 @@ lighthouse_of_alexandria = {
 		on_upgraded = { }
 	}
 }
+
+dannevirke = {
+	start = 13
+	date = 358.5.3 #4th century 
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture = danish
+				}
+				province_is_or_accepts_culture = yes
+			}
+		}
+	}
+	on_built = {
+	}
+	on_destroyed = {
+	}
+	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture = danish
+				}
+				province_is_or_accepts_culture = yes
+			}
+		}	
+	}
+	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture = danish
+				}
+				province_is_or_accepts_culture = yes
+			}
+		}	
+	}
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
+		}
+		area_modifier = {
+			
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
+		}
+		region_modifier = { 
+			
+		}
+		country_modifiers = {
+		}	
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_fort_maintenance_modifier = -1
+			local_assault_fort_ability = -0.75
+			local_defensiveness = 0.5
+			local_defender_dice_roll_bonus = 1
+		}
+		region_modifier = {
+			local_defensiveness = 0.15
+		}
+		country_modifiers = {
+			
+		}
+		on_upgraded = {
+			
+		}
+	}
+}
