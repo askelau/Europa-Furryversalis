@@ -10,6 +10,8 @@ historical_friend = RUS
 historical_friend = PRU
 historical_rival = HSA
 historical_rival = MOS
+historical_rival = TEU
+historical_rival = LIV
 elector = yes
 capital = 12 #Sjaelland
 

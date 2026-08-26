@@ -1,0 +1,32 @@
+ogre_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			culture_group = east_slavic
+			tag = NOV
+			tag = RUS 
+			tag = MOS
+		}
+	}
+
+	sprite_infantry = {
+		0 = ogregfx_INFANTRY_1
+		1 = ogregfx_INFANTRY_2
+		2 = ogregfx_INFANTRY_3
+		3 = ogregfx_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = ogregfx_INFANTRY_1
+		1 = ogregfx_INFANTRY_2
+		2 = ogregfx_INFANTRY_3
+		3 = ogregfx_INFANTRY_4
+	}
+
+	sprite_artillery = {
+		0 = ogregfx_ARTILLERY_1
+		1 = ogregfx_ARTILLERY_2
+		2 = ogregfx_ARTILLERY_3
+		3 = ogregfx_ARTILLERY_4
+	}
+}

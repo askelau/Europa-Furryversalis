@@ -9,3 +9,4 @@
 # 60: specific TAG
 # 70: even more specific
 ms_maid_sprite_pack = 80000
+ogre_sprite_pack = 40000
