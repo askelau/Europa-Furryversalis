@@ -44,6 +44,7 @@ dan_secure_baltic_mission_slot = {
 			NOT = { exists = GOT }
 		}
 		effect = {
+			holstein_area = { limit = { NOT = { is_permanent_claim = ROOT } NOT = { is_core = ROOT } } add_permanent_claim = ROOT }
 			if = {
 				limit = {
 					NOT = { is_year = 1460 }	#Eric died in 1459
@@ -54,13 +55,6 @@ dan_secure_baltic_mission_slot = {
 			}
 			else = {
 				add_stability_or_adm_power = yes
-			}
-			if = {
-				limit = {
-					NOT = { is_permanent_claim = 45 }
-					NOT = { is_core = 45 }
-				}
-				add_permanent_claim = 45
 			}
 			if = {
 				limit = { ai = yes SWE = { is_subject_of = ROOT } }
@@ -569,21 +563,21 @@ dan_trade_and_colonial_mission_slot = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 			estonia_ingria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 			curonia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 		}
 	}
@@ -600,11 +594,23 @@ dan_trade_and_colonial_mission_slot = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			estonia_ingria_area = {
-				country_or_non_sovereign_subject_holds = ROOT
-				type = all
-			}
-			owns_or_non_sovereign_subject_of = 35
+			OR = {
+				AND = {
+					estonia_ingria_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+					}
+					owns_or_non_sovereign_subject_of = 35
+				}
+				AND = {
+					any_ally = {
+						owns = 36
+						owns = 1842
+						owns = 1834
+						owns = 35
+					}
+				}
+			}	
 		}
 		effect = {
 			add_accepted_culture_or_dip_power = { culture = estonian free = yes}
@@ -625,28 +631,28 @@ dan_trade_and_colonial_mission_slot = {
 					NOT = { is_core = 33 }
 					NOT = { is_permanent_claim = 33 }
 				}
-				add_permanent_claim = 33
+				add_claim = 33
 			}
 			karelia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 			novgorod_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 			pskov_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
 			}
 		}
 	}
@@ -667,12 +673,28 @@ dan_trade_and_colonial_mission_slot = {
 			}
 		}
 		trigger = {
-			owns_or_non_sovereign_subject_of = 33
-			owns_or_non_sovereign_subject_of = 274
-			owns_or_non_sovereign_subject_of = 310
-			33 = { province_has_current_tech_fort_trigger = yes }
-			274 = { province_has_current_tech_fort_trigger = yes }
-			310 = { province_has_current_tech_fort_trigger = yes }
+			OR = {
+				AND = {
+					owns_or_non_sovereign_subject_of = 33
+					owns_or_non_sovereign_subject_of = 274
+					owns_or_non_sovereign_subject_of = 310
+					33 = { province_has_current_tech_fort_trigger = yes }
+					274 = { province_has_current_tech_fort_trigger = yes }
+					310 = { province_has_current_tech_fort_trigger = yes }
+				}
+				AND = {
+					any_ally = {
+						owns = 33
+						owns = 274
+						owns = 310
+						trust = {
+							who = ROOT 
+							value = 75 
+						}
+					}
+				}
+			}
+			
 		}
 		effect = {
 			33 = {
@@ -2099,7 +2121,6 @@ dan_england_mission_slot = {
 							}
 						}
 					}
-					total_development = ENG
 				}
 			}
 			else = {

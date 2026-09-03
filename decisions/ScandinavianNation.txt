@@ -8,11 +8,13 @@ country_decisions = {
 			NOT = { has_country_flag = formed_scandinavia_flag }
 			OR = {
 				ai = yes
+				ai = no
 				is_playing_custom_nation = no
 			}
 			OR = {
 				is_free_or_tributary_trigger = yes
 				ai = yes
+				ai = no
 			}
 			NOT = { exists = SCA }
 			NOT = { tag = PAP }
@@ -24,11 +26,16 @@ country_decisions = {
 			primary_culture = swedish
 			primary_culture = norwegian
 			primary_culture = icelandic
+			tag = DAN
+			tag = SWE
+			tag = NOR
 			}
 			OR = {
 				ai = yes
+				ai = no
 				AND = {
 					ai = yes
+					ai = no
 					num_of_cities = 10
 					adm_tech = 18
 				}
@@ -39,6 +46,7 @@ country_decisions = {
 				AND = {
 					is_former_colonial_nation = yes
 					ai = yes
+					ai = no
 				}
 			}
 		}
