@@ -1,5 +1,6 @@
 country_decisions = {
 	dan_provoke_trade_conflict_war = {
+		major = yes
 		potential = {
 			has_country_flag = dan_enable_trade_conflict_war_decision
 			has_mission = dan_the_german_trade_cities

@@ -348,6 +348,7 @@ tr_novgorod_2 = {
 				name = "nov_ruriks_eliminated"
 				duration = 7300
 			}
+			country_event = { id = flavor_nov.2 }
 		}
 	}
 }
