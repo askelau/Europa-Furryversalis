@@ -1,0 +1,14 @@
+﻿l_english:
+ celestial_extra_manufactory:0 "Civil Registration"
+ celestial_extra_manufactory_reform_tt:0 "Every province in the China superregion gains §G+1§! Possible Number of Manufactories."
+ cb_efv_ming_frontier_conquest:0 "Pacify the Frontier"
+ cb_efv_ming_frontier_conquest_desc:0 "The collapse of order during the Ming Crisis demonstrated the danger posed by the tribes beyond our frontier. They must be brought under firm imperial control."
+ efv_ming_frontier_conquest:0 "Pacify the Frontier"
+ EFV_MING_FRONTIER_WAR_NAME:0 "$ORDER$$FIRST$–$SECOND$ Frontier War"
+ 
+ efv_tianzhun_tributary.1.t:0 "Under the Protection of the Ming"
+ efv_tianzhun_tributary.1.d:0 "The Son of Heaven has accepted Tianzhu into the tributary order. With our autonomy recognized and our position secured, the relationship promises lasting stability."
+ efv_tianzhun_tributary.1.a:0 "We accept our place within the tributary order."
+ tia_ming_tributary_modifier:0 "Protected by the Ming"
+ tia_ming_tributary_modifier_desc:0 "Tianzhu enjoys considerable autonomy under the protection of the Ming Empire."
+ tia_ming_tributary_opinion:0 "Accepted into the Ming Tributary Order"

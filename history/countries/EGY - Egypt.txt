@@ -4,3 +4,5 @@ primary_culture = old_egyptian
 religion = coptic
 technology_group = muslim
 capital = 361 # Alexandria
+historical_rival = ARM
+historical_friend = PHY

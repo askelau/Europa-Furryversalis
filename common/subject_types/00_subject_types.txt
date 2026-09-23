@@ -818,6 +818,7 @@ tributary_state = {
 				has_dlc = "Mandate of Heaven"
 				NOT = { 
 					is_subject_of_type = tributary_state
+					has_government_attribute = no_tributaries
 				}
 				OR = {
 					has_reform = celestial_empire

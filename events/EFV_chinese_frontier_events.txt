@@ -1,0 +1,51 @@
+namespace = efv_chinese_frontier
+
+country_event = {
+	id = efv_chinese_frontier.1
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = TIA
+		ai = yes
+		has_reform = chinese_frontier_reform
+
+		any_owned_province = {
+			is_core = ROOT
+
+			NOT = {
+				culture = ROOT
+			}
+
+			OR = {
+				religion = ROOT
+
+				ROOT = {
+					has_harmonized_with = PREV
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				is_core = ROOT
+
+				NOT = {
+					culture = ROOT
+				}
+
+				OR = {
+					religion = ROOT
+
+					ROOT = {
+						has_harmonized_with = PREV
+					}
+				}
+			}
+
+			change_culture = ROOT
+		}
+	}
+}

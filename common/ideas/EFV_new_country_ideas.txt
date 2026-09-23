@@ -333,3 +333,43 @@ ALX_ideas = {
 		land_morale = 0.15
 	}
 }
+
+TIA_ideas = {
+	start = {
+		infantry_power = 0.1
+		global_manpower_modifier = 0.15
+	}
+	
+	bonus = {
+		backrow_artillery_damage = 0.15
+	}
+	
+	trigger = {
+		tag = TIA
+	}
+    free = yes       #will be added at load.
+    
+	TIA_1 = {
+		trade_efficiency = 0.1
+	}
+	TIA_2 = {
+		army_tradition = 0.5
+	}
+	TIA_3 = {
+		development_cost = -0.1
+        idea_cost = -0.1
+	}
+	TIA_4 = {
+		core_creation = -0.15
+        province_warscore_cost = -0.10
+	}
+	TIA_5 = {
+		leader_land_shock = 1
+	}
+	TIA_6 = {
+		global_tax_modifier = 0.1
+	}
+	TIA_7 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}

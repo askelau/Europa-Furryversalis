@@ -1969,19 +1969,24 @@ HAB_ideas = {
 
 CHI_ideas = {
 	start = {
-		fort_maintenance_modifier = -0.2
-		idea_cost = -0.10
+		global_trade_goods_size_modifier = 0.15
+		imperial_mandate = 0.2
 	}
 	
 	bonus = {
-		improve_relation_modifier = 0.3
+		all_power_cost = -0.075
 	}
 	
 	trigger = {
 		tag = MNG
 	}
 	free = yes		#will be added at load.
-	
+
+	inward_perfection = {
+		global_unrest = -2
+		all_estate_loyalty_equilibrium = 0.1
+		innovativeness_gain = 0.5
+	}
 	nine_garrisons_of_the_great_wall = {
 		defensiveness = 0.05
 		garrison_size = 0.25
@@ -1989,11 +1994,9 @@ CHI_ideas = {
 	revived_three_grand_divisions = {
 		discipline = 0.05
 	}
-	inward_perfection = {
-		stability_cost_modifier = -0.10
-	}
 	yellow_river_dykes = {
 		production_efficiency = 0.1
+		development_cost = -0.05
 	}
 	salt_monopoly = {
 		trade_efficiency = 0.1
@@ -2002,7 +2005,7 @@ CHI_ideas = {
 		global_tax_modifier = 0.10
 	}
 	the_red_cannon = {
-		leader_land_fire = 1
+		artillery_fire = 1
 	}
 }
 
@@ -17215,7 +17218,7 @@ LFA_ideas = {
 		infantry_power = 0.1
 	}
 	bonus = {
-		possible_policy = 1
+		free_policy = 1
 	}
 	trigger = {
 		tag = LFA
@@ -17233,18 +17236,19 @@ LFA_ideas = {
 		production_efficiency = 0.15
 	}
 	lfa_careful_diplomacy = {
-		improve_relation_modifier = 0.2
+		improve_relation_modifier = 0.25
 		diplomatic_reputation = 1
+		liberty_desire_from_subject_development = -0.25
 	}
 	lfa_national_militia = {
-		land_morale = 0.1
+		land_morale = 0.15
 		hostile_attrition = 1.0
 	}
 	lfa_integrate_local_communities = {
-		num_accepted_cultures = 2
+		num_accepted_cultures = 4
 	}
 	lfa_improved_mining_techniques = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 	lfa_state_expansion = {
 		expand_administration_cost = -0.3

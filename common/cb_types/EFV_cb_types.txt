@@ -17,3 +17,31 @@ cb_slavetrade = {
 
 	war_goal = slavetrade_blockade_ports
 }
+
+cb_efv_ming_frontier_conquest = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		tag = MNG
+		has_country_flag = ming_crisis_happened
+		NOT = { has_disaster = ming_crisis }
+		is_free_or_tributary_trigger = yes
+		is_revolutionary = no
+	}
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		FROM = {
+			is_subject = no
+			government = tribal
+		}
+		NOT = { truce_with = FROM }
+	}
+
+	attacker_disabled_po = {
+		po_become_tributary_state
+		po_subjugate_tributary_state
+	}
+
+	war_goal = efv_ming_frontier_conquest
+}

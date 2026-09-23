@@ -1,0 +1,7 @@
+celestial_extra_manufactory = {
+	allowed_num_of_manufactories = 1
+}
+
+tia_ming_tributary_modifier = {
+	liberty_desire = -50
+}

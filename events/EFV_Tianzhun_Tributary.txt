@@ -1,0 +1,39 @@
+namespace = efv_tianzhun_tributary
+
+country_event = {
+	id = efv_tianzhun_tributary.1
+	title = efv_tianzhun_tributary.1.t
+	desc = efv_tianzhun_tributary.1.d
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = TIA
+		is_subject_of_type = tributary_state
+
+		overlord = {
+			tag = MNG
+		}
+
+		NOT = {
+			has_country_flag = tia_received_ming_tributary_bonus
+		}
+	}
+
+	option = {
+		name = efv_tianzhun_tributary.1.a
+
+		set_country_flag = tia_received_ming_tributary_bonus
+
+		add_country_modifier = {
+			name = tia_ming_tributary_modifier
+			duration = -1
+		}
+
+		add_opinion = {
+			who = MNG
+			modifier = tia_ming_tributary_opinion
+		}
+	}
+}

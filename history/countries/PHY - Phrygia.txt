@@ -5,6 +5,7 @@ primary_culture = greek
 religion = orthodox
 technology_group = ottoman
 capital = 326
+historical_friend = EGY
 
 1399.1.1 = {
 	monarch = {

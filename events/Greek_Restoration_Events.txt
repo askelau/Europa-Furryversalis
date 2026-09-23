@@ -58,6 +58,9 @@ country_event = {
 
 		set_country_flag = formed_byzantium_flag
 		add_prestige = 25
+		ai_chance = {
+			factor = 0
+		}
 	}
 
 	option = {
@@ -92,11 +95,18 @@ country_event = {
 		}
 
 		add_prestige = 50
+		ai_chance = {
+			factor = 1
+		}
 	}
 
 	option = {
 		name = greek_restoration.1.c
 		set_government_rank = 3
 		add_prestige = 25
+		ai_chance = {
+			factor = 0
+		}
 	}
+
 }

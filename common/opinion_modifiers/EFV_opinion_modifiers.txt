@@ -1,0 +1,9 @@
+chinese_nomadic_relations = {
+	opinion = -200
+    years = 75
+}
+
+tia_ming_tributary_opinion = {
+	opinion = 50
+	yearly_decay = 0
+}

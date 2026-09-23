@@ -327,63 +327,18 @@ phy_eastern_missions = {
 		position = 2
 
 		trigger = {
-			hudavendigar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 35
+				OR = {
+					region = anatolia_region
+				}
 			}
-			aydin_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			ankara_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			karaman_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			germiyan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			rum_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			kastamonu_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			dulkadir_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			north_kurdistan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2302 = { country_or_non_sovereign_subject_holds = ROOT }
-			2305 = { country_or_non_sovereign_subject_holds = ROOT }
-			331 = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
 		provinces_to_highlight = {
 			OR = {
-				area = hudavendigar_area
-				area = aydin_area
-				area = germiyan_area
-				area = ankara_area
-				area = karaman_area
-				area = kastamonu_area
-				area = rum_area
-				area = dulkadir_area
-				area = north_kurdistan_area
-				province_id = 2302
-				province_id = 2305
-				province_id = 331
+				region = anatolia_region
 			}
-			NOT = { province_id = 321 } # Cyprus
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
@@ -411,20 +366,17 @@ phy_eastern_missions = {
 		position = 3
 
 		trigger = {
-			samtskhe_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			armenia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					region = caucasia_region
+				}
 			}
 		}
 
 		provinces_to_highlight = {
 			OR = {
-				area = samtskhe_area
-				area = armenia_area
+				region = caucasia_region
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}

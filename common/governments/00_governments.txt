@@ -135,6 +135,7 @@ monarchy = {
 				alexandrisk_monarchy_reform
 				gay_monarchy_reform
 				sebastiansk_monarchy_reform
+				chinese_frontier_reform
 
 			}
 		}

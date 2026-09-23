@@ -1,0 +1,34 @@
+chinese_frontier_reform = {
+	icon = "samurai"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	valid_for_nation_designer = no
+	rulers_can_be_generals = yes
+
+	potential = {
+		OR = {
+			tag = TIA
+		}
+	}
+
+	trigger = {
+		OR = {
+			tag = TIA
+		}
+	}
+
+	modifiers = {
+		culture_conversion_cost = -0.75
+        num_accepted_cultures = -10
+		culture_conversion_time = -0.50
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		no_tributaries
+	}
+
+	ai = {
+		factor = 1000
+	}
+}

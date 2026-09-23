@@ -83,6 +83,12 @@ aristocracy_ideas = {
 			factor = 1.25
 			has_idea_group = spy_ideas 
 		}
+		modifier = {
+			factor = 100
+			OR = {
+				tag = MNG
+			}
+		}
 	}
 }
 
@@ -878,6 +884,12 @@ trade_ideas = {
 				has_idea_group = economic_ideas
 			}
 		}
+		modifier = {
+			factor = 10
+			OR = {
+				tag = MNG
+			}
+		}
 	}
 }
 
@@ -954,6 +966,12 @@ economic_ideas = {
 				has_idea_group = quality_ideas
 				has_idea_group = trade_ideas
 				has_idea_group = offensive_ideas 
+			}
+		}
+		modifier = {
+			factor = 1000
+			OR = {
+				tag = MNG
 			}
 		}
 	}
@@ -1070,6 +1088,7 @@ exploration_ideas = {
 			NOT = { has_institution = renaissance }
 			NOT = { tag = POR }
 			NOT = { tag = CAS }
+			NOT = { tag = LFA }
 		}
 		modifier = {
 			factor = 0.1
@@ -1079,6 +1098,7 @@ exploration_ideas = {
 					region = iberia_region
 					region = british_isles_region
 					region = low_countries_region
+					region = indonesia_region
 				}
 			}
 			NOT = { technology_group = high_american }
@@ -1093,6 +1113,8 @@ exploration_ideas = {
 			capital_scope = {
 				NOT = {
 					region = iberia_region
+					region = iberia_region
+					region = indonesia_region
 				}
 			}
 		}
@@ -1122,6 +1144,7 @@ exploration_ideas = {
 				tag = POR
 				tag = CAS
 				tag = SPA
+				tag = LFA
 			}
 		}
 		modifier = {
@@ -1332,6 +1355,12 @@ quality_ideas = {
 			}
 			
 		}
+		modifier = {
+			factor = 750
+			OR = {
+				tag = MNG
+			}
+		}
 	}
 }
 
@@ -1408,6 +1437,12 @@ quantity_ideas = {
 				has_idea_group = economic_ideas
 			}
 		}
+		modifier = {
+			factor = 250
+			OR = {
+				tag = MNG
+			}
+		}
 	}
 }
 
@@ -1462,6 +1497,7 @@ expansion_ideas = {
 				tag = CAS
 				tag = POR
 				tag = SPA
+				tag = LFA
 			}
 		}
 		modifier = {
@@ -1914,6 +1950,12 @@ infrastructure_ideas = {
 			OR = {
 				has_idea_group = trade_ideas
 				has_idea_group = naval_ideas
+			}
+		}
+		modifier = {
+			factor = 500
+			OR = {
+				tag = MNG
 			}
 		}
 	}
