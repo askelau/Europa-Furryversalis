@@ -136,6 +136,7 @@ monarchy = {
 				gay_monarchy_reform
 				sebastiansk_monarchy_reform
 				chinese_frontier_reform
+				efv_italian_federation_monarchy_reform
 
 			}
 		}

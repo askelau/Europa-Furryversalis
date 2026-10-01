@@ -282,7 +282,7 @@ sound = {
 }
 sound = {
 	name = hire_explorer
-	file = "cyka_blyat_mand.wav"
+	file = "recruit_explorer.wav"
 }
 sound = {
 	name = hire_admiral

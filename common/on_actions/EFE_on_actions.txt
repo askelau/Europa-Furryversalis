@@ -6,3 +6,9 @@ on_startup = {
         InitialGamblingPopupTHO.13
     }
 }
+
+on_monthly_pulse = {
+	events = {
+		efv_italian_federation.20
+	}
+}

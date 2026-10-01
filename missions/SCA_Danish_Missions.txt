@@ -4459,19 +4459,7 @@ dan_sca_internal_development = {
 			}
 		}
 		trigger = {
-			laponia_area = { 
-				owned_by = ROOT
-				religion = ROOT
-				has_owner_accepted_culture = yes
-				type = all
-			}
 			norrland_area = { 
-				owned_by = ROOT
-				religion = ROOT
-				has_owner_accepted_culture = yes
-				type = all
-			}
-			bothnia_area = { 
 				owned_by = ROOT
 				religion = ROOT
 				has_owner_accepted_culture = yes

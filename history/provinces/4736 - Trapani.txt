@@ -1,17 +1,18 @@
-# 4739 - Bergamo
+# - Syracusa
 
-owner = MLO		
-controller = MLO
-culture = lombard 
+owner = SIC
+controller = SIC
+culture = sicilian 
 religion = catholic 
 hre = no 
-base_tax = 4
+base_tax = 2
 base_production = 3
-trade_goods = cloth
-base_manpower = 2  
-capital = "Bergamo" 
+trade_goods = fish
+base_manpower = 2
+capital = "Trapani"
 is_city = yes
-add_core = MLO
+add_core = SIC
+add_core = NAP
 
 
 

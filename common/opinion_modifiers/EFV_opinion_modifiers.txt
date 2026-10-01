@@ -7,3 +7,13 @@ tia_ming_tributary_opinion = {
 	opinion = 50
 	yearly_decay = 0
 }
+
+efv_remained_in_italian_federation = {
+    opinion = 50
+    yearly_decay = 0
+}
+
+efv_left_italian_federation = {
+    opinion = -100
+    yearly_decay = 5
+}

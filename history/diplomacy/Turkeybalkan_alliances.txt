@@ -13,3 +13,10 @@ alliance = {
 	start_date = 1398.1.1
 	end_date = 1461.1.1
 }
+
+union = {
+	first = BUL
+	second = SER
+	start_date = 1398.1.1
+	end_date = 1461.1.1
+}

@@ -1,0 +1,46 @@
+namespace = efv_italian_federation
+
+country_event = {
+	id = efv_italian_federation.20
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_federation_leader = yes
+		has_government_attribute = efv_italian_federation_government
+	}
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = efv_primary_italian_federation
+				is_federation_leader = no
+			}
+			clr_country_flag = efv_primary_italian_federation
+		}
+
+		if = {
+			limit = {
+				NOT = { has_country_flag = efv_primary_italian_federation }
+			}
+
+			if = {
+				limit = {
+					any_country = {
+						is_federation_leader = yes
+						has_government_attribute = efv_italian_federation_government
+						has_country_flag = efv_primary_italian_federation
+					}
+				}
+				disband_federation = THIS
+			}
+			else = {
+				set_country_flag = efv_primary_italian_federation
+			}
+		}
+	}
+
+	option = {
+		name = efv_italian_federation.20.a
+	}
+}

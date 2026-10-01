@@ -1565,6 +1565,11 @@ cb_chinese_unification = {
 					region = xinan_region
 					region = south_china_region
 					region = tibet_region
+
+					AND = {
+            			region = manchuria_region
+            			is_year = 1535
+        			}
 				}
 			}
 			NOT = { has_country_modifier = the_mandate_of_heaven }
@@ -1612,6 +1617,13 @@ cb_take_mandate = {
 		is_neighbor_of = FROM
 		FROM = { is_emperor_of_china = yes }
 		NOT = { truce_with = FROM }		
+	}
+
+	attacker_disabled_po = {
+		po_become_vassal
+		po_subjugate_vassal
+		po_become_tributary_state
+		po_subjugate_tributary_state
 	}
 
 	war_goal = take_capital_take_mandate

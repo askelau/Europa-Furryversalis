@@ -53,8 +53,9 @@ oligarchy_reform = {
 
 signoria_reform = {
 	icon = "signoria_reform"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	duration = 12
+	native_mechanic = yes
 	legacy_equivalent = signoria
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -73,6 +74,7 @@ signoria_reform = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		enables_nepotism = yes
+		efv_italian_federation_government = yes
 	}
 	ai = {
 		factor = 10
@@ -353,6 +355,7 @@ venice_merchants_reform = {
 	icon = "trading_city"
 	allow_normal_conversion = yes
 	lock_level_when_selected = yes
+	native_mechanic = yes
 	modifiers = {
 		max_absolutism = -10
 		merchants = 1
@@ -423,6 +426,7 @@ venice_merchants_reform = {
 		is_merchant_republic = yes
 		elections_increase_factions_influence = yes
 		bonus_stats_for_elected_ruler = yes
+		efv_italian_federation_government = yes
 	}
 	has_term_election = no
 }
@@ -1022,8 +1026,10 @@ ambrosian_republic = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		efv_italian_federation_government = yes
 	}
 	duration = 4
+	native_mechanic = yes
 }
 
 veche_republic = {
